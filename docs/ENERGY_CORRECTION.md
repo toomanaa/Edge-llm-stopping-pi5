@@ -3,8 +3,7 @@
 The earlier `joules()` helper integrated, for a window starting at `t0`, the trapezoid between the
 last sample before `t0` and the first sample after it. Normally that segment is about 0.05 s long.
 Response `qav2_1026` starts right after a 18,984 s (5.3 h) gap in `qa_v2_power_merged.csv`, so the
-helper added about 74.5 kJ to that one response. The window-clipped version (`scripts/analysis/`)
-integrates only inside [t0, t1] and skips segments between samples more than 5 s apart.
+helper added about 74.5 kJ to that one response. The window-clipped version (`joules()` in `src/analysis/analyze_runs.py`) integrates only inside [t0, t1] and skips segments between samples more than 5 s apart.
 
 | quantity | before | after |
 |---|---|---|
