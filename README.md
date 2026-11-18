@@ -43,11 +43,11 @@ python3 src/analysis/c1_integrity_checks.py  # consistency, power-log and temper
 
 ## Large files
 
-Two large files are attached to the release `data-v1` of this repository instead of the folders:
-- the meter files of the battery test (12 files, logged by the power meter)
+Two kinds of large files are attached to the release `data-v1` of this repository instead of the folders:
+- the meter files of the battery test (12 files, about 460 MB)
 - `states.f32` (about 80 MB, hidden states of all stored answers). Some analysis scripts (`price_policy.py`, `variants.py`, `shift.py`, `hopeless.py`) read it from the repo root. It can also be regenerated with `src/probe/extract_states.cpp`.
 
-Checksums of the files in this repository are in `SHA256SUMS.txt`. Check them on Linux or macOS with `sha256sum -c SHA256SUMS.txt`. Checksums of the release files are in the release notes.
+Checksums of the files in this repository are in `SHA256SUMS.txt`. Check them on Linux or macOS with `sha256sum -c SHA256SUMS.txt`. Checksums of the release files are in `SHA256SUMS_meter.txt`, which is attached to the release.
 
 ## Model
 
