@@ -1,0 +1,13 @@
+probe: seed 1, validation AP 0.973; validation answers 57
+remaining-length head: held-out correlation (log) 0.87, median abs error 47 tokens (median true 227)
+calibration (validation rows): raw p>=0.99 has safe rate 96.6% ; held-out 65.3%
+threshold 0.7    accuracy  66.3  tokens  36.1%  cap curve at same tokens  65.7  gap +0.6 pp (95% CI -2.0 to +3.2)
+threshold 0.8    accuracy  67.2  tokens  37.4%  cap curve at same tokens  66.2  gap +1.0 pp (95% CI -1.5 to +3.4)
+threshold 0.9    accuracy  67.8  tokens  40.0%  cap curve at same tokens  67.1  gap +0.7 pp (95% CI -1.8 to +3.0)
+threshold 0.95   accuracy  68.9  tokens  42.5%  cap curve at same tokens  67.9  gap +1.1 pp (95% CI -1.2 to +3.4)
+threshold 0.97   accuracy  69.5  tokens  45.1%  cap curve at same tokens  68.5  gap +1.1 pp (95% CI -1.2 to +3.5)
+threshold 0.99   accuracy  71.0  tokens  50.9%  cap curve at same tokens  70.1  gap +0.9 pp (95% CI -1.2 to +3.0)
+threshold 0.995  accuracy  71.3  tokens  53.5%  cap curve at same tokens  71.1  gap +0.3 pp (95% CI -1.8 to +2.5)
+threshold 0.999  accuracy  72.5  tokens  61.5%  cap curve at same tokens  72.6  gap -0.1 pp (95% CI -2.1 to +2.0)
+caps: {60: (np.float64(56.5), np.float64(18.9)), 75: (np.float64(58.6), np.float64(22.0)), 100: (np.float64(62.1), np.float64(27.2)), 125: (np.float64(64.2), np.float64(32.3)), 150: (np.float64(66.3), np.float64(37.5)), 175: (np.float64(68.0), np.float64(42.9)), 200: (np.float64(68.9), np.float64(47.8)), 225: (np.float64(71.0), np.float64(53.2)), 250: (np.float64(72.2), np.float64(58.2)), 275: (np.float64(72.8), np.float64(63.2)), 300: (np.float64(74.0), np.float64(67.6)), 350: (np.float64(74.9), np.float64(77.0)), 400: (np.float64(75.4), np.float64(84.3)), 500: (np.float64(76.3), np.float64(94.3))}
+no-stopping accuracy 76.3 n answers 338

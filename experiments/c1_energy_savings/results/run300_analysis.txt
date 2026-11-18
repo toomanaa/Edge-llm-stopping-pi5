@@ -1,0 +1,12 @@
+questions with all conditions: 299  (power covers: 299)
+
+mode         acc %  energy J  J/question  J/correct  tokens  med s  p95 s  early %  checks overhead s
+full          76.6     44245       148.0      193.2     249   20.1   50.8      0.0       0       0.00
+controller    70.6     23349        78.1      110.7     126    8.1   31.7     49.5     610      62.22
+cap           69.9     22693        75.9      108.6     126   16.6   19.2      0.0       0       0.00
+
+controller vs full: accuracy -6.0 pp (95% CI -8.7..-3.3); energy ratio 0.528 (95% CI 0.488..0.569), saving 47.2%
+cap vs full: accuracy -6.7 pp (95% CI -9.7..-4.0); energy ratio 0.513 (95% CI 0.492..0.536), saving 48.7%
+controller vs cap: accuracy +0.7 pp (95% CI -2.0..+3.3); energy ratio 1.029 (95% CI 0.957..1.102), saving -2.9%
+
+controller: 330 KV rollbacks over 610 checks; time spent in checks 62.2 s of 3159 s total

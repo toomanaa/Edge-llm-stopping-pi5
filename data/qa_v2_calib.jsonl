@@ -1,0 +1,30 @@
+{"question": "Explain how thunder and lightning works.", "answers": ["electric", "charge"], "match_mode": "all", "type": "explain", "id": "qav2_0200"}
+{"question": "What is the reason behind antibiotics fighting infections?", "answers": ["bacteria", "cell wall"], "match_mode": "all", "type": "explain", "id": "qav2_0201"}
+{"question": "What is the smallest country in the world?", "answers": ["vatican"], "match_mode": "any", "type": "factual", "id": "qav2_0202"}
+{"question": "What causes deserts being dry?", "answers": ["rainfall", "climate"], "match_mode": "all", "type": "explain", "id": "qav2_0203"}
+{"question": "What is the reason behind cooking meat changes its color?", "answers": ["protein", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0204"}
+{"question": "What city is the capital of Myanmar?", "answers": ["naypyidaw"], "match_mode": "any", "type": "factual", "id": "qav2_0205"}
+{"question": "What causes bread rising when baked?", "answers": ["yeast", "gas"], "match_mode": "all", "type": "explain", "id": "qav2_0206"}
+{"question": "In what country is the Taj Mahal located?", "answers": ["india"], "match_mode": "any", "type": "factual", "id": "qav2_0207"}
+{"question": "What is the reason behind fish can breathe underwater?", "answers": ["gills", "oxygen"], "match_mode": "all", "type": "explain", "id": "qav2_0208"}
+{"question": "What is the capital of Russia?", "answers": ["moscow"], "match_mode": "any", "type": "factual", "id": "qav2_0209"}
+{"question": "What is the reason behind some medicines need to be taken with food?", "answers": ["absorption", "stomach"], "match_mode": "all", "type": "explain", "id": "qav2_0210"}
+{"question": "What is the reason behind some countries driving on the left?", "answers": ["history", "tradition"], "match_mode": "all", "type": "explain", "id": "qav2_0211"}
+{"question": "What causes salt preserves food?", "answers": ["moisture", "bacteria"], "match_mode": "all", "type": "explain", "id": "qav2_0212"}
+{"question": "What causes seeds need water to germinate?", "answers": ["water", "enzyme"], "match_mode": "all", "type": "explain", "id": "qav2_0213"}
+{"question": "Do you know the capital city of Sri Lanka?", "answers": ["colombo"], "match_mode": "any", "type": "factual", "id": "qav2_0214"}
+{"question": "What is the reason behind plastic taking so long to decompose?", "answers": ["polymer", "chemical"], "match_mode": "all", "type": "explain", "id": "qav2_0215"}
+{"question": "What is the reason behind hair turning gray with age?", "answers": ["melanin", "pigment"], "match_mode": "all", "type": "explain", "id": "qav2_0216"}
+{"question": "Who painted the Mona Lisa?", "answers": ["leonardo da vinci", "da vinci"], "match_mode": "any", "type": "factual", "id": "qav2_0217"}
+{"question": "What is the reason behind inflation making prices rise?", "answers": ["money supply", "demand"], "match_mode": "all", "type": "explain", "id": "qav2_0218"}
+{"question": "Explain how computers overheating works.", "answers": ["processor", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0219"}
+{"question": "What is the reason behind people forgetting dreams quickly?", "answers": ["memory", "sleep"], "match_mode": "all", "type": "explain", "id": "qav2_0220"}
+{"question": "What is the hardest natural substance on Earth?", "answers": ["diamond"], "match_mode": "any", "type": "factual", "id": "qav2_0221"}
+{"question": "What causes cats can see in the dark?", "answers": ["eyes", "retina"], "match_mode": "all", "type": "explain", "id": "qav2_0222"}
+{"question": "Do you know the capital city of Vietnam?", "answers": ["hanoi"], "match_mode": "any", "type": "factual", "id": "qav2_0223"}
+{"question": "Can you explain what causes fermentation is used to make foods like yogurt?", "answers": ["bacteria", "culture"], "match_mode": "all", "type": "explain", "id": "qav2_0224"}
+{"question": "Explain how clouds forming works.", "answers": ["water vapor", "condensation"], "match_mode": "all", "type": "explain", "id": "qav2_0225"}
+{"question": "What city is the capital of Qatar?", "answers": ["doha"], "match_mode": "any", "type": "factual", "id": "qav2_0226"}
+{"question": "What is the reason behind cats can see in the dark?", "answers": ["eyes", "retina"], "match_mode": "all", "type": "explain", "id": "qav2_0227"}
+{"question": "What is the largest city in the United States?", "answers": ["new york", "new york city"], "match_mode": "any", "type": "factual", "id": "qav2_0228"}
+{"question": "What causes the seasons changing?", "answers": ["axis", "tilt"], "match_mode": "all", "type": "explain", "id": "qav2_0229"}

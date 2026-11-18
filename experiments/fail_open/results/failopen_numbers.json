@@ -1,0 +1,68 @@
+{
+ "n": 100,
+ "stopped": 46,
+ "tokens_full": 22484,
+ "tokens_controller": 11174,
+ "by_category": {
+  "code": {
+   "n": 10,
+   "stopped": 9,
+   "tokens_saved_pct": 68.74805840323081
+  },
+  "creative": {
+   "n": 10,
+   "stopped": 2,
+   "tokens_saved_pct": 13.62007168458781
+  },
+  "chat": {
+   "n": 10,
+   "stopped": 4,
+   "tokens_saved_pct": 41.33644133644133
+  },
+  "math": {
+   "n": 10,
+   "stopped": 1,
+   "tokens_saved_pct": 2.392344497607657
+  },
+  "translation": {
+   "n": 10,
+   "stopped": 1,
+   "tokens_saved_pct": 4.3887147335423204
+  },
+  "lists_format": {
+   "n": 10,
+   "stopped": 8,
+   "tokens_saved_pct": 53.098458634790816
+  },
+  "writing_tasks": {
+   "n": 10,
+   "stopped": 1,
+   "tokens_saved_pct": 4.122497055359242
+  },
+  "opinion_advice": {
+   "n": 10,
+   "stopped": 10,
+   "tokens_saved_pct": 59.41798941798942
+  },
+  "odd_inputs": {
+   "n": 10,
+   "stopped": 0,
+   "tokens_saved_pct": 0.0
+  },
+  "mixed_domain": {
+   "n": 10,
+   "stopped": 10,
+   "tokens_saved_pct": 61.60731289278233
+  }
+ },
+ "indomain": {
+  "n": 299,
+  "stopped": 148,
+  "rate": 49.49832775919732
+ },
+ "median_share_cut": 0.5784169495787753,
+ "more_than_half_cut": 29,
+ "open_code_block": {
+  "code": 5
+ }
+}

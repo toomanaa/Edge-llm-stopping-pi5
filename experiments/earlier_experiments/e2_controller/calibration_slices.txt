@@ -1,0 +1,17 @@
+CALIBRATION SLICES AND COMMANDS
+
+Best probe seed: 3 (validation AP 0.982, test AP 0.882; see results/README.md).
+
+30-question slice (data/qa_v2_calib.jsonl), used at thresholds 0.8, 0.9, 0.99:
+qav2_0200, qav2_0201, qav2_0202, qav2_0203, qav2_0204, qav2_0205, qav2_0206, qav2_0207, qav2_0208, qav2_0209, qav2_0210, qav2_0211, qav2_0212, qav2_0213, qav2_0214, qav2_0215, qav2_0216, qav2_0217, qav2_0218, qav2_0219, qav2_0220, qav2_0221, qav2_0222, qav2_0223, qav2_0224, qav2_0225, qav2_0226, qav2_0227, qav2_0228, qav2_0229
+(qav2_0200 to qav2_0229, consecutive.)
+
+100-question slice (data/qa_v2.jsonl, --batch-size 100 pauses after 100 questions):
+qav2_0000 to qav2_0099, consecutive, in file order.
+
+Commands (run from ~/e1):
+  python3 controller/live_controller.py --data data/qa_v2_calib.jsonl --out out/calib_t80.jsonl --probe probe_weights.npz --threshold 0.8  --batch-size 30
+  python3 controller/live_controller.py --data data/qa_v2_calib.jsonl --out out/calib_t90.jsonl --probe probe_weights.npz --threshold 0.9  --batch-size 30
+  python3 controller/live_controller.py --data data/qa_v2_calib.jsonl --out out/calib_t99.jsonl --probe probe_weights.npz --threshold 0.99 --batch-size 30
+  python3 controller/live_controller.py --data data/qa_v2.jsonl --out out/live_full_t99.jsonl --probe probe_weights.npz --threshold 0.99 --batch-size 100
+  python3 controller/live_controller.py --data data/qa_v2.jsonl --out out/live_full.jsonl     --probe probe_weights.npz --threshold 0.7  --batch-size 100

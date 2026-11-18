@@ -1,0 +1,10 @@
+{
+ "answers_stopping": 875,
+ "answers_no_stopping": 493,
+ "correct_stopping": 641,
+ "correct_no_stopping": 381,
+ "ratio_answers": 1.7748478701825559,
+ "ratio_correct": 1.6824146981627297,
+ "hours_stopping": 8.50628846804301,
+ "hours_no_stopping": 8.944804011119736
+}

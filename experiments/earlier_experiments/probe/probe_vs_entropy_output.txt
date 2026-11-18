@@ -1,0 +1,8 @@
+5617 boundaries from 361 answers (144 topics); 1331 unsafe (23.7%)
+seed 0: test boundaries 904 (263 unsafe, base precision 0.71); probe AP 0.883  entropy AP 0.739  (val AP 0.835)
+seed 1: test boundaries 852 (166 unsafe, base precision 0.81); probe AP 0.930  entropy AP 0.811  (val AP 0.940)
+seed 2: test boundaries 814 (155 unsafe, base precision 0.81); probe AP 0.948  entropy AP 0.829  (val AP 0.944)
+seed 3: test boundaries 946 (269 unsafe, base precision 0.72); probe AP 0.913  entropy AP 0.732  (val AP 0.894)
+seed 4: test boundaries 832 (200 unsafe, base precision 0.76); probe AP 0.933  entropy AP 0.810  (val AP 0.954)
+probe AP 0.921 +/- 0.022 (range 0.883-0.948);  entropy AP on the same test boundaries 0.784 +/- 0.040 (range 0.732-0.829)
+probe beats entropy in 5 of 5 seeds; mean base precision (share of safe boundaries) 0.76

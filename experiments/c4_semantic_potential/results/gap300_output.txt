@@ -1,0 +1,26 @@
+token estimate check on 2363 boundaries of 168 answers whose live text length matches the stored one: median error 3.2 tokens, p90 9.1
+
+ALL 299 live-run questions; no-stopping accuracy 76.6%
+oracle semantic stop (stop at first correct sentence end): accuracy 76.6% (no loss), tokens 57.5%  -> saves 42.5%
+fixed caps (stop at the first sentence end after T tokens):
+  cap 100  accuracy  63.5%  tokens  28.1%
+  cap 150  accuracy  67.6%  tokens  38.1%
+  cap 200  accuracy  69.2%  tokens  48.1%
+  cap 210  accuracy  69.9%  tokens  50.4%
+  cap 250  accuracy  71.9%  tokens  58.5%
+  cap 300  accuracy  73.9%  tokens  68.2%
+  cap 350  accuracy  74.9%  tokens  76.8%
+  cap 400  accuracy  75.6%  tokens  84.4%
+  cap 500  accuracy  76.6%  tokens  94.4%   <- first cap with no accuracy loss
+  cap 600  accuracy  76.6%  tokens  98.5%
+  cap 800  accuracy  76.6%  tokens 100.0%
+
+zero-loss comparison: oracle saves 42.5% ; cheapest no-loss cap (500 tokens) saves 5.6%
+explain questions only (160): oracle saves 43.1% of their tokens
+
+explain answers that are correct at full length: 96
+  rank correlation, tokens when the answer first becomes correct vs tokens used:  controller 0.36   cap 0.14
+  answers the controller stopped early: 91 of 96
+  required-concept counts among them: {2: 96}
+  early-correct (<=100 tokens): n=45  median tokens used  controller 154  cap 220  oracle 68
+  late-correct (>200 tokens): n=23  median tokens used  controller 253  cap 226  oracle 302

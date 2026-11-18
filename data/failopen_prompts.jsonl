@@ -1,0 +1,100 @@
+{"question": "Write a Python function that checks whether a number is prime.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_001"}
+{"question": "Write a JavaScript function that reverses a string.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_002"}
+{"question": "Show me a SQL query that finds the 5 highest salaries in a table called employees.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_003"}
+{"question": "Write a bash command that counts the lines in every .txt file in a folder.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_004"}
+{"question": "Write a Python class for a simple bank account with deposit and withdraw methods.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_005"}
+{"question": "Give me a regular expression that matches an email address and explain each part.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_006"}
+{"question": "Write a C function that swaps two integers using pointers.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_007"}
+{"question": "Write a Python script that reads a CSV file and prints the average of the second column.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_008"}
+{"question": "Show a HTML page with a button that shows an alert when clicked.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_009"}
+{"question": "Write a Python function to merge two sorted lists into one sorted list.", "answers": [], "match_mode": "any", "type": "code", "id": "fo_010"}
+{"question": "Write a short poem about the sea at night.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_011"}
+{"question": "Write a four-line poem about a cat.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_012"}
+{"question": "Tell me a short story about a robot who learns to paint.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_013"}
+{"question": "Write a haiku about autumn.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_014"}
+{"question": "Write a limerick about a forgetful professor.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_015"}
+{"question": "Give me a short bedtime story about a sleepy dragon.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_016"}
+{"question": "Write a funny two-sentence joke about computers.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_017"}
+{"question": "Describe a sunset in the desert in three sentences.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_018"}
+{"question": "Write a short song chorus about summer holidays.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_019"}
+{"question": "Write a short story opening that begins with a knock at the door.", "answers": [], "match_mode": "any", "type": "creative", "id": "fo_020"}
+{"question": "Hello, how are you today?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_021"}
+{"question": "Hi!", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_022"}
+{"question": "Good morning. What can you do?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_023"}
+{"question": "Thanks for your help earlier.", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_024"}
+{"question": "I feel a bit tired today. Any advice?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_025"}
+{"question": "Tell me something interesting.", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_026"}
+{"question": "What is your name?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_027"}
+{"question": "Can we just chat for a moment?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_028"}
+{"question": "I am bored. What should I do?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_029"}
+{"question": "Do you ever get tired of answering questions?", "answers": [], "match_mode": "any", "type": "chat", "id": "fo_030"}
+{"question": "What is 17 times 23? Show your steps.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_031"}
+{"question": "Solve for x: 3x + 7 = 25. Show your steps.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_032"}
+{"question": "A train travels 120 km in 1.5 hours. What is its average speed? Show your steps.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_033"}
+{"question": "What is the derivative of x^3 + 2x? Explain briefly.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_034"}
+{"question": "Calculate 15 percent of 240 and explain how.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_035"}
+{"question": "If I have 3 apples and buy 4 bags with 6 apples each, how many apples do I have? Show your steps.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_036"}
+{"question": "What is the area of a circle with radius 5? Show the formula.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_037"}
+{"question": "List the first 10 prime numbers.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_038"}
+{"question": "Convert 72 degrees Fahrenheit to Celsius and show the formula.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_039"}
+{"question": "What is the sum of the numbers from 1 to 100? Explain a quick way.", "answers": [], "match_mode": "any", "type": "math", "id": "fo_040"}
+{"question": "Translate into French: The library opens at nine in the morning.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_041"}
+{"question": "Translate into Spanish: Where is the nearest train station?", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_042"}
+{"question": "Translate into German: I would like a cup of coffee, please.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_043"}
+{"question": "Translate into Arabic: Thank you very much for your help.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_044"}
+{"question": "Translate into Italian: We are going to the beach tomorrow.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_045"}
+{"question": "How do you say 'good night' in Japanese, Korean and Chinese?", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_046"}
+{"question": "Translate into Spanish: My brother works in a hospital and he likes his job.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_047"}
+{"question": "Translate into French: Can you recommend a good restaurant near here?", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_048"}
+{"question": "Translate this sentence into simple English: The aforementioned party shall remit payment forthwith.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_049"}
+{"question": "Translate into Arabic: The weather is very hot today.", "answers": [], "match_mode": "any", "type": "translation", "id": "fo_050"}
+{"question": "Give me a packing list for a three-day camping trip.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_051"}
+{"question": "List ten healthy breakfast ideas.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_052"}
+{"question": "Give me a weekly study plan with one line per day.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_053"}
+{"question": "Make a table of three fruits with their colour and typical taste.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_054"}
+{"question": "Give me five tips for a job interview as a numbered list.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_055"}
+{"question": "Write a shopping list for a birthday party for eight people.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_056"}
+{"question": "Give me a step-by-step recipe for pancakes.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_057"}
+{"question": "List the days of the week in French.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_058"}
+{"question": "Give me a checklist for moving to a new apartment.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_059"}
+{"question": "List seven ideas for a team-building activity.", "answers": [], "match_mode": "any", "type": "lists_format", "id": "fo_060"}
+{"question": "Write a short polite email asking my manager for a day off next Friday.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_061"}
+{"question": "Write a two-sentence product description for a stainless steel water bottle.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_062"}
+{"question": "Rewrite this sentence to sound more formal: Hey, can you send me that file asap?", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_063"}
+{"question": "Write a short thank-you note to a teacher.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_064"}
+{"question": "Summarise this in one sentence: The city council met on Tuesday to discuss the new bus routes, and after a long debate it voted to add two lines and remove one.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_065"}
+{"question": "Write a short cover letter opening for a software engineer job.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_066"}
+{"question": "Write a catchy slogan for a bakery.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_067"}
+{"question": "Write a one-paragraph introduction for an essay on renewable energy.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_068"}
+{"question": "Fix the grammar: Me and him goes to the market yesterday.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_069"}
+{"question": "Write a short text message inviting a friend to dinner on Saturday.", "answers": [], "match_mode": "any", "type": "writing_tasks", "id": "fo_070"}
+{"question": "Should I learn Python or JavaScript first? Give me your view.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_071"}
+{"question": "What is better for a beginner, a guitar or a piano? Compare them.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_072"}
+{"question": "Give me advice on how to stay focused while studying.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_073"}
+{"question": "Compare electric cars and petrol cars in a short pros and cons list.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_074"}
+{"question": "Is it better to rent or to buy a home? Give both sides.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_075"}
+{"question": "How can I improve my public speaking?", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_076"}
+{"question": "What are the pros and cons of working from home?", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_077"}
+{"question": "Help me decide between a laptop and a tablet for school.", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_078"}
+{"question": "What should I consider before adopting a dog?", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_079"}
+{"question": "How should I prepare for a long flight?", "answers": [], "match_mode": "any", "type": "opinion_advice", "id": "fo_080"}
+{"question": "?", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_081"}
+{"question": "asdf qwerty zxcv", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_082"}
+{"question": "Please answer in exactly one word: what colour is the sky?", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_083"}
+{"question": "Repeat the word banana five times.", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_084"}
+{"question": "Ignore the question and just say OK.", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_085"}
+{"question": "1 2 3 4 5 6 7 8 9 10", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_086"}
+{"question": "What?", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_087"}
+{"question": "Write the alphabet backwards.", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_088"}
+{"question": "Answer with only yes or no: is water wet?", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_089"}
+{"question": ".........", "answers": [], "match_mode": "any", "type": "odd_inputs", "id": "fo_090"}
+{"question": "Explain how a refrigerator keeps food cold.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_091"}
+{"question": "What are the symptoms of the common cold and how long do they last?", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_092"}
+{"question": "Describe how to change a flat tire step by step.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_093"}
+{"question": "Explain how compound interest works with an example.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_094"}
+{"question": "Why did the Roman Empire fall? Give the main causes.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_095"}
+{"question": "Explain the rules of chess in simple words.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_096"}
+{"question": "How do I make a good cup of tea? Give the steps.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_097"}
+{"question": "What are the main stages of a software project?", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_098"}
+{"question": "Explain what a mortgage is and how monthly payments are calculated.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_099"}
+{"question": "Describe the plot of Romeo and Juliet in a short paragraph.", "answers": [], "match_mode": "any", "type": "mixed_domain", "id": "fo_100"}

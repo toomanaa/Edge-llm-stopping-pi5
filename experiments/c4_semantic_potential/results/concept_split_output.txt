@@ -1,0 +1,18 @@
+random split (paper): 384 training-pool answers, 165 concepts, 5640 boundaries
+concept-disjoint: 180 training-pool answers, 71 concepts, 2430 boundaries
+
+== normal probe (random split of questions): seed 1, validation AP 0.973; held-out boundary AP 0.945
+   thr 0.9    accuracy  67.8  tokens  40.0%   vs token limits +0.7 pp (95% CI -4.4..+5.4)
+   thr 0.95   accuracy  68.9  tokens  42.5%   vs token limits +1.0 pp (95% CI -3.9..+5.9)
+   thr 0.99   accuracy  71.0  tokens  50.9%   vs token limits +0.9 pp (95% CI -4.1..+5.8)
+   thr 0.995  accuracy  71.3  tokens  53.5%   vs token limits +0.2 pp (95% CI -4.7..+5.1)
+   thr 0.999  accuracy  72.5  tokens  61.5%   vs token limits -0.1 pp (95% CI -5.1..+4.5)
+
+== concept-disjoint probe: seed 2, validation AP 0.987; held-out boundary AP 0.926
+   thr 0.9    accuracy  66.3  tokens  42.3%   vs token limits -1.6 pp (95% CI -6.7..+3.5)
+   thr 0.95   accuracy  68.0  tokens  47.2%   vs token limits -0.8 pp (95% CI -5.7..+4.0)
+   thr 0.99   accuracy  72.8  tokens  58.8%   vs token limits +0.5 pp (95% CI -4.2..+5.1)
+   thr 0.995  accuracy  73.7  tokens  63.9%   vs token limits +0.7 pp (95% CI -4.0..+5.2)
+   thr 0.999  accuracy  75.1  tokens  77.1%   vs token limits +0.3 pp (95% CI -4.4..+4.7)
+
+no stopping accuracy 76.3 on 338 held-out answers

@@ -1,0 +1,4 @@
+energy per correct answer (J): {'full': (np.float64(193.2), np.float64(167.5), np.float64(221.4)), 'controller': (np.float64(110.7), np.float64(94.6), np.float64(129.4)), 'cap': (np.float64(108.6), np.float64(94.2), np.float64(125.0))}
+controller: correct answers per joule x1.75 (95% CI 1.62-1.88); responses per joule x1.89 (1.76-2.04); energy per correct answer 42.7% lower
+cap: correct answers per joule x1.78 (95% CI 1.68-1.87); responses per joule x1.95 (1.86-2.03); energy per correct answer 43.8% lower
+explain-question response time (s): {'full': (np.float64(36.4), np.float64(33.9), np.float64(38.2), np.float64(52.6)), 'controller': (np.float64(16.3), np.float64(14.6), np.float64(18.2), np.float64(34.1)), 'cap': (np.float64(17.6), np.float64(17.4), np.float64(17.8), np.float64(19.7))}

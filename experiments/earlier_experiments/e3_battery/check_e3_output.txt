@@ -1,0 +1,15 @@
+== POWER SEGMENTS (times shown UTC+3) ==
+e3_power_meter.txt: rows 525976 (bad 35); 2026-09-05 07:11:57 -> 2026-09-05 08:39:37; 1.46 h; mean V*I 7.294 W; energy-counter rate 7.294 W; gaps>60s inside: 0
+e3_power_meter_part2.txt: rows 715232 (bad 34); 2026-09-05 10:54:08 -> 2026-09-05 12:53:23; 1.99 h; mean V*I 7.299 W; energy-counter rate 7.296 W; gaps>60s inside: 0
+e3_power_meter_part3.txt: rows 461660 (bad 34); 2026-09-05 13:45:16 -> 2026-09-05 15:02:14; 1.28 h; mean V*I 7.467 W; energy-counter rate 7.463 W; gaps>60s inside: 0
+gap between e3_power_meter.txt and e3_power_meter_part2.txt: 2.24 h
+gap between e3_power_meter_part2.txt and e3_power_meter_part3.txt: 0.86 h
+
+== DRAIN LOG (battery_drain.jsonl) ==
+interactions: 306
+first start 2026-09-05 07:12:19; last end 2026-09-05 15:28:19; span 8.27 h
+stopped early: 150 | correct: 233 | max cycle_index: 305
+distinct questions: 306
+
+== FAIL-OPEN (fail_open_late.jsonl) ==
+prompts: 10 | stopped early: 5 of 10

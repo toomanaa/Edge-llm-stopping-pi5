@@ -1,0 +1,121 @@
+{
+  "max_tokens_30": {
+    "accuracy": 0.46089385474860334,
+    "n_correct": 495,
+    "n_total": 1074,
+    "total_joules": 57266.81830135326,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_50": {
+    "accuracy": 0.521415270018622,
+    "n_correct": 560,
+    "n_total": 1074,
+    "total_joules": 63521.61595698408,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_75": {
+    "accuracy": 0.5875232774674115,
+    "n_correct": 631,
+    "n_total": 1074,
+    "total_joules": 70159.41930099869,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_100": {
+    "accuracy": 0.638733705772812,
+    "n_correct": 686,
+    "n_total": 1074,
+    "total_joules": 76807.50842177255,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_150": {
+    "accuracy": 0.7085661080074488,
+    "n_correct": 761,
+    "n_total": 1074,
+    "total_joules": 90351.98891831355,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_200": {
+    "accuracy": 0.7383612662942272,
+    "n_correct": 793,
+    "n_total": 1074,
+    "total_joules": 103006.07758809485,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_300": {
+    "accuracy": 0.7895716945996276,
+    "n_correct": 848,
+    "n_total": 1074,
+    "total_joules": 128172.92401189108,
+    "n_energy_covered": 1074
+  },
+  "max_tokens_500": {
+    "accuracy": 0.8165735567970205,
+    "n_correct": 877,
+    "n_total": 1074,
+    "total_joules": 163760.56126304384,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.05": {
+    "accuracy": 0.5204841713221602,
+    "n_correct": 559,
+    "n_total": 1074,
+    "total_joules": 66358.53930514582,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.1": {
+    "accuracy": 0.5046554934823091,
+    "n_correct": 542,
+    "n_total": 1074,
+    "total_joules": 63667.7281563755,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.2": {
+    "accuracy": 0.48417132216014896,
+    "n_correct": 520,
+    "n_total": 1074,
+    "total_joules": 60454.76863312778,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.3": {
+    "accuracy": 0.4729981378026071,
+    "n_correct": 508,
+    "n_total": 1074,
+    "total_joules": 58752.43089244677,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.5": {
+    "accuracy": 0.45623836126629425,
+    "n_correct": 490,
+    "n_total": 1074,
+    "total_joules": 56643.84281703951,
+    "n_energy_covered": 1074
+  },
+  "entropy_0.8": {
+    "accuracy": 0.4376163873370577,
+    "n_correct": 470,
+    "n_total": 1074,
+    "total_joules": 54742.566092269044,
+    "n_energy_covered": 1074
+  },
+  "entropy_1.2": {
+    "accuracy": 0.4292364990689013,
+    "n_correct": 461,
+    "n_total": 1074,
+    "total_joules": 53270.84935029803,
+    "n_energy_covered": 1074
+  },
+  "entropy_1.8": {
+    "accuracy": 0.4236499068901304,
+    "n_correct": 455,
+    "n_total": 1074,
+    "total_joules": 52764.816095615046,
+    "n_energy_covered": 1074
+  },
+  "entropy_2.5": {
+    "accuracy": 0.4236499068901304,
+    "n_correct": 455,
+    "n_total": 1074,
+    "total_joules": 52764.816095615046,
+    "n_energy_covered": 1074
+  }
+}

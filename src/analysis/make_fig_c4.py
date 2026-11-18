@@ -1,0 +1,22 @@
+import matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+plt.rcParams.update({"font.family":"Liberation Serif","pdf.fonttype":42,"mathtext.fontset":"stix","font.size":9})
+BLUE,ORG,GRAY,TXT,GRID="#2a78d6","#eb6834","#8a8984","#2f2e2c","#e4e3df"
+caps=[(100,63.5,28.1),(150,67.6,38.1),(200,69.2,48.1),(250,71.9,58.5),(300,73.9,68.2),(350,74.9,76.8),(400,75.6,84.4),(500,76.6,94.4),(600,76.6,98.5),(800,76.6,100.0)]
+fig,ax=plt.subplots(figsize=(5.2,3.2))
+ax.plot([c[2] for c in caps],[c[1] for c in caps],"-o",color=BLUE,lw=1.6,ms=5,mec="white",mew=1,label="Fixed token limit")
+ax.axhline(76.6,color=GRAY,lw=0.9,ls=(0,(4,3)))
+ax.plot([57.5],[76.6],"o",color=ORG,ms=8,mec="white",mew=1.2,label="Oracle stopper (uses the answer key)",zorder=5)
+ax.annotate("Oracle: 57.5% of tokens,\nno loss in accuracy",(57.5,76.6),(36,79.6),fontsize=8.5,color=TXT,arrowprops=dict(arrowstyle="-",color=GRAY,lw=0.8),ha="left")
+ax.annotate("Best limit with no loss\n(500 tokens): 94.4%",(94.4,76.6),(70,70.2),fontsize=8.5,color=TXT,arrowprops=dict(arrowstyle="-",color=GRAY,lw=0.8),ha="left")
+ax.text(26,76.1,"Accuracy with no stopping (76.6%)",fontsize=8,color=GRAY,va="top")
+for c in caps[:6]: ax.annotate(str(c[0]),(c[2],c[1]),(0,-11),textcoords="offset points",fontsize=7.5,color=BLUE,ha="center")
+ax.set_xlabel("Tokens generated (% of tokens with no stopping)",color=TXT); ax.set_ylabel("Accuracy (%)",color=TXT)
+ax.set_xlim(20,104); ax.set_ylim(60,82)
+ax.grid(color=GRID,lw=0.7); ax.set_axisbelow(True)
+for s in ("top","right"): ax.spines[s].set_visible(False)
+for s in ("left","bottom"): ax.spines[s].set_color(GRAY)
+ax.tick_params(colors=TXT)
+ax.legend(loc="lower right",frameon=False,fontsize=8.5)
+fig.tight_layout(); import os; OUT="experiments/c4_semantic_potential/results/"; os.makedirs(OUT,exist_ok=True)
+fig.savefig(OUT+"fig_c4_oracle.pdf"); fig.savefig(OUT+"fig_c4_oracle.png",dpi=200)

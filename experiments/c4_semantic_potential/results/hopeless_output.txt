@@ -1,0 +1,38 @@
+probe: seed 1, validation AP 0.973; validation answers 57
+remaining-length head: held-out correlation (log) 0.87, median abs error 47 tokens (median true 227)
+calibration (validation rows): raw p>=0.99 has safe rate 96.6% ; held-out 65.3%
+ever-correct head AUC held-out: boundary 1: 0.75  boundary 3: 0.76  boundary 5: 0.79  
+
+validation 57 answers (no-stop 100.0%), held-out 338 (no-stop 76.3%)
+fixed 0.99 alone  held-out acc 71.0 tokens 50.9
+abort if P(ever correct)<0.05 after boundary>=3:  val acc  89.5 tok  40.2 | HELD acc  71.0 tok  50.0
+abort if P(ever correct)<0.1  after boundary>=3:  val acc  89.5 tok  40.2 | HELD acc  71.0 tok  48.1
+abort if P(ever correct)<0.2  after boundary>=3:  val acc  89.5 tok  40.0 | HELD acc  70.7 tok  46.7
+abort if P(ever correct)<0.3  after boundary>=3:  val acc  89.5 tok  37.7 | HELD acc  70.7 tok  45.9
+abort if P(ever correct)<0.4  after boundary>=3:  val acc  89.5 tok  37.7 | HELD acc  70.4 tok  45.2
+abort if P(ever correct)<0.5  after boundary>=3:  val acc  89.5 tok  37.4 | HELD acc  70.4 tok  44.7
+abort if P(ever correct)<0.05 after boundary>=5:  val acc  91.2 tok  40.4 | HELD acc  71.0 tok  50.4
+abort if P(ever correct)<0.1  after boundary>=5:  val acc  91.2 tok  40.4 | HELD acc  71.0 tok  49.5
+abort if P(ever correct)<0.2  after boundary>=5:  val acc  91.2 tok  40.3 | HELD acc  70.7 tok  48.4
+abort if P(ever correct)<0.3  after boundary>=5:  val acc  91.2 tok  39.5 | HELD acc  70.7 tok  47.9
+abort if P(ever correct)<0.4  after boundary>=5:  val acc  91.2 tok  39.5 | HELD acc  70.7 tok  47.6
+abort if P(ever correct)<0.5  after boundary>=5:  val acc  91.2 tok  39.5 | HELD acc  70.7 tok  47.3
+abort if P(ever correct)<0.05 after boundary>=7:  val acc  91.2 tok  40.4 | HELD acc  71.0 tok  50.6
+abort if P(ever correct)<0.1  after boundary>=7:  val acc  91.2 tok  40.4 | HELD acc  71.0 tok  50.4
+abort if P(ever correct)<0.2  after boundary>=7:  val acc  91.2 tok  40.3 | HELD acc  71.0 tok  49.9
+abort if P(ever correct)<0.3  after boundary>=7:  val acc  91.2 tok  39.5 | HELD acc  71.0 tok  49.7
+abort if P(ever correct)<0.4  after boundary>=7:  val acc  91.2 tok  39.5 | HELD acc  71.0 tok  49.6
+abort if P(ever correct)<0.5  after boundary>=7:  val acc  91.2 tok  39.5 | HELD acc  71.0 tok  49.4
+-- caps
+   cap 75: acc 58.6 tok 22.0
+   cap 100: acc 62.1 tok 27.2
+   cap 125: acc 64.2 tok 32.3
+   cap 150: acc 66.3 tok 37.5
+   cap 175: acc 68.0 tok 42.9
+   cap 200: acc 68.9 tok 47.8
+   cap 225: acc 71.0 tok 53.2
+   cap 250: acc 72.2 tok 58.2
+   cap 275: acc 72.8 tok 63.2
+   cap 300: acc 74.0 tok 67.6
+   cap 350: acc 74.9 tok 77.0
+   cap 400: acc 75.4 tok 84.3

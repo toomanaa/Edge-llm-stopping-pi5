@@ -1,0 +1,66 @@
+{
+ "n_questions": 119,
+ "check_single": {
+  "extra_energy_pct": 2.034292937924972,
+  "extra_energy_pct_ci": [
+   1.8303758277315063,
+   2.244798893251977
+  ],
+  "J_per_check": 0.7634732756092829,
+  "J_per_check_ci": [
+   0.689283446263173,
+   0.8395228984952224
+  ],
+  "extra_time_pct": 1.979737309157768,
+  "extra_time_pct_ci": [
+   1.7848355894593,
+   2.1660017566789547
+  ],
+  "s_per_check": 0.10446960159710475,
+  "checks": 560,
+  "timer_energy_pct": 1.9976305669642318,
+  "timer_energy_pct_ci": [
+   1.8280937122504217,
+   2.159625414508063
+  ],
+  "timer_J_per_check": 0.7497138312700863,
+  "fit_ms_intercept": 48.791756979958194,
+  "fit_ms_per_token": 0.19155303315435376,
+  "check_tokens_range": [
+   66,
+   791
+  ]
+ },
+ "check_reencode": {
+  "extra_energy_pct": 116.22832283816578,
+  "extra_energy_pct_ci": [
+   106.95090917938079,
+   125.05279101093042
+  ],
+  "J_per_check": 43.620668735320756,
+  "J_per_check_ci": [
+   41.1211175903719,
+   46.07602871841483
+  ],
+  "extra_time_pct": 101.85664203577774,
+  "extra_time_pct_ci": [
+   93.80671922795382,
+   109.50447204137394
+  ],
+  "s_per_check": 5.374916542853628,
+  "checks": 560,
+  "timer_energy_pct": 109.3388994752013,
+  "timer_energy_pct_ci": [
+   100.39407324400862,
+   117.84257322104519
+  ],
+  "timer_J_per_check": 41.03505752666817,
+  "fit_ms_intercept": -82.2821311918135,
+  "fit_ms_per_token": 18.44097407045392,
+  "check_tokens_range": [
+   66,
+   791
+  ]
+ },
+ "reencode_over_single": 57.1345063787723
+}

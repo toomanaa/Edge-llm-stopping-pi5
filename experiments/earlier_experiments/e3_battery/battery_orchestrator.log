@@ -1,0 +1,380 @@
+nohup: ignoring input
+=== Sat  5 Sep 07:12:12 +03 2026: E3 battery drain starting ===
+working directory: /home/aws/e1
+DATA=data/qa_v2.jsonl  -> EXISTS
+PROBE=probe_weights.npz  -> EXISTS
+battery_drain_loop.py -> EXISTS
+REMINDER: confirm the Pi is on the Anker battery bank, not wall power, before this proceeds.
+=== Sat  5 Sep 07:12:18 +03 2026: server ready, restart #0, running batch ===
+loaded probe and 1074 questions (will cycle continuously once exhausted)
+resuming: 0 interactions already logged
+[interaction 1] qav2_0000 [natural-end] [CORRECT] 8 words, t+0.1min, mem_avail=3273MB
+[interaction 2] qav2_0001 [STOPPED-EARLY] [CORRECT] 161 words, t+2.4min, mem_avail=3273MB
+[interaction 3] qav2_0002 [STOPPED-EARLY] [CORRECT] 64 words, t+3.1min, mem_avail=2880MB
+[interaction 4] qav2_0003 [natural-end] [CORRECT] 11 words, t+3.2min, mem_avail=2876MB
+[interaction 5] qav2_0004 [natural-end] [CORRECT] 6 words, t+3.2min, mem_avail=2894MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 6] qav2_0005 [natural-end] [WRONG] 434 words, t+10.7min, mem_avail=2898MB
+[interaction 7] qav2_0006 [natural-end] [CORRECT] 19 words, t+10.8min, mem_avail=2535MB
+[interaction 8] qav2_0007 [natural-end] [CORRECT] 3 words, t+10.8min, mem_avail=2505MB
+[interaction 9] qav2_0008 [STOPPED-EARLY] [CORRECT] 275 words, t+15.1min, mem_avail=2506MB
+[interaction 10] qav2_0009 [STOPPED-EARLY] [CORRECT] 116 words, t+16.7min, mem_avail=2396MB
+[interaction 11] qav2_0010 [natural-end] [CORRECT] 7 words, t+16.8min, mem_avail=2392MB
+[interaction 12] qav2_0011 [STOPPED-EARLY] [WRONG] 93 words, t+17.9min, mem_avail=2382MB
+[interaction 13] qav2_0012 [STOPPED-EARLY] [CORRECT] 120 words, t+19.2min, mem_avail=2358MB
+[interaction 14] qav2_0013 [natural-end] [WRONG] 36 words, t+19.6min, mem_avail=2360MB
+[interaction 15] qav2_0014 [STOPPED-EARLY] [CORRECT] 50 words, t+20.1min, mem_avail=2364MB
+[interaction 16] qav2_0015 [natural-end] [CORRECT] 7 words, t+20.2min, mem_avail=2360MB
+[interaction 17] qav2_0016 [natural-end] [CORRECT] 6 words, t+20.3min, mem_avail=2357MB
+[interaction 18] qav2_0017 [natural-end] [CORRECT] 6 words, t+20.3min, mem_avail=2359MB
+[interaction 19] qav2_0018 [natural-end] [CORRECT] 7 words, t+20.4min, mem_avail=2359MB
+[interaction 20] qav2_0019 [STOPPED-EARLY] [WRONG] 68 words, t+21.2min, mem_avail=2360MB
+[interaction 21] qav2_0020 [STOPPED-EARLY] [CORRECT] 183 words, t+23.8min, mem_avail=2319MB
+[interaction 22] qav2_0021 [STOPPED-EARLY] [CORRECT] 223 words, t+27.6min, mem_avail=2282MB
+[interaction 23] qav2_0022 [STOPPED-EARLY] [WRONG] 161 words, t+29.5min, mem_avail=2247MB
+[interaction 24] qav2_0023 [natural-end] [WRONG] 8 words, t+29.6min, mem_avail=2241MB
+[interaction 25] qav2_0024 [STOPPED-EARLY] [WRONG] 106 words, t+31.0min, mem_avail=2247MB
+[interaction 26] qav2_0025 [natural-end] [CORRECT] 6 words, t+31.1min, mem_avail=2250MB
+[interaction 27] qav2_0026 [STOPPED-EARLY] [WRONG] 253 words, t+34.9min, mem_avail=2250MB
+[interaction 28] qav2_0027 [natural-end] [CORRECT] 41 words, t+35.3min, mem_avail=2231MB
+[interaction 29] qav2_0028 [STOPPED-EARLY] [CORRECT] 125 words, t+36.9min, mem_avail=2235MB
+[interaction 30] qav2_0029 [natural-end] [CORRECT] 19 words, t+37.1min, mem_avail=2210MB
+[interaction 31] qav2_0030 [natural-end] [WRONG] 208 words, t+39.4min, mem_avail=2222MB
+[interaction 32] qav2_0031 [natural-end] [CORRECT] 8 words, t+39.5min, mem_avail=2224MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 33] qav2_0032 [natural-end] [WRONG] 520 words, t+47.2min, mem_avail=2203MB
+[interaction 34] qav2_0033 [STOPPED-EARLY] [CORRECT] 41 words, t+47.6min, mem_avail=2186MB
+[interaction 35] qav2_0034 [STOPPED-EARLY] [CORRECT] 115 words, t+49.1min, mem_avail=2163MB
+[interaction 36] qav2_0035 [STOPPED-EARLY] [WRONG] 82 words, t+50.0min, mem_avail=2158MB
+[interaction 37] qav2_0036 [STOPPED-EARLY] [CORRECT] 100 words, t+51.1min, mem_avail=2156MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 38] qav2_0037 [natural-end] [CORRECT] 482 words, t+58.7min, mem_avail=2147MB
+[interaction 39] qav2_0038 [natural-end] [CORRECT] 9 words, t+58.7min, mem_avail=2134MB
+[interaction 40] qav2_0039 [natural-end] [CORRECT] 10 words, t+58.8min, mem_avail=2104MB
+[interaction 41] qav2_0040 [STOPPED-EARLY] [WRONG] 193 words, t+61.1min, mem_avail=2105MB
+[interaction 42] qav2_0041 [STOPPED-EARLY] [WRONG] 145 words, t+63.0min, mem_avail=2098MB
+[interaction 43] qav2_0042 [natural-end] [CORRECT] 9 words, t+63.0min, mem_avail=2078MB
+[interaction 44] qav2_0043 [natural-end] [WRONG] 163 words, t+65.2min, mem_avail=2082MB
+[interaction 45] qav2_0044 [STOPPED-EARLY] [WRONG] 290 words, t+71.0min, mem_avail=2090MB
+[interaction 46] qav2_0045 [STOPPED-EARLY] [WRONG] 132 words, t+72.7min, mem_avail=2073MB
+[interaction 47] qav2_0046 [STOPPED-EARLY] [WRONG] 158 words, t+75.4min, mem_avail=2068MB
+[interaction 48] qav2_0047 [natural-end] [CORRECT] 8 words, t+75.4min, mem_avail=2062MB
+[interaction 49] qav2_0048 [STOPPED-EARLY] [WRONG] 76 words, t+76.4min, mem_avail=2053MB
+[interaction 50] qav2_0049 [natural-end] [CORRECT] 12 words, t+76.5min, mem_avail=2068MB
+[interaction 51] qav2_0050 [STOPPED-EARLY] [CORRECT] 288 words, t+82.0min, mem_avail=2067MB
+[interaction 52] qav2_0051 [natural-end] [CORRECT] 6 words, t+82.0min, mem_avail=1989MB
+[interaction 53] qav2_0052 [STOPPED-EARLY] [WRONG] 119 words, t+83.9min, mem_avail=2001MB
+[interaction 54] qav2_0053 [STOPPED-EARLY] [WRONG] 42 words, t+84.4min, mem_avail=2015MB
+[interaction 55] qav2_0054 [natural-end] [CORRECT] 20 words, t+84.5min, mem_avail=2018MB
+[interaction 56] qav2_0055 [natural-end] [CORRECT] 2 words, t+84.5min, mem_avail=2022MB
+[interaction 57] qav2_0056 [STOPPED-EARLY] [WRONG] 212 words, t+88.4min, mem_avail=2022MB
+[interaction 58] qav2_0057 [natural-end] [CORRECT] 19 words, t+88.5min, mem_avail=2005MB
+[interaction 59] qav2_0058 [natural-end] [CORRECT] 6 words, t+88.5min, mem_avail=2006MB
+[interaction 60] qav2_0059 [natural-end] [CORRECT] 6 words, t+88.6min, mem_avail=2011MB
+[interaction 61] qav2_0060 [natural-end] [CORRECT] 26 words, t+88.7min, mem_avail=2014MB
+[interaction 62] qav2_0061 [STOPPED-EARLY] [CORRECT] 159 words, t+90.9min, mem_avail=2016MB
+[interaction 63] qav2_0062 [STOPPED-EARLY] [CORRECT] 46 words, t+91.3min, mem_avail=1983MB
+[interaction 64] qav2_0063 [natural-end] [CORRECT] 7 words, t+91.4min, mem_avail=2009MB
+[interaction 65] qav2_0064 [STOPPED-EARLY] [CORRECT] 109 words, t+92.8min, mem_avail=2010MB
+[interaction 66] qav2_0065 [natural-end] [CORRECT] 7 words, t+92.8min, mem_avail=1991MB
+[interaction 67] qav2_0066 [natural-end] [CORRECT] 6 words, t+92.9min, mem_avail=1991MB
+[interaction 68] qav2_0067 [STOPPED-EARLY] [CORRECT] 156 words, t+95.4min, mem_avail=1992MB
+[interaction 69] qav2_0068 [STOPPED-EARLY] [CORRECT] 88 words, t+96.6min, mem_avail=1984MB
+[interaction 70] qav2_0069 [STOPPED-EARLY] [WRONG] 240 words, t+101.0min, mem_avail=1988MB
+[interaction 71] qav2_0070 [natural-end] [CORRECT] 7 words, t+101.1min, mem_avail=1951MB
+[interaction 72] qav2_0071 [STOPPED-EARLY] [WRONG] 138 words, t+102.9min, mem_avail=1955MB
+[interaction 73] qav2_0072 [STOPPED-EARLY] [CORRECT] 240 words, t+106.2min, mem_avail=1958MB
+[interaction 74] qav2_0073 [natural-end] [CORRECT] 8 words, t+106.3min, mem_avail=1938MB
+[interaction 75] qav2_0074 [STOPPED-EARLY] [CORRECT] 47 words, t+106.8min, mem_avail=1947MB
+[interaction 76] qav2_0075 [natural-end] [CORRECT] 8 words, t+106.8min, mem_avail=1958MB
+[interaction 77] qav2_0076 [STOPPED-EARLY] [CORRECT] 88 words, t+108.0min, mem_avail=1962MB
+[interaction 78] qav2_0077 [STOPPED-EARLY] [CORRECT] 199 words, t+110.7min, mem_avail=1945MB
+[interaction 79] qav2_0078 [natural-end] [CORRECT] 6 words, t+110.8min, mem_avail=1933MB
+[interaction 80] qav2_0079 [natural-end] [CORRECT] 6 words, t+110.8min, mem_avail=1935MB
+[interaction 81] qav2_0080 [natural-end] [CORRECT] 329 words, t+116.1min, mem_avail=1938MB
+[interaction 82] qav2_0081 [natural-end] [CORRECT] 6 words, t+116.2min, mem_avail=1942MB
+[interaction 83] qav2_0082 [STOPPED-EARLY] [WRONG] 186 words, t+118.5min, mem_avail=1920MB
+[interaction 84] qav2_0083 [STOPPED-EARLY] [CORRECT] 83 words, t+119.6min, mem_avail=1902MB
+[interaction 85] qav2_0084 [natural-end] [CORRECT] 9 words, t+119.7min, mem_avail=1910MB
+[interaction 86] qav2_0085 [STOPPED-EARLY] [WRONG] 82 words, t+120.9min, mem_avail=1905MB
+[interaction 87] qav2_0086 [natural-end] [CORRECT] 6 words, t+121.0min, mem_avail=1904MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 88] qav2_0087 [natural-end] [CORRECT] 545 words, t+130.8min, mem_avail=1902MB
+[interaction 89] qav2_0088 [natural-end] [CORRECT] 8 words, t+130.9min, mem_avail=1899MB
+[interaction 90] qav2_0089 [STOPPED-EARLY] [WRONG] 231 words, t+134.2min, mem_avail=1860MB
+[interaction 91] qav2_0090 [natural-end] [CORRECT] 6 words, t+134.2min, mem_avail=1855MB
+[interaction 92] qav2_0091 [natural-end] [CORRECT] 6 words, t+134.3min, mem_avail=1849MB
+[interaction 93] qav2_0092 [natural-end] [CORRECT] 8 words, t+134.4min, mem_avail=1853MB
+[interaction 94] qav2_0093 [natural-end] [CORRECT] 41 words, t+134.6min, mem_avail=1859MB
+[interaction 95] qav2_0094 [natural-end] [CORRECT] 7 words, t+134.6min, mem_avail=1865MB
+[interaction 96] qav2_0095 [natural-end] [CORRECT] 8 words, t+134.7min, mem_avail=1855MB
+[interaction 97] qav2_0096 [STOPPED-EARLY] [CORRECT] 55 words, t+135.3min, mem_avail=1859MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 98] qav2_0097 [natural-end] [WRONG] 492 words, t+142.8min, mem_avail=1859MB
+[interaction 99] qav2_0098 [natural-end] [CORRECT] 8 words, t+142.9min, mem_avail=1855MB
+[interaction 100] qav2_0099 [natural-end] [CORRECT] 10 words, t+143.0min, mem_avail=1824MB
+
+*** Batch of 100 complete. Restart llama-server, then re-run this exact command to continue. ***
+=== Sat  5 Sep 09:35:25 +03 2026: server ready, restart #1, running batch ===
+loaded probe and 1074 questions (will cycle continuously once exhausted)
+resuming: 100 interactions already logged
+[interaction 101] qav2_0100 [natural-end] [CORRECT] 18 words, t+0.2min, mem_avail=3258MB
+[interaction 102] qav2_0101 [natural-end] [CORRECT] 6 words, t+0.2min, mem_avail=3264MB
+[interaction 103] qav2_0102 [natural-end] [CORRECT] 6 words, t+0.3min, mem_avail=3265MB
+[interaction 104] qav2_0103 [STOPPED-EARLY] [CORRECT] 249 words, t+4.1min, mem_avail=3267MB
+[interaction 105] qav2_0104 [STOPPED-EARLY] [CORRECT] 154 words, t+6.2min, mem_avail=2784MB
+[interaction 106] qav2_0105 [STOPPED-EARLY] [CORRECT] 146 words, t+8.4min, mem_avail=2746MB
+[interaction 107] qav2_0106 [STOPPED-EARLY] [CORRECT] 92 words, t+9.6min, mem_avail=2681MB
+[interaction 108] qav2_0107 [STOPPED-EARLY] [WRONG] 166 words, t+12.1min, mem_avail=2673MB
+[interaction 109] qav2_0108 [natural-end] [CORRECT] 6 words, t+12.2min, mem_avail=2653MB
+[interaction 110] qav2_0109 [natural-end] [CORRECT] 7 words, t+12.2min, mem_avail=2667MB
+[interaction 111] qav2_0110 [STOPPED-EARLY] [CORRECT] 264 words, t+16.8min, mem_avail=2678MB
+[interaction 112] qav2_0111 [STOPPED-EARLY] [WRONG] 187 words, t+19.9min, mem_avail=2681MB
+    [probe call failed: timed out, continuing generation]
+[interaction 113] qav2_0112 [natural-end] [WRONG] 304 words, t+25.5min, mem_avail=2563MB
+[interaction 114] qav2_0113 [STOPPED-EARLY] [CORRECT] 208 words, t+29.1min, mem_avail=2458MB
+[interaction 115] qav2_0114 [STOPPED-EARLY] [CORRECT] 175 words, t+31.5min, mem_avail=2420MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 116] qav2_0115 [natural-end] [WRONG] 374 words, t+38.3min, mem_avail=2400MB
+[interaction 117] qav2_0116 [natural-end] [CORRECT] 10 words, t+38.4min, mem_avail=2347MB
+[interaction 118] qav2_0117 [natural-end] [CORRECT] 9 words, t+38.4min, mem_avail=2317MB
+[interaction 119] qav2_0118 [STOPPED-EARLY] [CORRECT] 89 words, t+39.6min, mem_avail=2318MB
+[interaction 120] qav2_0119 [STOPPED-EARLY] [WRONG] 76 words, t+40.6min, mem_avail=2307MB
+[interaction 121] qav2_0120 [STOPPED-EARLY] [CORRECT] 125 words, t+42.3min, mem_avail=2307MB
+[interaction 122] qav2_0121 [STOPPED-EARLY] [WRONG] 136 words, t+44.0min, mem_avail=2290MB
+[interaction 124] qav2_0123 [natural-end] [CORRECT] 9 words, t+44.1min, mem_avail=2278MB
+[interaction 125] qav2_0124 [natural-end] [CORRECT] 7 words, t+44.2min, mem_avail=2288MB
+[interaction 126] qav2_0125 [STOPPED-EARLY] [WRONG] 268 words, t+49.0min, mem_avail=2291MB
+[interaction 127] qav2_0126 [STOPPED-EARLY] [CORRECT] 96 words, t+50.1min, mem_avail=2280MB
+[interaction 128] qav2_0127 [STOPPED-EARLY] [WRONG] 144 words, t+51.7min, mem_avail=2263MB
+[interaction 129] qav2_0128 [natural-end] [CORRECT] 8 words, t+51.8min, mem_avail=2246MB
+[interaction 130] qav2_0129 [STOPPED-EARLY] [WRONG] 140 words, t+53.6min, mem_avail=2239MB
+[interaction 131] qav2_0130 [STOPPED-EARLY] [WRONG] 56 words, t+54.2min, mem_avail=2237MB
+[interaction 132] qav2_0131 [STOPPED-EARLY] [CORRECT] 124 words, t+56.0min, mem_avail=2240MB
+[interaction 133] qav2_0132 [natural-end] [CORRECT] 23 words, t+56.1min, mem_avail=2226MB
+[interaction 134] qav2_0133 [natural-end] [CORRECT] 13 words, t+56.2min, mem_avail=2229MB
+[interaction 135] qav2_0134 [STOPPED-EARLY] [WRONG] 181 words, t+58.5min, mem_avail=2230MB
+[interaction 136] qav2_0135 [natural-end] [WRONG] 147 words, t+60.1min, mem_avail=2187MB
+[interaction 137] qav2_0136 [natural-end] [CORRECT] 7 words, t+60.2min, mem_avail=2196MB
+[interaction 138] qav2_0137 [natural-end] [CORRECT] 6 words, t+60.2min, mem_avail=2193MB
+[interaction 139] qav2_0138 [natural-end] [CORRECT] 8 words, t+60.3min, mem_avail=2193MB
+[interaction 140] qav2_0139 [natural-end] [CORRECT] 6 words, t+60.3min, mem_avail=2194MB
+[interaction 141] qav2_0140 [natural-end] [CORRECT] 7 words, t+60.4min, mem_avail=2195MB
+[interaction 142] qav2_0141 [natural-end] [CORRECT] 11 words, t+60.5min, mem_avail=2196MB
+[interaction 143] qav2_0142 [STOPPED-EARLY] [WRONG] 100 words, t+61.5min, mem_avail=2197MB
+[interaction 144] qav2_0143 [natural-end] [WRONG] 11 words, t+61.6min, mem_avail=2192MB
+[interaction 145] qav2_0144 [STOPPED-EARLY] [CORRECT] 287 words, t+67.3min, mem_avail=2192MB
+[interaction 146] qav2_0145 [STOPPED-EARLY] [CORRECT] 217 words, t+70.6min, mem_avail=2167MB
+[interaction 147] qav2_0146 [natural-end] [CORRECT] 263 words, t+73.9min, mem_avail=2125MB
+[interaction 148] qav2_0147 [STOPPED-EARLY] [WRONG] 216 words, t+76.8min, mem_avail=2122MB
+[interaction 149] qav2_0148 [STOPPED-EARLY] [WRONG] 161 words, t+79.2min, mem_avail=2111MB
+[interaction 150] qav2_0149 [STOPPED-EARLY] [CORRECT] 123 words, t+80.7min, mem_avail=2098MB
+[interaction 151] qav2_0150 [natural-end] [CORRECT] 6 words, t+80.8min, mem_avail=2093MB
+[interaction 152] qav2_0151 [natural-end] [CORRECT] 6 words, t+80.8min, mem_avail=2082MB
+[interaction 153] qav2_0152 [natural-end] [CORRECT] 7 words, t+80.9min, mem_avail=2085MB
+[interaction 154] qav2_0153 [natural-end] [CORRECT] 9 words, t+80.9min, mem_avail=2086MB
+[interaction 155] qav2_0154 [natural-end] [CORRECT] 6 words, t+81.0min, mem_avail=2087MB
+[interaction 156] qav2_0155 [natural-end] [CORRECT] 6 words, t+81.0min, mem_avail=2088MB
+[interaction 157] qav2_0156 [STOPPED-EARLY] [CORRECT] 75 words, t+82.0min, mem_avail=2088MB
+[interaction 158] qav2_0157 [natural-end] [CORRECT] 7 words, t+82.1min, mem_avail=2084MB
+[interaction 159] qav2_0158 [natural-end] [CORRECT] 6 words, t+82.1min, mem_avail=2084MB
+[interaction 160] qav2_0159 [STOPPED-EARLY] [WRONG] 45 words, t+82.6min, mem_avail=2084MB
+[interaction 161] qav2_0160 [natural-end] [WRONG] 223 words, t+85.9min, mem_avail=2083MB
+[interaction 162] qav2_0161 [natural-end] [CORRECT] 6 words, t+85.9min, mem_avail=2079MB
+[interaction 163] qav2_0162 [natural-end] [CORRECT] 8 words, t+86.0min, mem_avail=2063MB
+[interaction 164] qav2_0163 [natural-end] [WRONG] 178 words, t+88.4min, mem_avail=2064MB
+[interaction 165] qav2_0164 [natural-end] [CORRECT] 6 words, t+88.5min, mem_avail=2066MB
+[interaction 166] qav2_0165 [STOPPED-EARLY] [CORRECT] 192 words, t+91.8min, mem_avail=2052MB
+[interaction 167] qav2_0166 [natural-end] [CORRECT] 6 words, t+91.8min, mem_avail=2052MB
+[interaction 168] qav2_0167 [natural-end] [CORRECT] 6 words, t+91.9min, mem_avail=2034MB
+[interaction 169] qav2_0168 [STOPPED-EARLY] [CORRECT] 43 words, t+92.3min, mem_avail=2040MB
+[interaction 170] qav2_0169 [STOPPED-EARLY] [WRONG] 131 words, t+93.7min, mem_avail=2052MB
+[interaction 171] qav2_0170 [STOPPED-EARLY] [WRONG] 65 words, t+94.4min, mem_avail=2036MB
+[interaction 172] qav2_0171 [STOPPED-EARLY] [WRONG] 118 words, t+96.2min, mem_avail=2041MB
+[interaction 173] qav2_0172 [STOPPED-EARLY] [WRONG] 46 words, t+96.7min, mem_avail=2025MB
+[interaction 174] qav2_0173 [STOPPED-EARLY] [CORRECT] 92 words, t+97.8min, mem_avail=2028MB
+[interaction 175] qav2_0174 [STOPPED-EARLY] [CORRECT] 123 words, t+99.3min, mem_avail=2029MB
+[interaction 176] qav2_0175 [STOPPED-EARLY] [CORRECT] 121 words, t+101.0min, mem_avail=2016MB
+[interaction 177] qav2_0176 [STOPPED-EARLY] [CORRECT] 52 words, t+101.6min, mem_avail=2020MB
+[interaction 178] qav2_0177 [natural-end] [CORRECT] 9 words, t+101.6min, mem_avail=2012MB
+[interaction 179] qav2_0178 [STOPPED-EARLY] [CORRECT] 248 words, t+105.4min, mem_avail=1978MB
+[interaction 180] qav2_0179 [natural-end] [CORRECT] 6 words, t+105.5min, mem_avail=2015MB
+[interaction 181] qav2_0180 [STOPPED-EARLY] [CORRECT] 117 words, t+106.8min, mem_avail=2007MB
+[interaction 182] qav2_0181 [STOPPED-EARLY] [CORRECT] 101 words, t+108.2min, mem_avail=1995MB
+[interaction 183] qav2_0182 [natural-end] [CORRECT] 6 words, t+108.2min, mem_avail=1991MB
+[interaction 184] qav2_0183 [STOPPED-EARLY] [CORRECT] 188 words, t+111.2min, mem_avail=1991MB
+[interaction 185] qav2_0184 [STOPPED-EARLY] [WRONG] 101 words, t+112.4min, mem_avail=1965MB
+[interaction 186] qav2_0185 [STOPPED-EARLY] [WRONG] 137 words, t+114.4min, mem_avail=1969MB
+[interaction 187] qav2_0186 [STOPPED-EARLY] [WRONG] 70 words, t+115.3min, mem_avail=1960MB
+[interaction 188] qav2_0187 [STOPPED-EARLY] [WRONG] 88 words, t+116.3min, mem_avail=1964MB
+[interaction 189] qav2_0188 [natural-end] [CORRECT] 7 words, t+116.4min, mem_avail=1957MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 190] qav2_0189 [natural-end] [CORRECT] 515 words, t+124.3min, mem_avail=1960MB
+[interaction 191] qav2_0190 [STOPPED-EARLY] [CORRECT] 89 words, t+125.5min, mem_avail=1948MB
+[interaction 192] qav2_0191 [STOPPED-EARLY] [WRONG] 285 words, t+131.8min, mem_avail=1897MB
+[interaction 193] qav2_0192 [natural-end] [CORRECT] 9 words, t+131.8min, mem_avail=1895MB
+[interaction 194] qav2_0193 [natural-end] [CORRECT] 6 words, t+131.9min, mem_avail=1877MB
+[interaction 195] qav2_0194 [natural-end] [CORRECT] 6 words, t+131.9min, mem_avail=1886MB
+[interaction 196] qav2_0195 [STOPPED-EARLY] [CORRECT] 152 words, t+133.9min, mem_avail=1891MB
+[interaction 197] qav2_0196 [STOPPED-EARLY] [CORRECT] 136 words, t+135.7min, mem_avail=1860MB
+[interaction 198] qav2_0197 [STOPPED-EARLY] [CORRECT] 116 words, t+137.5min, mem_avail=1860MB
+[interaction 199] qav2_0198 [natural-end] [CORRECT] 6 words, t+137.5min, mem_avail=1851MB
+[interaction 200] qav2_0199 [STOPPED-EARLY] [WRONG] 86 words, t+138.5min, mem_avail=1853MB
+
+*** Batch of 100 complete. Restart llama-server, then re-run this exact command to continue. ***
+=== Sat  5 Sep 11:54:01 +03 2026: server ready, restart #2, running batch ===
+loaded probe and 1074 questions (will cycle continuously once exhausted)
+resuming: 200 interactions already logged
+[interaction 201] qav2_0200 [STOPPED-EARLY] [CORRECT] 213 words, t+3.0min, mem_avail=3255MB
+[interaction 202] qav2_0201 [STOPPED-EARLY] [CORRECT] 276 words, t+8.2min, mem_avail=2816MB
+[interaction 203] qav2_0202 [natural-end] [CORRECT] 38 words, t+8.4min, mem_avail=2731MB
+[interaction 204] qav2_0203 [STOPPED-EARLY] [WRONG] 170 words, t+10.9min, mem_avail=2741MB
+[interaction 205] qav2_0204 [STOPPED-EARLY] [CORRECT] 191 words, t+14.2min, mem_avail=2629MB
+[interaction 206] qav2_0205 [natural-end] [CORRECT] 6 words, t+14.3min, mem_avail=2562MB
+[interaction 207] qav2_0206 [natural-end] [CORRECT] 192 words, t+16.9min, mem_avail=2562MB
+[interaction 208] qav2_0207 [natural-end] [CORRECT] 23 words, t+17.0min, mem_avail=2524MB
+[interaction 209] qav2_0208 [STOPPED-EARLY] [CORRECT] 131 words, t+18.8min, mem_avail=2513MB
+[interaction 210] qav2_0209 [natural-end] [CORRECT] 6 words, t+18.8min, mem_avail=2504MB
+[interaction 211] qav2_0210 [STOPPED-EARLY] [WRONG] 44 words, t+19.3min, mem_avail=2503MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 212] qav2_0211 [natural-end] [WRONG] 660 words, t+28.6min, mem_avail=2509MB
+[interaction 213] qav2_0212 [natural-end] [WRONG] 174 words, t+30.6min, mem_avail=2348MB
+[interaction 214] qav2_0213 [STOPPED-EARLY] [CORRECT] 157 words, t+33.0min, mem_avail=2309MB
+[interaction 215] qav2_0214 [natural-end] [CORRECT] 9 words, t+33.1min, mem_avail=2286MB
+[interaction 216] qav2_0215 [STOPPED-EARLY] [CORRECT] 47 words, t+33.6min, mem_avail=2286MB
+[interaction 217] qav2_0216 [STOPPED-EARLY] [CORRECT] 159 words, t+36.0min, mem_avail=2288MB
+[interaction 218] qav2_0217 [natural-end] [CORRECT] 12 words, t+36.1min, mem_avail=2244MB
+[interaction 219] qav2_0218 [STOPPED-EARLY] [CORRECT] 119 words, t+37.7min, mem_avail=2261MB
+[interaction 220] qav2_0219 [STOPPED-EARLY] [CORRECT] 273 words, t+42.8min, mem_avail=2249MB
+[interaction 221] qav2_0220 [STOPPED-EARLY] [CORRECT] 134 words, t+44.5min, mem_avail=2228MB
+[interaction 222] qav2_0221 [natural-end] [CORRECT] 8 words, t+44.6min, mem_avail=2225MB
+[interaction 223] qav2_0222 [STOPPED-EARLY] [CORRECT] 169 words, t+46.8min, mem_avail=2228MB
+[interaction 224] qav2_0223 [natural-end] [CORRECT] 8 words, t+46.8min, mem_avail=2212MB
+[interaction 225] qav2_0224 [STOPPED-EARLY] [WRONG] 171 words, t+49.7min, mem_avail=2203MB
+[interaction 226] qav2_0225 [STOPPED-EARLY] [CORRECT] 145 words, t+51.6min, mem_avail=2197MB
+[interaction 227] qav2_0226 [natural-end] [CORRECT] 6 words, t+51.7min, mem_avail=2191MB
+[interaction 228] qav2_0227 [STOPPED-EARLY] [CORRECT] 166 words, t+53.8min, mem_avail=2198MB
+[interaction 229] qav2_0228 [natural-end] [CORRECT] 11 words, t+53.8min, mem_avail=2190MB
+[interaction 230] qav2_0229 [STOPPED-EARLY] [CORRECT] 86 words, t+54.8min, mem_avail=2196MB
+[interaction 231] qav2_0230 [natural-end] [CORRECT] 8 words, t+54.9min, mem_avail=2193MB
+[interaction 232] qav2_0231 [natural-end] [CORRECT] 230 words, t+57.6min, mem_avail=2190MB
+[interaction 233] qav2_0232 [STOPPED-EARLY] [WRONG] 93 words, t+58.8min, mem_avail=2187MB
+[interaction 234] qav2_0233 [natural-end] [CORRECT] 30 words, t+59.0min, mem_avail=2161MB
+[interaction 235] qav2_0234 [natural-end] [CORRECT] 8 words, t+59.0min, mem_avail=2168MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 236] qav2_0235 [natural-end] [CORRECT] 460 words, t+66.5min, mem_avail=2169MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 237] qav2_0236 [natural-end] [CORRECT] 397 words, t+74.3min, mem_avail=2140MB
+[interaction 238] qav2_0237 [natural-end] [CORRECT] 17 words, t+74.6min, mem_avail=2110MB
+[interaction 239] qav2_0238 [STOPPED-EARLY] [CORRECT] 301 words, t+79.8min, mem_avail=2091MB
+[interaction 240] qav2_0239 [natural-end] [CORRECT] 10 words, t+79.9min, mem_avail=2062MB
+[interaction 241] qav2_0240 [natural-end] [CORRECT] 9 words, t+79.9min, mem_avail=2051MB
+[interaction 242] qav2_0241 [STOPPED-EARLY] [CORRECT] 127 words, t+81.6min, mem_avail=2062MB
+[interaction 243] qav2_0242 [natural-end] [CORRECT] 6 words, t+81.7min, mem_avail=2062MB
+[interaction 244] qav2_0243 [natural-end] [CORRECT] 7 words, t+81.7min, mem_avail=2056MB
+[interaction 245] qav2_0244 [STOPPED-EARLY] [WRONG] 105 words, t+83.4min, mem_avail=2058MB
+    [probe call failed: timed out, continuing generation]
+[interaction 246] qav2_0245 [natural-end] [CORRECT] 354 words, t+89.9min, mem_avail=2059MB
+[interaction 247] qav2_0246 [STOPPED-EARLY] [CORRECT] 180 words, t+92.9min, mem_avail=2037MB
+[interaction 248] qav2_0247 [STOPPED-EARLY] [WRONG] 79 words, t+93.7min, mem_avail=2009MB
+[interaction 249] qav2_0248 [STOPPED-EARLY] [WRONG] 63 words, t+94.5min, mem_avail=2006MB
+[interaction 250] qav2_0249 [STOPPED-EARLY] [CORRECT] 133 words, t+96.8min, mem_avail=1996MB
+[interaction 251] qav2_0250 [natural-end] [CORRECT] 10 words, t+96.9min, mem_avail=1989MB
+[interaction 252] qav2_0251 [natural-end] [CORRECT] 9 words, t+96.9min, mem_avail=1980MB
+[interaction 253] qav2_0252 [STOPPED-EARLY] [WRONG] 166 words, t+99.0min, mem_avail=2001MB
+[interaction 254] qav2_0253 [natural-end] [CORRECT] 28 words, t+99.1min, mem_avail=1968MB
+[interaction 255] qav2_0254 [STOPPED-EARLY] [WRONG] 83 words, t+100.1min, mem_avail=1991MB
+[interaction 256] qav2_0255 [natural-end] [CORRECT] 6 words, t+100.2min, mem_avail=1991MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 257] qav2_0256 [natural-end] [CORRECT] 372 words, t+106.4min, mem_avail=1988MB
+[interaction 258] qav2_0257 [STOPPED-EARLY] [CORRECT] 79 words, t+107.5min, mem_avail=1985MB
+[interaction 259] qav2_0258 [natural-end] [CORRECT] 11 words, t+107.6min, mem_avail=1961MB
+[interaction 260] qav2_0259 [STOPPED-EARLY] [CORRECT] 76 words, t+108.7min, mem_avail=1949MB
+[interaction 261] qav2_0260 [STOPPED-EARLY] [CORRECT] 129 words, t+110.6min, mem_avail=1956MB
+[interaction 262] qav2_0261 [natural-end] [CORRECT] 288 words, t+115.3min, mem_avail=1947MB
+[interaction 263] qav2_0262 [STOPPED-EARLY] [CORRECT] 46 words, t+115.8min, mem_avail=1936MB
+[interaction 264] qav2_0263 [STOPPED-EARLY] [WRONG] 76 words, t+116.7min, mem_avail=1924MB
+[interaction 265] qav2_0264 [STOPPED-EARLY] [CORRECT] 145 words, t+119.0min, mem_avail=1921MB
+[interaction 266] qav2_0265 [natural-end] [CORRECT] 12 words, t+119.1min, mem_avail=1909MB
+[interaction 267] qav2_0266 [STOPPED-EARLY] [CORRECT] 136 words, t+121.8min, mem_avail=1902MB
+[interaction 268] qav2_0267 [natural-end] [CORRECT] 10 words, t+121.9min, mem_avail=1856MB
+[interaction 269] qav2_0268 [STOPPED-EARLY] [CORRECT] 99 words, t+124.5min, mem_avail=1862MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+[interaction 270] qav2_0269 [STOPPED-EARLY] [WRONG] 175 words, t+130.5min, mem_avail=1831MB
+[interaction 271] qav2_0270 [natural-end] [CORRECT] 6 words, t+130.6min, mem_avail=1766MB
+[interaction 272] qav2_0271 [STOPPED-EARLY] [CORRECT] 211 words, t+136.0min, mem_avail=1776MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+[interaction 273] qav2_0272 [STOPPED-EARLY] [CORRECT] 211 words, t+144.4min, mem_avail=1742MB
+[interaction 274] qav2_0273 [natural-end] [CORRECT] 6 words, t+144.5min, mem_avail=1732MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 275] qav2_0274 [natural-end] [WRONG] 573 words, t+158.2min, mem_avail=1741MB
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: timed out, continuing generation]
+    [probe call failed: HTTP Error 500: Internal Server Error, continuing generation]
+[interaction 276] qav2_0275 [natural-end] [CORRECT] 439 words, t+168.1min, mem_avail=1712MB
+[interaction 277] qav2_0276 [natural-end] [CORRECT] 6 words, t+168.2min, mem_avail=1714MB
+[interaction 278] qav2_0277 [natural-end] [CORRECT] 9 words, t+168.3min, mem_avail=1675MB
+[interaction 279] qav2_0278 [STOPPED-EARLY] [CORRECT] 65 words, t+168.9min, mem_avail=1686MB
+[interaction 280] qav2_0279 [STOPPED-EARLY] [CORRECT] 145 words, t+171.1min, mem_avail=1699MB
+[interaction 281] qav2_0280 [natural-end] [CORRECT] 6 words, t+171.2min, mem_avail=1691MB
+[interaction 282] qav2_0281 [STOPPED-EARLY] [CORRECT] 204 words, t+173.3min, mem_avail=1694MB
+[interaction 283] qav2_0282 [STOPPED-EARLY] [CORRECT] 154 words, t+175.9min, mem_avail=1679MB
+[interaction 284] qav2_0283 [natural-end] [CORRECT] 8 words, t+176.0min, mem_avail=1677MB
+[interaction 285] qav2_0284 [STOPPED-EARLY] [WRONG] 154 words, t+178.0min, mem_avail=1676MB
+[interaction 286] qav2_0285 [STOPPED-EARLY] [CORRECT] 188 words, t+181.3min, mem_avail=1670MB
+[interaction 287] qav2_0286 [natural-end] [CORRECT] 45 words, t+181.5min, mem_avail=1665MB
+[interaction 288] qav2_0287 [STOPPED-EARLY] [CORRECT] 215 words, t+185.0min, mem_avail=1655MB
+[interaction 289] qav2_0288 [natural-end] [CORRECT] 7 words, t+185.0min, mem_avail=1649MB
+[interaction 290] qav2_0289 [STOPPED-EARLY] [CORRECT] 265 words, t+190.4min, mem_avail=1640MB
+[interaction 291] qav2_0290 [STOPPED-EARLY] [CORRECT] 234 words, t+194.4min, mem_avail=1632MB
+[interaction 292] qav2_0291 [STOPPED-EARLY] [CORRECT] 216 words, t+197.9min, mem_avail=1623MB
+[interaction 293] qav2_0292 [natural-end] [CORRECT] 6 words, t+197.9min, mem_avail=1623MB
+[interaction 294] qav2_0293 [natural-end] [CORRECT] 14 words, t+198.0min, mem_avail=1623MB
+[interaction 295] qav2_0294 [STOPPED-EARLY] [WRONG] 93 words, t+199.0min, mem_avail=1627MB
+[interaction 296] qav2_0295 [natural-end] [CORRECT] 7 words, t+199.1min, mem_avail=1626MB
+[interaction 297] qav2_0296 [STOPPED-EARLY] [CORRECT] 269 words, t+204.0min, mem_avail=1632MB
+[interaction 298] qav2_0297 [STOPPED-EARLY] [CORRECT] 117 words, t+205.6min, mem_avail=1631MB
+[interaction 299] qav2_0298 [natural-end] [CORRECT] 10 words, t+205.7min, mem_avail=1626MB
+[interaction 300] qav2_0299 [STOPPED-EARLY] [WRONG] 93 words, t+206.9min, mem_avail=1623MB
+
+*** Batch of 100 complete. Restart llama-server, then re-run this exact command to continue. ***
+=== Sat  5 Sep 15:21:04 +03 2026: server ready, restart #3, running batch ===

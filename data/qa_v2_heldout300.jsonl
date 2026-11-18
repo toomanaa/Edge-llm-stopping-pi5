@@ -1,0 +1,299 @@
+{"question": "How many minutes are in an hour?", "answers": ["60", "sixty"], "match_mode": "any", "type": "factual", "id": "qav2_1030"}
+{"question": "Can you explain what causes touchscreens responding to fingers?", "answers": ["capacitive", "electric"], "match_mode": "all", "type": "explain", "id": "qav2_0120"}
+{"question": "At what temperature does water freeze in Celsius?", "answers": ["0"], "match_mode": "any", "type": "factual", "id": "qav2_0569"}
+{"question": "What is the unit of electrical resistance?", "answers": ["ohm"], "match_mode": "any", "type": "factual", "id": "qav2_0439"}
+{"question": "What city is the capital of Sri Lanka?", "answers": ["colombo"], "match_mode": "any", "type": "factual", "id": "qav2_0789"}
+{"question": "Who wrote Wuthering Heights?", "answers": ["emily bronte", "bronte"], "match_mode": "any", "type": "factual", "id": "qav2_0588"}
+{"question": "What causes helium makes your voice sound funny?", "answers": ["density", "sound"], "match_mode": "all", "type": "explain", "id": "qav2_0335"}
+{"question": "Can you explain what causes coral reefs being colorful?", "answers": ["algae", "symbiosis"], "match_mode": "all", "type": "explain", "id": "qav2_0741"}
+{"question": "What is the capital of Colombia?", "answers": ["bogota", "bogot\u00e1"], "match_mode": "any", "type": "factual", "id": "qav2_0378"}
+{"question": "What year was the first iPhone released?", "answers": ["2007"], "match_mode": "any", "type": "factual", "id": "qav2_0233"}
+{"question": "What galaxy do we live in?", "answers": ["milky way"], "match_mode": "any", "type": "factual", "id": "qav2_0537"}
+{"question": "What is the reason behind radio waves can carry sound?", "answers": ["frequency", "signal"], "match_mode": "all", "type": "explain", "id": "qav2_0463"}
+{"question": "What organ pumps blood through the body?", "answers": ["heart"], "match_mode": "any", "type": "factual", "id": "qav2_0793"}
+{"question": "Who wrote The Picture of Dorian Gray?", "answers": ["oscar wilde", "wilde"], "match_mode": "any", "type": "factual", "id": "qav2_0116"}
+{"question": "Do you know the capital city of Bulgaria?", "answers": ["sofia"], "match_mode": "any", "type": "factual", "id": "qav2_0811"}
+{"question": "Can you explain what causes sound traveling faster in water than air?", "answers": ["density", "medium"], "match_mode": "all", "type": "explain", "id": "qav2_0786"}
+{"question": "What causes bamboo grows so fast?", "answers": ["cells", "growth"], "match_mode": "all", "type": "explain", "id": "qav2_0968"}
+{"question": "Explain how trees lose their leaves in winter works.", "answers": ["energy", "cold"], "match_mode": "all", "type": "explain", "id": "qav2_0396"}
+{"question": "What is the reason behind electric cars needing large batteries?", "answers": ["energy", "storage"], "match_mode": "all", "type": "explain", "id": "qav2_0564"}
+{"question": "Do you know the capital city of New Zealand?", "answers": ["wellington"], "match_mode": "any", "type": "factual", "id": "qav2_0702"}
+{"question": "What is the capital of Ghana?", "answers": ["accra"], "match_mode": "any", "type": "factual", "id": "qav2_0523"}
+{"question": "Can you explain what causes some people are left-handed?", "answers": ["brain", "genetics"], "match_mode": "all", "type": "explain", "id": "qav2_0876"}
+{"question": "Can you explain what causes recycling helping the environment?", "answers": ["waste", "resources"], "match_mode": "all", "type": "explain", "id": "qav2_1006"}
+{"question": "Can you explain what causes ice floating on water?", "answers": ["density", "expand"], "match_mode": "all", "type": "explain", "id": "qav2_0646"}
+{"question": "What is the reason behind earthquakes happening?", "answers": ["plates", "fault"], "match_mode": "all", "type": "explain", "id": "qav2_0948"}
+{"question": "What is the center of an atom called?", "answers": ["nucleus"], "match_mode": "any", "type": "factual", "id": "qav2_0251"}
+{"question": "What causes onions make you cry?", "answers": ["enzyme", "gas"], "match_mode": "all", "type": "explain", "id": "qav2_0337"}
+{"question": "Who wrote The Alchemist?", "answers": ["paulo coelho", "coelho"], "match_mode": "any", "type": "factual", "id": "qav2_0740"}
+{"question": "What city is the capital of Bulgaria?", "answers": ["sofia"], "match_mode": "any", "type": "factual", "id": "qav2_0512"}
+{"question": "What is the reason behind bamboo grows so fast?", "answers": ["cells", "growth"], "match_mode": "all", "type": "explain", "id": "qav2_0840"}
+{"question": "Can you explain what causes birds can fly?", "answers": ["wings", "bones"], "match_mode": "all", "type": "explain", "id": "qav2_0798"}
+{"question": "What city is the capital of Vietnam?", "answers": ["hanoi"], "match_mode": "any", "type": "factual", "id": "qav2_0466"}
+{"question": "Explain how magnets attracting metal works.", "answers": ["magnetic field", "poles"], "match_mode": "all", "type": "explain", "id": "qav2_0455"}
+{"question": "Who wrote The Great Gatsby?", "answers": ["fitzgerald"], "match_mode": "any", "type": "factual", "id": "qav2_0153"}
+{"question": "What is the capital of Argentina?", "answers": ["buenos aires"], "match_mode": "any", "type": "factual", "id": "qav2_0288"}
+{"question": "Can you explain what causes black holes existing?", "answers": ["gravity", "mass"], "match_mode": "all", "type": "explain", "id": "qav2_0316"}
+{"question": "Do you know the capital city of Nepal?", "answers": ["kathmandu"], "match_mode": "any", "type": "factual", "id": "qav2_0490"}
+{"question": "What is the reason behind snow forming?", "answers": ["ice crystals", "temperature"], "match_mode": "all", "type": "explain", "id": "qav2_0563"}
+{"question": "What causes inflation making prices rise?", "answers": ["money supply", "demand"], "match_mode": "all", "type": "explain", "id": "qav2_0543"}
+{"question": "Explain how the ocean being salty works.", "answers": ["minerals", "rivers"], "match_mode": "all", "type": "explain", "id": "qav2_0635"}
+{"question": "What causes muscles getting sore after exercise?", "answers": ["lactic acid", "fiber"], "match_mode": "all", "type": "explain", "id": "qav2_0562"}
+{"question": "Explain how a compass points north works.", "answers": ["magnetic field", "poles"], "match_mode": "all", "type": "explain", "id": "qav2_0350"}
+{"question": "Who was the president of the US during the Civil War?", "answers": ["lincoln", "abraham lincoln"], "match_mode": "any", "type": "factual", "id": "qav2_0843"}
+{"question": "What causes some foods spoil faster than others?", "answers": ["moisture", "bacteria"], "match_mode": "all", "type": "explain", "id": "qav2_0461"}
+{"question": "Do you know the capital city of Tunisia?", "answers": ["tunis"], "match_mode": "any", "type": "factual", "id": "qav2_0540"}
+{"question": "What city is the capital of Thailand?", "answers": ["bangkok"], "match_mode": "any", "type": "factual", "id": "qav2_0767"}
+{"question": "Explain how people getting sunburned works.", "answers": ["uv", "skin"], "match_mode": "all", "type": "explain", "id": "qav2_0401"}
+{"question": "Who wrote Hamlet?", "answers": ["shakespeare"], "match_mode": "any", "type": "factual", "id": "qav2_0875"}
+{"question": "What city is the capital of Nepal?", "answers": ["kathmandu"], "match_mode": "any", "type": "factual", "id": "qav2_0453"}
+{"question": "Can you explain what causes wifi signals getting weaker with distance?", "answers": ["signal", "interference"], "match_mode": "all", "type": "explain", "id": "qav2_0145"}
+{"question": "What is the capital of France?", "answers": ["paris"], "match_mode": "any", "type": "factual", "id": "qav2_0914"}
+{"question": "What city is the capital of Jordan?", "answers": ["amman"], "match_mode": "any", "type": "factual", "id": "qav2_0966"}
+{"question": "Explain how some people are left-handed works.", "answers": ["brain", "genetics"], "match_mode": "all", "type": "explain", "id": "qav2_0783"}
+{"question": "What causes chocolate melts in your mouth?", "answers": ["fat", "temperature"], "match_mode": "all", "type": "explain", "id": "qav2_0794"}
+{"question": "What is the reason behind coral reefs being colorful?", "answers": ["algae", "symbiosis"], "match_mode": "all", "type": "explain", "id": "qav2_0648"}
+{"question": "What is the reason behind volcanoes erupting?", "answers": ["magma", "pressure"], "match_mode": "all", "type": "explain", "id": "qav2_0260"}
+{"question": "Can you explain what causes the Industrial Revolution happened?", "answers": ["machines", "factories"], "match_mode": "all", "type": "explain", "id": "qav2_0127"}
+{"question": "Can you explain what causes plants needing sunlight?", "answers": ["photosynthesis", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0961"}
+{"question": "Explain how cooking meat changes its color works.", "answers": ["protein", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0475"}
+{"question": "What is the reason behind dogs have a strong sense of smell?", "answers": ["nose", "receptors"], "match_mode": "all", "type": "explain", "id": "qav2_0184"}
+{"question": "Explain how milk turning sour works.", "answers": ["bacteria", "spoil"], "match_mode": "all", "type": "explain", "id": "qav2_0724"}
+{"question": "What animal is known for changing its skin color?", "answers": ["chameleon"], "match_mode": "any", "type": "factual", "id": "qav2_0141"}
+{"question": "What causes the Great Wall of China was built?", "answers": ["defense", "border"], "match_mode": "all", "type": "explain", "id": "qav2_0613"}
+{"question": "Explain how 3D printers building objects layer by layer works.", "answers": ["material", "layer"], "match_mode": "all", "type": "explain", "id": "qav2_0370"}
+{"question": "What is the reason behind nuclear power plants generating energy?", "answers": ["reaction", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0486"}
+{"question": "What causes radio waves can carry sound?", "answers": ["frequency", "signal"], "match_mode": "all", "type": "explain", "id": "qav2_1036"}
+{"question": "What programming language is named after a snake?", "answers": ["python"], "match_mode": "any", "type": "factual", "id": "qav2_0546"}
+{"question": "What is the capital of Bulgaria?", "answers": ["sofia"], "match_mode": "any", "type": "factual", "id": "qav2_0446"}
+{"question": "Do you know the capital city of Russia?", "answers": ["moscow"], "match_mode": "any", "type": "factual", "id": "qav2_0410"}
+{"question": "What is the capital of Lebanon?", "answers": ["beirut"], "match_mode": "any", "type": "factual", "id": "qav2_0625"}
+{"question": "What is the capital of Italy?", "answers": ["rome"], "match_mode": "any", "type": "factual", "id": "qav2_0349"}
+{"question": "What causes some animals are venomous?", "answers": ["toxin", "defense"], "match_mode": "all", "type": "explain", "id": "qav2_0624"}
+{"question": "What causes earthquakes happening?", "answers": ["plates", "fault"], "match_mode": "all", "type": "explain", "id": "qav2_0891"}
+{"question": "What causes deserts get cold at night?", "answers": ["humidity", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0105"}
+{"question": "What is the reason behind glass being transparent?", "answers": ["structure", "light"], "match_mode": "all", "type": "explain", "id": "qav2_0263"}
+{"question": "What is the reason behind hot air balloons rising?", "answers": ["density", "air"], "match_mode": "all", "type": "explain", "id": "qav2_1005"}
+{"question": "What city is the capital of Austria?", "answers": ["vienna"], "match_mode": "any", "type": "factual", "id": "qav2_0167"}
+{"question": "What is the reason behind bridges being built with trusses?", "answers": ["structure", "support"], "match_mode": "all", "type": "explain", "id": "qav2_0338"}
+{"question": "What is the largest bird in the world?", "answers": ["ostrich"], "match_mode": "any", "type": "factual", "id": "qav2_0916"}
+{"question": "What city is the capital of South Korea?", "answers": ["seoul"], "match_mode": "any", "type": "factual", "id": "qav2_0910"}
+{"question": "What is the reason behind some metals conduct electricity better than others?", "answers": ["electrons", "structure"], "match_mode": "all", "type": "explain", "id": "qav2_0690"}
+{"question": "What is the capital of Finland?", "answers": ["helsinki"], "match_mode": "any", "type": "factual", "id": "qav2_0548"}
+{"question": "Can you explain what causes fasting affecting the body?", "answers": ["metabolism", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0443"}
+{"question": "What is the reason behind ancient Egyptians built pyramids?", "answers": ["labor", "stone"], "match_mode": "all", "type": "explain", "id": "qav2_0727"}
+{"question": "Can you explain what causes fish can breathe underwater?", "answers": ["gills", "oxygen"], "match_mode": "all", "type": "explain", "id": "qav2_0481"}
+{"question": "What is the reason behind accents developing in different regions?", "answers": ["isolation", "pronunciation"], "match_mode": "all", "type": "explain", "id": "qav2_0180"}
+{"question": "What US state is known as the Golden State?", "answers": ["california"], "match_mode": "any", "type": "factual", "id": "qav2_0631"}
+{"question": "What is the reason behind wind turbines generating electricity?", "answers": ["wind", "generator"], "match_mode": "all", "type": "explain", "id": "qav2_0402"}
+{"question": "Explain how diamonds are so hard works.", "answers": ["carbon", "structure"], "match_mode": "all", "type": "explain", "id": "qav2_0181"}
+{"question": "Explain how ice floating on water works.", "answers": ["density", "expand"], "match_mode": "all", "type": "explain", "id": "qav2_0186"}
+{"question": "What causes music can make people feel emotions?", "answers": ["brain", "rhythm"], "match_mode": "all", "type": "explain", "id": "qav2_0882"}
+{"question": "What is the reason behind birds can fly?", "answers": ["wings", "bones"], "match_mode": "all", "type": "explain", "id": "qav2_0626"}
+{"question": "What city is the capital of Malaysia?", "answers": ["kuala lumpur"], "match_mode": "any", "type": "factual", "id": "qav2_0864"}
+{"question": "What city is the capital of Turkey?", "answers": ["ankara"], "match_mode": "any", "type": "factual", "id": "qav2_0280"}
+{"question": "What canal connects the Mediterranean and Red seas?", "answers": ["suez", "suez canal"], "match_mode": "any", "type": "factual", "id": "qav2_0972"}
+{"question": "How many keys does a standard piano have?", "answers": ["88"], "match_mode": "any", "type": "factual", "id": "qav2_0654"}
+{"question": "What is the capital of Algeria?", "answers": ["algiers"], "match_mode": "any", "type": "factual", "id": "qav2_0382"}
+{"question": "Can you explain what causes muscles getting sore after exercise?", "answers": ["lactic acid", "fiber"], "match_mode": "all", "type": "explain", "id": "qav2_0471"}
+{"question": "Explain how babies are born unable to walk works.", "answers": ["muscles", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_0863"}
+{"question": "What causes plants needing sunlight?", "answers": ["photosynthesis", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0886"}
+{"question": "What city is the capital of Venezuela?", "answers": ["caracas"], "match_mode": "any", "type": "factual", "id": "qav2_0301"}
+{"question": "Explain how deserts get cold at night works.", "answers": ["humidity", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0399"}
+{"question": "Can you explain what causes the equator is hotter than the poles?", "answers": ["sunlight", "angle"], "match_mode": "all", "type": "explain", "id": "qav2_1049"}
+{"question": "What causes accents developing in different regions?", "answers": ["isolation", "pronunciation"], "match_mode": "all", "type": "explain", "id": "qav2_0921"}
+{"question": "What city is the capital of Saudi Arabia?", "answers": ["riyadh"], "match_mode": "any", "type": "factual", "id": "qav2_0140"}
+{"question": "Explain how wounds forming scabs works.", "answers": ["clotting", "platelets"], "match_mode": "all", "type": "explain", "id": "qav2_0758"}
+{"question": "Do you know the capital city of Uzbekistan?", "answers": ["tashkent"], "match_mode": "any", "type": "factual", "id": "qav2_0906"}
+{"question": "What city is the capital of Sudan?", "answers": ["khartoum"], "match_mode": "any", "type": "factual", "id": "qav2_0815"}
+{"question": "Can you explain what causes fevers happening?", "answers": ["immune", "infection"], "match_mode": "all", "type": "explain", "id": "qav2_0990"}
+{"question": "Who wrote To Kill a Mockingbird?", "answers": ["harper lee"], "match_mode": "any", "type": "factual", "id": "qav2_0434"}
+{"question": "Explain how deserts being dry works.", "answers": ["rainfall", "climate"], "match_mode": "all", "type": "explain", "id": "qav2_0518"}
+{"question": "Who wrote Fahrenheit 451?", "answers": ["ray bradbury", "bradbury"], "match_mode": "any", "type": "factual", "id": "qav2_0572"}
+{"question": "Can you explain what causes chocolate melts in your mouth?", "answers": ["fat", "temperature"], "match_mode": "all", "type": "explain", "id": "qav2_0941"}
+{"question": "What is the reason behind some foods spoil faster than others?", "answers": ["moisture", "bacteria"], "match_mode": "all", "type": "explain", "id": "qav2_0432"}
+{"question": "What city is the capital of Mexico?", "answers": ["mexico city"], "match_mode": "any", "type": "factual", "id": "qav2_1072"}
+{"question": "What does HTML stand for?", "answers": ["hypertext markup language"], "match_mode": "any", "type": "factual", "id": "qav2_0711"}
+{"question": "Can you explain what causes dry ice creates fog?", "answers": ["carbon dioxide", "sublimation"], "match_mode": "all", "type": "explain", "id": "qav2_0417"}
+{"question": "Can you explain what causes the Roman Empire fell?", "answers": ["invasion", "economy"], "match_mode": "all", "type": "explain", "id": "qav2_0915"}
+{"question": "Can you explain what causes freezing food preserves it?", "answers": ["bacteria", "temperature"], "match_mode": "all", "type": "explain", "id": "qav2_0369"}
+{"question": "Explain how bread rising when baked works.", "answers": ["yeast", "gas"], "match_mode": "all", "type": "explain", "id": "qav2_0404"}
+{"question": "Explain how leap years existing works.", "answers": ["orbit", "calendar"], "match_mode": "all", "type": "explain", "id": "qav2_0126"}
+{"question": "Explain how languages evolving over time works.", "answers": ["usage", "generations"], "match_mode": "all", "type": "explain", "id": "qav2_0592"}
+{"question": "What is the chemical symbol for iron?", "answers": ["fe"], "match_mode": "any", "type": "factual", "id": "qav2_0680"}
+{"question": "What causes the printing press changed history?", "answers": ["books", "literacy"], "match_mode": "all", "type": "explain", "id": "qav2_0498"}
+{"question": "Explain how people get hiccups works.", "answers": ["diaphragm", "nerve"], "match_mode": "all", "type": "explain", "id": "qav2_0534"}
+{"question": "What is the largest country by area?", "answers": ["russia"], "match_mode": "any", "type": "factual", "id": "qav2_0743"}
+{"question": "What is the reason behind airplanes staying in the air?", "answers": ["lift", "wing"], "match_mode": "all", "type": "explain", "id": "qav2_0356"}
+{"question": "Who wrote Anna Karenina?", "answers": ["tolstoy"], "match_mode": "any", "type": "factual", "id": "qav2_1066"}
+{"question": "What city is the capital of Ecuador?", "answers": ["quito"], "match_mode": "any", "type": "factual", "id": "qav2_0640"}
+{"question": "Do you know the capital city of Thailand?", "answers": ["bangkok"], "match_mode": "any", "type": "factual", "id": "qav2_0557"}
+{"question": "What is the longest wall in the world?", "answers": ["great wall", "great wall of china"], "match_mode": "any", "type": "factual", "id": "qav2_1002"}
+{"question": "At what temperature does water boil at sea level in Celsius?", "answers": ["100"], "match_mode": "any", "type": "factual", "id": "qav2_0277"}
+{"question": "What is the capital of Vietnam?", "answers": ["hanoi"], "match_mode": "any", "type": "factual", "id": "qav2_1016"}
+{"question": "Do you know the capital city of Qatar?", "answers": ["doha"], "match_mode": "any", "type": "factual", "id": "qav2_0784"}
+{"question": "What causes stress affecting the body?", "answers": ["cortisol", "hormone"], "match_mode": "all", "type": "explain", "id": "qav2_0532"}
+{"question": "Explain how microwaves heat food works.", "answers": ["radiation", "molecules"], "match_mode": "all", "type": "explain", "id": "qav2_0297"}
+{"question": "Do you know the capital city of Cuba?", "answers": ["havana"], "match_mode": "any", "type": "factual", "id": "qav2_0162"}
+{"question": "Can you explain what causes anesthesia makes you unconscious?", "answers": ["nervous system", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_0357"}
+{"question": "Do you know the capital city of Algeria?", "answers": ["algiers"], "match_mode": "any", "type": "factual", "id": "qav2_0989"}
+{"question": "Can you explain what causes mushrooms grow overnight?", "answers": ["spores", "moisture"], "match_mode": "all", "type": "explain", "id": "qav2_0877"}
+{"question": "Explain how the ozone layer protecting Earth works.", "answers": ["ozone", "uv"], "match_mode": "all", "type": "explain", "id": "qav2_0149"}
+{"question": "Do you know the capital city of France?", "answers": ["paris"], "match_mode": "any", "type": "factual", "id": "qav2_0421"}
+{"question": "Explain how batteries losing charge over time works.", "answers": ["chemical", "reaction"], "match_mode": "all", "type": "explain", "id": "qav2_0656"}
+{"question": "Do you know the capital city of South Korea?", "answers": ["seoul"], "match_mode": "any", "type": "factual", "id": "qav2_0780"}
+{"question": "Who wrote A Tale of Two Cities?", "answers": ["dickens"], "match_mode": "any", "type": "factual", "id": "qav2_0298"}
+{"question": "What river flows through Paris?", "answers": ["seine"], "match_mode": "any", "type": "factual", "id": "qav2_0164"}
+{"question": "What is the atomic number of hydrogen?", "answers": ["1", "one"], "match_mode": "any", "type": "factual", "id": "qav2_0336"}
+{"question": "What natural satellite orbits the Earth?", "answers": ["the moon", "moon"], "match_mode": "any", "type": "factual", "id": "qav2_0998"}
+{"question": "What is the freezing point of water in Fahrenheit?", "answers": ["32"], "match_mode": "any", "type": "factual", "id": "qav2_1034"}
+{"question": "What is the largest ocean on Earth?", "answers": ["pacific"], "match_mode": "any", "type": "factual", "id": "qav2_0325"}
+{"question": "What is the capital of Zimbabwe?", "answers": ["harare"], "match_mode": "any", "type": "factual", "id": "qav2_0719"}
+{"question": "What is the capital of Belgium?", "answers": ["brussels"], "match_mode": "any", "type": "factual", "id": "qav2_0795"}
+{"question": "Do you know the capital city of Oman?", "answers": ["muscat"], "match_mode": "any", "type": "factual", "id": "qav2_0942"}
+{"question": "Can you explain what causes seeds need water to germinate?", "answers": ["water", "enzyme"], "match_mode": "all", "type": "explain", "id": "qav2_0330"}
+{"question": "Explain how black holes existing works.", "answers": ["gravity", "mass"], "match_mode": "all", "type": "explain", "id": "qav2_0142"}
+{"question": "What company was founded by Steve Jobs and Steve Wozniak?", "answers": ["apple"], "match_mode": "any", "type": "factual", "id": "qav2_0559"}
+{"question": "Can you explain what causes the printing press changed history?", "answers": ["books", "literacy"], "match_mode": "all", "type": "explain", "id": "qav2_0597"}
+{"question": "What city is the capital of Kuwait?", "answers": ["kuwait city"], "match_mode": "any", "type": "factual", "id": "qav2_0412"}
+{"question": "What causes fish can breathe underwater?", "answers": ["gills", "oxygen"], "match_mode": "all", "type": "explain", "id": "qav2_0664"}
+{"question": "What is the reason behind astronauts float in space?", "answers": ["gravity", "orbit"], "match_mode": "all", "type": "explain", "id": "qav2_0932"}
+{"question": "Explain how the Great Wall of China was built works.", "answers": ["defense", "border"], "match_mode": "all", "type": "explain", "id": "qav2_0247"}
+{"question": "What is the chemical symbol for silver?", "answers": ["ag"], "match_mode": "any", "type": "factual", "id": "qav2_0365"}
+{"question": "Explain how yawning being contagious works.", "answers": ["brain", "empathy"], "match_mode": "all", "type": "explain", "id": "qav2_0538"}
+{"question": "What city is the capital of Denmark?", "answers": ["copenhagen"], "match_mode": "any", "type": "factual", "id": "qav2_0375"}
+{"question": "Explain how fruit ripening works.", "answers": ["ethylene", "enzyme"], "match_mode": "all", "type": "explain", "id": "qav2_1044"}
+{"question": "What is the capital of Denmark?", "answers": ["copenhagen"], "match_mode": "any", "type": "factual", "id": "qav2_0101"}
+{"question": "Can you explain what causes some foods spoil faster than others?", "answers": ["moisture", "bacteria"], "match_mode": "all", "type": "explain", "id": "qav2_0524"}
+{"question": "Do you know the capital city of Uganda?", "answers": ["kampala"], "match_mode": "any", "type": "factual", "id": "qav2_0868"}
+{"question": "What is the capital of Hungary?", "answers": ["budapest"], "match_mode": "any", "type": "factual", "id": "qav2_0194"}
+{"question": "Can you explain what causes some countries driving on the left?", "answers": ["history", "tradition"], "match_mode": "all", "type": "explain", "id": "qav2_0134"}
+{"question": "What causes recycling helping the environment?", "answers": ["waste", "resources"], "match_mode": "all", "type": "explain", "id": "qav2_0423"}
+{"question": "What causes the calendar having 12 months?", "answers": ["moon", "cycle"], "match_mode": "all", "type": "explain", "id": "qav2_0419"}
+{"question": "What city is the capital of Russia?", "answers": ["moscow"], "match_mode": "any", "type": "factual", "id": "qav2_0927"}
+{"question": "What city is the capital of Nigeria?", "answers": ["abuja"], "match_mode": "any", "type": "factual", "id": "qav2_0431"}
+{"question": "What is the chemical symbol for helium?", "answers": ["he"], "match_mode": "any", "type": "factual", "id": "qav2_0188"}
+{"question": "What is the national animal of China?", "answers": ["panda", "giant panda"], "match_mode": "any", "type": "factual", "id": "qav2_0576"}
+{"question": "What is the capital of Morocco?", "answers": ["rabat"], "match_mode": "any", "type": "factual", "id": "qav2_0857"}
+{"question": "Can you explain what causes cooking meat changes its color?", "answers": ["protein", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0593"}
+{"question": "What city is the capital of Poland?", "answers": ["warsaw"], "match_mode": "any", "type": "factual", "id": "qav2_0952"}
+{"question": "What is the reason behind muscles getting sore after exercise?", "answers": ["lactic acid", "fiber"], "match_mode": "all", "type": "explain", "id": "qav2_0578"}
+{"question": "What is the reason behind babies are born unable to walk?", "answers": ["muscles", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_1024"}
+{"question": "What city is the capital of Portugal?", "answers": ["lisbon"], "match_mode": "any", "type": "factual", "id": "qav2_0860"}
+{"question": "Explain how blood types are different between people works.", "answers": ["antigens", "genetics"], "match_mode": "all", "type": "explain", "id": "qav2_0185"}
+{"question": "What causes day and night?", "answers": ["rotation", "earth"], "match_mode": "all", "type": "explain", "id": "qav2_0823"}
+{"question": "What city is the capital of Uganda?", "answers": ["kampala"], "match_mode": "any", "type": "factual", "id": "qav2_0242"}
+{"question": "Can you explain what causes the Great Depression happened?", "answers": ["stock market", "banks"], "match_mode": "all", "type": "explain", "id": "qav2_0995"}
+{"question": "Can you explain what causes vaccines working?", "answers": ["immune system", "antibodies"], "match_mode": "all", "type": "explain", "id": "qav2_0278"}
+{"question": "Explain how the Roman Empire fell works.", "answers": ["invasion", "economy"], "match_mode": "all", "type": "explain", "id": "qav2_0826"}
+{"question": "Do you know the capital city of Yemen?", "answers": ["sanaa"], "match_mode": "any", "type": "factual", "id": "qav2_0530"}
+{"question": "What city is the capital of Iraq?", "answers": ["baghdad"], "match_mode": "any", "type": "factual", "id": "qav2_0739"}
+{"question": "What is the reason behind lasers can cut materials?", "answers": ["light", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0929"}
+{"question": "Explain how radio waves can carry sound works.", "answers": ["frequency", "signal"], "match_mode": "all", "type": "explain", "id": "qav2_0360"}
+{"question": "What causes microwaves heat food?", "answers": ["radiation", "molecules"], "match_mode": "all", "type": "explain", "id": "qav2_0634"}
+{"question": "What causes people getting goosebumps?", "answers": ["muscle", "hair"], "match_mode": "all", "type": "explain", "id": "qav2_0520"}
+{"question": "Explain how chocolate melts in your mouth works.", "answers": ["fat", "temperature"], "match_mode": "all", "type": "explain", "id": "qav2_0433"}
+{"question": "Explain how bruises change color as they heal works.", "answers": ["blood", "hemoglobin"], "match_mode": "all", "type": "explain", "id": "qav2_0256"}
+{"question": "Explain how spicy food feels hot works.", "answers": ["capsaicin", "receptors"], "match_mode": "all", "type": "explain", "id": "qav2_0800"}
+{"question": "Can you explain what causes 3D printers building objects layer by layer?", "answers": ["material", "layer"], "match_mode": "all", "type": "explain", "id": "qav2_0118"}
+{"question": "What causes glaciers moving?", "answers": ["gravity", "ice"], "match_mode": "all", "type": "explain", "id": "qav2_0174"}
+{"question": "How many days are in a leap year?", "answers": ["366"], "match_mode": "any", "type": "factual", "id": "qav2_0138"}
+{"question": "What city is the capital of Argentina?", "answers": ["buenos aires"], "match_mode": "any", "type": "factual", "id": "qav2_0295"}
+{"question": "What is the reason behind solar panels generating electricity?", "answers": ["sunlight", "cells"], "match_mode": "all", "type": "explain", "id": "qav2_0426"}
+{"question": "Can you explain what causes echoes happening?", "answers": ["sound wave", "reflection"], "match_mode": "all", "type": "explain", "id": "qav2_0121"}
+{"question": "What causes bruises change color as they heal?", "answers": ["blood", "hemoglobin"], "match_mode": "all", "type": "explain", "id": "qav2_0125"}
+{"question": "What city is the capital of Syria?", "answers": ["damascus"], "match_mode": "any", "type": "factual", "id": "qav2_1041"}
+{"question": "Can you explain what causes hurricanes form over oceans?", "answers": ["warm water", "pressure"], "match_mode": "all", "type": "explain", "id": "qav2_0602"}
+{"question": "What is the reason behind yawning being contagious?", "answers": ["brain", "empathy"], "match_mode": "all", "type": "explain", "id": "qav2_0938"}
+{"question": "What city is the capital of Finland?", "answers": ["helsinki"], "match_mode": "any", "type": "factual", "id": "qav2_0792"}
+{"question": "What is the reason behind the Roman Empire fell?", "answers": ["invasion", "economy"], "match_mode": "all", "type": "explain", "id": "qav2_0848"}
+{"question": "Can you explain what causes some medicines need to be taken with food?", "answers": ["absorption", "stomach"], "match_mode": "all", "type": "explain", "id": "qav2_0627"}
+{"question": "What is the reason behind spiders can walk on walls?", "answers": ["hair", "adhesion"], "match_mode": "all", "type": "explain", "id": "qav2_0392"}
+{"question": "What is the capital of Uruguay?", "answers": ["montevideo"], "match_mode": "any", "type": "factual", "id": "qav2_0302"}
+{"question": "What is the reason behind coffee tastes bitter?", "answers": ["compounds", "roast"], "match_mode": "all", "type": "explain", "id": "qav2_0345"}
+{"question": "What city is the capital of Australia?", "answers": ["canberra"], "match_mode": "any", "type": "factual", "id": "qav2_0389"}
+{"question": "Do you know the capital city of Syria?", "answers": ["damascus"], "match_mode": "any", "type": "factual", "id": "qav2_0458"}
+{"question": "Explain how the printing press changed history works.", "answers": ["books", "literacy"], "match_mode": "all", "type": "explain", "id": "qav2_0601"}
+{"question": "What causes some countries driving on the left?", "answers": ["history", "tradition"], "match_mode": "all", "type": "explain", "id": "qav2_0147"}
+{"question": "What causes coral reefs being colorful?", "answers": ["algae", "symbiosis"], "match_mode": "all", "type": "explain", "id": "qav2_0232"}
+{"question": "What is the largest organ of the human body?", "answers": ["skin"], "match_mode": "any", "type": "factual", "id": "qav2_1040"}
+{"question": "What space agency put the first man on the moon?", "answers": ["nasa"], "match_mode": "any", "type": "factual", "id": "qav2_0500"}
+{"question": "Can you explain what causes people getting goosebumps?", "answers": ["muscle", "hair"], "match_mode": "all", "type": "explain", "id": "qav2_0160"}
+{"question": "What is the capital of Ukraine?", "answers": ["kyiv"], "match_mode": "any", "type": "factual", "id": "qav2_1071"}
+{"question": "In what city is the Eiffel Tower located?", "answers": ["paris"], "match_mode": "any", "type": "factual", "id": "qav2_0320"}
+{"question": "Can you explain what causes some metals conduct electricity better than others?", "answers": ["electrons", "structure"], "match_mode": "all", "type": "explain", "id": "qav2_1073"}
+{"question": "What is the capital of Sudan?", "answers": ["khartoum"], "match_mode": "any", "type": "factual", "id": "qav2_0139"}
+{"question": "What is the capital of Mexico?", "answers": ["mexico city"], "match_mode": "any", "type": "factual", "id": "qav2_0331"}
+{"question": "What is the capital of Oman?", "answers": ["muscat"], "match_mode": "any", "type": "factual", "id": "qav2_0150"}
+{"question": "What causes addiction being hard to overcome?", "answers": ["dopamine", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_1007"}
+{"question": "What causes glass being transparent?", "answers": ["structure", "light"], "match_mode": "all", "type": "explain", "id": "qav2_0248"}
+{"question": "Do you know the capital city of Myanmar?", "answers": ["naypyidaw"], "match_mode": "any", "type": "factual", "id": "qav2_0623"}
+{"question": "What is a baby kangaroo called?", "answers": ["joey"], "match_mode": "any", "type": "factual", "id": "qav2_0124"}
+{"question": "Explain how wifi signals getting weaker with distance works.", "answers": ["signal", "interference"], "match_mode": "all", "type": "explain", "id": "qav2_0665"}
+{"question": "Explain how the calendar having 12 months works.", "answers": ["moon", "cycle"], "match_mode": "all", "type": "explain", "id": "qav2_0829"}
+{"question": "What is the capital of the United States?", "answers": ["washington", "washington d.c."], "match_mode": "any", "type": "factual", "id": "qav2_0427"}
+{"question": "Explain how electric cars needing large batteries works.", "answers": ["energy", "storage"], "match_mode": "all", "type": "explain", "id": "qav2_0119"}
+{"question": "What is the reason behind stock prices going up and down?", "answers": ["buyers", "sellers"], "match_mode": "all", "type": "explain", "id": "qav2_0745"}
+{"question": "Who wrote The Iliad?", "answers": ["homer"], "match_mode": "any", "type": "factual", "id": "qav2_0858"}
+{"question": "What city is the capital of Tunisia?", "answers": ["tunis"], "match_mode": "any", "type": "factual", "id": "qav2_0425"}
+{"question": "What is the chemical symbol for carbon?", "answers": ["c"], "match_mode": "any", "type": "factual", "id": "qav2_0612"}
+{"question": "Do you know the capital city of India?", "answers": ["new delhi", "delhi"], "match_mode": "any", "type": "factual", "id": "qav2_0497"}
+{"question": "Explain how coffee tastes bitter works.", "answers": ["compounds", "roast"], "match_mode": "all", "type": "explain", "id": "qav2_0814"}
+{"question": "What is a group of wolves called?", "answers": ["pack"], "match_mode": "any", "type": "factual", "id": "qav2_0381"}
+{"question": "What causes clouds forming?", "answers": ["water vapor", "condensation"], "match_mode": "all", "type": "explain", "id": "qav2_0987"}
+{"question": "Explain how exercise improving mood works.", "answers": ["endorphins", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_0249"}
+{"question": "What causes blood types are different between people?", "answers": ["antigens", "genetics"], "match_mode": "all", "type": "explain", "id": "qav2_0554"}
+{"question": "Can you explain what causes some clouds bringing rain and others not?", "answers": ["moisture", "altitude"], "match_mode": "all", "type": "explain", "id": "qav2_0988"}
+{"question": "What is the reason behind the Great Depression happened?", "answers": ["stock market", "banks"], "match_mode": "all", "type": "explain", "id": "qav2_0424"}
+{"question": "What causes fruit ripening?", "answers": ["ethylene", "enzyme"], "match_mode": "all", "type": "explain", "id": "qav2_0197"}
+{"question": "What is the reason behind milk turning sour?", "answers": ["bacteria", "spoil"], "match_mode": "all", "type": "explain", "id": "qav2_0456"}
+{"question": "What is the capital of Kuwait?", "answers": ["kuwait city"], "match_mode": "any", "type": "factual", "id": "qav2_0733"}
+{"question": "Do you know the capital city of Norway?", "answers": ["oslo"], "match_mode": "any", "type": "factual", "id": "qav2_0435"}
+{"question": "What causes stars twinkling?", "answers": ["atmosphere", "light"], "match_mode": "all", "type": "explain", "id": "qav2_0600"}
+{"question": "Do you know the capital city of Sudan?", "answers": ["khartoum"], "match_mode": "any", "type": "factual", "id": "qav2_0813"}
+{"question": "Do you know the capital city of Nigeria?", "answers": ["abuja"], "match_mode": "any", "type": "factual", "id": "qav2_0962"}
+{"question": "Do you know the capital city of Netherlands?", "answers": ["amsterdam"], "match_mode": "any", "type": "factual", "id": "qav2_0177"}
+{"question": "What is the capital of Kenya?", "answers": ["nairobi"], "match_mode": "any", "type": "factual", "id": "qav2_0351"}
+{"question": "What causes skyscrapers not falling over in wind?", "answers": ["structure", "sway"], "match_mode": "all", "type": "explain", "id": "qav2_0445"}
+{"question": "Do you know the capital city of Kuwait?", "answers": ["kuwait city"], "match_mode": "any", "type": "factual", "id": "qav2_0192"}
+{"question": "What is the reason behind the tides?", "answers": ["moon", "gravity"], "match_mode": "all", "type": "explain", "id": "qav2_0406"}
+{"question": "What is the reason behind the Industrial Revolution happened?", "answers": ["machines", "factories"], "match_mode": "all", "type": "explain", "id": "qav2_0827"}
+{"question": "How many chambers does the human heart have?", "answers": ["4", "four"], "match_mode": "any", "type": "factual", "id": "qav2_0472"}
+{"question": "Explain how boats floating works.", "answers": ["buoyancy", "density"], "match_mode": "all", "type": "explain", "id": "qav2_0189"}
+{"question": "Who was the first man in space?", "answers": ["yuri gagarin", "gagarin"], "match_mode": "any", "type": "factual", "id": "qav2_0830"}
+{"question": "What causes spiders can walk on walls?", "answers": ["hair", "adhesion"], "match_mode": "all", "type": "explain", "id": "qav2_0797"}
+{"question": "How many players are on a basketball team on the court?", "answers": ["5", "five"], "match_mode": "any", "type": "factual", "id": "qav2_0872"}
+{"question": "Can you explain what causes rainbows forming?", "answers": ["light", "refraction"], "match_mode": "all", "type": "explain", "id": "qav2_0833"}
+{"question": "Explain how scars form on skin works.", "answers": ["collagen", "healing"], "match_mode": "all", "type": "explain", "id": "qav2_0978"}
+{"question": "Explain how democracy developed in ancient Greece works.", "answers": ["citizens", "voting"], "match_mode": "all", "type": "explain", "id": "qav2_1054"}
+{"question": "Explain how cacti can survive in the desert works.", "answers": ["water", "adaptation"], "match_mode": "all", "type": "explain", "id": "qav2_0945"}
+{"question": "What city is the capital of Ethiopia?", "answers": ["addis ababa"], "match_mode": "any", "type": "factual", "id": "qav2_0825"}
+{"question": "What is the capital of Switzerland?", "answers": ["bern"], "match_mode": "any", "type": "factual", "id": "qav2_0959"}
+{"question": "Do you know the capital city of Jordan?", "answers": ["amman"], "match_mode": "any", "type": "factual", "id": "qav2_1014"}
+{"question": "Can you explain what causes chameleons changing color?", "answers": ["camouflage", "cells"], "match_mode": "all", "type": "explain", "id": "qav2_0329"}
+{"question": "What ship famously sank in 1912?", "answers": ["titanic"], "match_mode": "any", "type": "factual", "id": "qav2_0650"}
+{"question": "Can you explain what causes exercise improving mood?", "answers": ["endorphins", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_0244"}
+{"question": "What is the largest island in the world?", "answers": ["greenland"], "match_mode": "any", "type": "factual", "id": "qav2_0632"}
+{"question": "Do you know the capital city of Germany?", "answers": ["berlin"], "match_mode": "any", "type": "factual", "id": "qav2_0265"}
+{"question": "What city is the capital of Yemen?", "answers": ["sanaa"], "match_mode": "any", "type": "factual", "id": "qav2_0950"}
+{"question": "Can you explain what causes colonization affected indigenous peoples?", "answers": ["land", "culture"], "match_mode": "all", "type": "explain", "id": "qav2_0103"}
+{"question": "Can you explain what causes astronauts float in space?", "answers": ["gravity", "orbit"], "match_mode": "all", "type": "explain", "id": "qav2_0973"}
+{"question": "What is the largest mammal on Earth?", "answers": ["blue whale"], "match_mode": "any", "type": "factual", "id": "qav2_0980"}
+{"question": "What city is the capital of Ukraine?", "answers": ["kyiv"], "match_mode": "any", "type": "factual", "id": "qav2_0166"}
+{"question": "What city is the capital of Mongolia?", "answers": ["ulaanbaatar"], "match_mode": "any", "type": "factual", "id": "qav2_0905"}
+{"question": "What is the capital of Uganda?", "answers": ["kampala"], "match_mode": "any", "type": "factual", "id": "qav2_0332"}
+{"question": "What mountain range is home to Mount Everest?", "answers": ["himalayas"], "match_mode": "any", "type": "factual", "id": "qav2_0467"}
+{"question": "What is the reason behind dry ice creates fog?", "answers": ["carbon dioxide", "sublimation"], "match_mode": "all", "type": "explain", "id": "qav2_0231"}
+{"question": "What city is the capital of Philippines?", "answers": ["manila"], "match_mode": "any", "type": "factual", "id": "qav2_0511"}
+{"question": "Who invented the printing press?", "answers": ["gutenberg"], "match_mode": "any", "type": "factual", "id": "qav2_0488"}
+{"question": "What is the reason behind fasting affecting the body?", "answers": ["metabolism", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0732"}
+{"question": "Can you explain what causes yawning being contagious?", "answers": ["brain", "empathy"], "match_mode": "all", "type": "explain", "id": "qav2_0852"}
+{"question": "Can you explain what causes the Great Wall of China was built?", "answers": ["defense", "border"], "match_mode": "all", "type": "explain", "id": "qav2_0294"}
+{"question": "What is the reason behind oil and water dont mix?", "answers": ["polarity", "molecules"], "match_mode": "all", "type": "explain", "id": "qav2_0991"}
+{"question": "What is the reason behind rivers forming deltas?", "answers": ["sediment", "current"], "match_mode": "all", "type": "explain", "id": "qav2_0611"}
+{"question": "What is the reason behind scars form on skin?", "answers": ["collagen", "healing"], "match_mode": "all", "type": "explain", "id": "qav2_1028"}
+{"question": "What is the chemical symbol for hydrogen?", "answers": ["h"], "match_mode": "any", "type": "factual", "id": "qav2_0341"}
+{"question": "What causes deja vu happening?", "answers": ["memory", "brain"], "match_mode": "all", "type": "explain", "id": "qav2_0975"}
+{"question": "Who wrote The Odyssey?", "answers": ["homer"], "match_mode": "any", "type": "factual", "id": "qav2_0925"}
+{"question": "What city is the capital of Ghana?", "answers": ["accra"], "match_mode": "any", "type": "factual", "id": "qav2_0309"}
+{"question": "What causes the equator is hotter than the poles?", "answers": ["sunlight", "angle"], "match_mode": "all", "type": "explain", "id": "qav2_0582"}

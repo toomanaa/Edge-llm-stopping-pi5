@@ -1,0 +1,33 @@
+probe: seed 1, validation AP 0.973; validation answers 57
+remaining-length head: held-out correlation (log) 0.87, median abs error 47 tokens (median true 227)
+calibration (validation rows): raw p>=0.99 has safe rate 96.6% ; held-out 65.3%
+pool 192 answers; 'short' half: full length 12-459 tokens (median 355); 'long' half: 460-799 (median 540)
+tune on SHORT answers, test on LONG (budget 3 pp): tuned threshold 0.999 / cap 300
+   on tuning half : threshold loss  3.1 pp tokens  73.5% | cap loss  2.1 pp tokens  85.4%
+   on OTHER half  : threshold loss 10.4 pp tokens  53.5% | cap loss  6.3 pp tokens  56.3%
+tune on LONG answers, test on SHORT (budget 3 pp): tuned threshold 0.999 / cap 500
+   on tuning half : threshold loss 10.4 pp tokens  53.5% | cap loss  0.0 pp tokens  90.8%
+   on OTHER half  : threshold loss  3.1 pp tokens  73.5% | cap loss  0.0 pp tokens 100.0%
+tune on SHORT answers, test on LONG (budget 5 pp): tuned threshold 0.99 / cap 250
+   on tuning half : threshold loss  3.1 pp tokens  62.7% | cap loss  4.2 pp tokens  74.2%
+   on OTHER half  : threshold loss 15.6 pp tokens  42.7% | cap loss 10.4 pp tokens  47.7%
+tune on LONG answers, test on SHORT (budget 5 pp): tuned threshold 0.999 / cap 400
+   on tuning half : threshold loss 10.4 pp tokens  53.5% | cap loss  3.1 pp tokens  75.5%
+   on OTHER half  : threshold loss  3.1 pp tokens  73.5% | cap loss  0.0 pp tokens  98.8%
+answers with a first-correct point: 119
+correlation between first-correct tokens and full length: 0.39
+share of answers already correct within 100 / 150 / 200 / 300 tokens: [48, 66, 75, 91]
+
+tokens needed before the answer is first correct (answers correct at full length): {10: 26, 25: 59, 50: 105, 75: 200, 90: 278}
+
+ceiling on the 192 checkable held-out answers (no-stop accuracy 63.0%):
+  oracle semantic stop, zero accuracy loss: 55.1% of tokens
+  cap 200: accuracy 50.0% tokens 46.8%
+  cap 250: accuracy 55.7% tokens 57.5%
+  cap 300: accuracy 58.9% tokens 67.0%
+  cap 350: accuracy 60.4% tokens 76.6%
+  cap 400: accuracy 61.5% tokens 84.1%
+  cap 500: accuracy 63.0% tokens 94.2%
+  cap 600: accuracy 63.0% tokens 98.3%
+  cap 800: accuracy 63.0% tokens 100.0%
+  learned controller 0.99: accuracy 53.6% tokens 50.0%

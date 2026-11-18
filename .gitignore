@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+states.f32
+*.npy
+.DS_Store
+build/
+llama.cpp/
+models/
+*.gguf

@@ -1,0 +1,21 @@
+Repeat run (cooler board): 299 questions, 897 runs
+                             first run      cooler run
+no stopping J/question           148.0           139.7
+no stopping accuracy %            76.6            76.6
+learned stopper J/question            78.1            73.7
+learned stopper accuracy %            70.6            70.6
+token cap 210 J/question            75.9            71.6
+token cap 210 accuracy %            69.9            69.9
+
+learned stopper: energy saving first 47.2% (43.1-51.0), cooler 47.2% (43.1-51.0)
+learned stopper: accuracy change first -6.0 (-8.7 to -3.3), cooler -6.0 (-8.7 to -3.3)
+token cap: energy saving first 48.7% (46.4-50.8), cooler 48.8% (46.4-50.8)
+token cap: accuracy change first -6.7 (-9.7 to -4.0), cooler -6.7 (-9.7 to -4.0)
+controller vs cap energy ratio, cooler: 1.030 (0.960-1.105)  [first run 1.029 (0.958-1.102)]
+energy per correct answer: full 182 J, controller 104 J  [first run 193 -> 111]
+Full-run energy cooler/first: 0.944
+controller stopped early: cooler 148 of 299, first 148 of 299
+controller text identical to first run: 299 of 299
+
+Board temperature  first: median 80.7, 95th pct 82.3, max 84.0 C; throttling active in 7.2% of readings; flags ['0xe0000', '0xe0008']
+Board temperature cooler: median 73.0, 95th pct 74.7, max 76.3 C; throttling active in 0.0% of readings; flags ['0x0']

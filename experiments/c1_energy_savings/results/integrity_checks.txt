@@ -1,0 +1,9 @@
+1) stopped text vs no-stopping text (greedy decoding): identical 299, proper prefix 298, diverged 1 [('qav2_0247', 'controller')]
+   (possible cause: after a rollback the controller re-decodes in a different batch shape, which can change a later token through tiny numerical differences; not investigated further)
+2) power samples 276304, rate 19.9 Hz, max gap 1.69 s, gaps > 5 s: 0
+   runs with no sample gap above 0.2 s inside their window: 888/897
+3) temperature: median 80.7 C, max 84.0 C; samples with a current throttle bit set: 7.2%
+   full        mean temperature at run start 80.5 C; throttled at start 24%
+   controller  mean temperature at run start 80.5 C; throttled at start 23%
+   cap         mean temperature at run start 80.6 C; throttled at start 21%
+4) tokens per second on long runs: full 12.58, controller 12.33, cap 12.64

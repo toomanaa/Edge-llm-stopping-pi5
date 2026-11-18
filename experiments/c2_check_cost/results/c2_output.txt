@@ -1,0 +1,21 @@
+questions with all three modes and power data: 119  (explain 80, factual 39)
+same number of tokens as no-checks: 238 of 238 runs; identical text: 238 of 238  (the checks do not change what is generated)
+
+mode              J/question  s/question  checks/question
+full                   176.6        24.8              0.0
+check_single           180.2        25.3              4.7
+check_reencode         381.9        50.1              4.7
+
+check_single: extra energy 2.0% of no-checks energy (95% CI 1.8..2.2); 0.76 J per check (0.69..0.84); extra time 2.0% (1.8..2.2), 0.104 s per check (0.095..0.114); checks timed inside the program: 0.105 s each
+    from the timers inside the program: 2.00% of no-checks energy (95% CI 1.83..2.16); 0.750 J per check
+    explain: 2.1% extra energy, 0.76 J per check (559 checks)
+    factual: 0.1% extra energy, 0.66 J per check (1 checks)
+check_reencode: extra energy 116.2% of no-checks energy (95% CI 107.0..125.1); 43.62 J per check (41.12..46.08); extra time 101.9% (93.8..109.5), 5.375 s per check (5.069..5.675); checks timed inside the program: 5.377 s each
+    from the timers inside the program: 109.34% of no-checks energy (95% CI 100.39..117.84); 41.035 J per check
+    explain: 119.2% extra energy, 43.67 J per check (559 checks)
+    factual: 2.8% extra energy, 15.02 J per check (1 checks)
+
+server-style check energy / single-pass check energy: x57.1
+check_single: time per check = 49 ms + 0.19 ms per token of text (straight-line fit over 560 checks, 66-791 tokens); median 152 ms
+check_reencode: time per check = -82 ms + 18.44 ms per token of text (straight-line fit over 560 checks, 66-791 tokens); median 4960 ms
+saved experiments/c2_check_cost/results/fig_c2_check_cost.pdf

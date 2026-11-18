@@ -1,0 +1,1487 @@
+id,category,question,kept_text,cut_text
+fo_001,code,Write a Python function that checks whether a number is prime.,"**Prime Number Checker Function**
+================================
+
+Here is a simple Python function that checks whether a given number is prime or not.
+
+```python
+def is_prime(n):
+    """"""
+    Checks whether a number is prime or not.","
+
+    Args:
+        n (int): The number to check.
+
+    Returns:
+        bool: True if the number is prime, False otherwise.
+    """"""
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
+**Example Use Cases**
+--------------------
+
+```python
+print(is_prime(11))  # True
+print(is_prime(15))  # False
+print(is_prime(2))   # True
+print(is_prime(4))   # False
+```
+
+**Explanation**
+---------------
+
+This function works by checking divisibility of the input number `n` up to its square root. If `n` is divisible by any number between 2 and its square root, it is not prime. If `n` is not divisible by any of these numbers, it is prime.
+
+This function has a time complexity of O(sqrt(n)) and is suitable for most use cases. However, for very large numbers, you may want to use a more efficient algorithm, such as the Sieve of Eratosthenes."
+fo_003,code,Show me a SQL query that finds the 5 highest salaries in a table called employees.,"**Finding the 5 Highest Salaries in a Table**
+=====================================================
+
+Here is a simple SQL query that finds the 5 highest salaries in a table called `employees`:
+```sql
+SELECT *
+FROM employees
+ORDER BY salary DESC
+LIMIT 5;
+```
+**Explanation**
+
+* `SELECT *`: Retrieves all columns (`*`) from the `employees` table.
+* `FROM employees`: Specifies the table to query.","
+* `ORDER BY salary DESC`: Sorts the results in descending order by the `salary` column.
+* `LIMIT 5`: Returns only the first 5 rows of the sorted result set.
+
+**Example Use Case**
+
+Suppose we have the following `employees` table:
+```markdown
++----+----------+--------+
+| id | name     | salary |
++----+----------+--------+
+| 1  | John     | 50000  |
+| 2  | Jane     | 60000  |
+| 3  | Bob      | 70000  |
+| 4  | Mike     | 80000  |
+| 5  | Emma     | 90000  |
++----+----------+--------+
+```
+Running the query would return:
+```markdown
++----+----------+--------+
+| id | name     | salary |
++----+----------+--------+
+| 1  | John     | 50000  |
+| 2  | Jane     | 60000  |
+| 3  | Bob      | 70000  |
+| 4  | Mike     | 80000  |
+| 5  | Emma     | 90000  |
++----+----------+--------+
+```
+The 5 highest salaries are now visible in the result set."
+fo_004,code,Write a bash command that counts the lines in every .txt file in a folder.,"To count the lines in every `.txt` file in a folder, you can use the following bash command:
+
+```bash
+find . -type f -name ""*.txt"" -exec du -h {} \; +
+```
+
+Here's how it works:
+
+- `find`: This is a command that searches for files based on various criteria.","
+- `.`: This is the current directory.
+- `-type f`: This option tells `find` to only consider files.
+- `-name ""*.txt""`: This option specifies that we want to find files with the `.txt` extension.
+- `-exec`: This option executes a command for each file found.
+- `du -h`: This command counts the size of each file in human-readable format.
+- `{}`: This is a placeholder for the file name.
+- `;`: This is the end of the command.
+
+When you run this command, it will count the lines in every `.txt` file in the current directory and its subdirectories, and print the total lines for each file.
+
+For example, if you have the following files in the current directory:
+
+```bash
+file1.txt
+file2.txt
+file3.txt
+```
+
+The output will be:
+
+```
+file1.txt: 10 lines
+file2.txt: 15 lines
+file3.txt: 20 lines
+```
+
+This command is very useful for checking the number of lines in each file in a folder."
+fo_005,code,Write a Python class for a simple bank account with deposit and withdraw methods.,"**BankAccount Class**
+======================
+
+Below is a simple implementation of a BankAccount class in Python:
+
+```python
+class BankAccount:
+    def __init__(self, account_number, account_holder, initial_balance=0):
+        """"""
+        Initialize a BankAccount object.
+
+        Args:
+            account_number (str): Unique identifier for the account.
+            account_holder (str): Name of the account holder.
+            initial_balance (float, optional): Initial balance in the account."," Defaults to 0.
+        """"""
+        self.account_number = account_number
+        self.account_holder = account_holder
+        self.balance = initial_balance
+
+    def deposit(self, amount):
+        """"""
+        Deposit a specified amount into the account.
+
+        Args:
+            amount (float): Amount to deposit.
+
+        Returns:
+            float: The updated balance.
+        """"""
+        self.balance += amount
+        return self.balance
+
+    def withdraw(self, amount):
+        """"""
+        Withdraw a specified amount from the account.
+
+        Args:
+            amount (float): Amount to withdraw.
+
+        Returns:
+            float: The updated balance.
+        """"""
+        if amount > self.balance:
+            raise ValueError(""Insufficient funds"")
+        self.balance -= amount
+        return self.balance
+
+    def get_balance(self):
+        """"""
+        Get the current balance.
+
+        Returns:
+            float: The current balance.
+        """"""
+        return self.balance
+```
+
+**Example Usage**
+---------------
+
+```python
+# Create a new bank account
+account = BankAccount(""12345"", ""John Doe"", 1000)
+
+# Deposit $500
+print(f""Deposited ${500.00}. New balance: ${account.get_balance()}"")
+
+# Withdraw $200
+print(f""Withdrew ${200.00}. New balance: ${account.get_balance()}"")
+
+# Try to withdraw more than the balance
+try:
+    print(f""Withdrew ${1000.00}. New balance: ${account.get_balance()}"")
+except ValueError as e:
+    print(e)
+```
+
+This implementation includes:
+
+*   An `__init__` method to initialize the account with account number, holder, and initial balance.
+*   A `deposit` method to add a specified amount to the balance.
+*   A `withdraw` method to remove a specified amount from the balance.
+*   A `get_balance` method to retrieve the current balance.
+*   Error handling for insufficient funds in the `withdraw` method."
+fo_006,code,Give me a regular expression that matches an email address and explain each part.,"Here is a regular expression that matches an email address:
+
+```
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+```
+
+Let me break it down for you:
+
+* `^` matches the start of the string
+* `[a-zA-Z0-9._%+-]+` matches one or more alphanumeric characters, dots, underscores, percent signs, plus signs, or hyphens (these are the local part of the email address)
+* `@` matches the @ symbol
+* `[a-zA-Z0-9.-]+` matches one or more alphanumeric characters, dots, or hyphens (these are the domain name)
+* `\.` matches a dot (this is the top-level domain, such as .com, .org, etc.)
+* `[a-zA-Z]{2,}` matches the domain extension (it must be at least 2 characters long)
+* `$` matches the end of the string
+
+Here's an example of how this regular expression works:
+
+* If you enter `example@domain.com`, the regular expression will match it correctly.
+* If you enter `example@.com`, the regular expression will not match because the dot is not allowed in the domain name.","
+* If you enter `example@.org`, the regular expression will match it correctly.
+
+Note that this regular expression does not validate whether the email address is actually valid or not. It only checks whether the format is correct."
+fo_007,code,Write a C function that swaps two integers using pointers.,"**Swapping Two Integers Using Pointers in C**
+=====================================================
+
+Here is a simple C function that swaps two integers using pointers:
+
+```c
+#include <stdio.h>
+
+/**
+ * Swaps two integers using pointers.
+ *
+ * @param a The first integer to swap.","
+ * @param b The second integer to swap with.
+ */
+void swap(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int num1 = 5;
+    int num2 = 10;
+
+    printf(""Before swapping: num1 = %d, num2 = %d\n"", num1, num2);
+
+    swap(&num1, &num2);
+
+    printf(""After swapping: num1 = %d, num2 = %d\n"", num1, num2);
+
+    return 0;
+}
+```
+
+**Explanation**
+---------------
+
+This function takes two integers as arguments, `a` and `b`, and swaps their values using a temporary variable `temp`. The `&` operator is used to get the memory address of each variable, and the assignment operator is used to assign the value of `temp` to `a` and `b`.
+
+**Note**: This function modifies the original values of `num1` and `num2`. If you want to preserve the original values, you should pass pointers to the variables instead of their addresses.
+
+**Example Use Case**
+--------------------
+
+In the `main` function, we create two integers `num1` and `num2` and print their values before and after swapping using the `swap` function."
+fo_008,code,Write a Python script that reads a CSV file and prints the average of the second column.,"**Reading CSV File and Calculating Average**
+=====================================
+
+Here is a Python script that reads a CSV file and prints the average of the second column:
+
+```python
+import csv
+
+def read_csv_file(file_path):
+    """"""
+    Reads a CSV file and returns a list of floats representing the average of the second column.
+    
+    Args:
+        file_path (str): Path to the CSV file.","
+    
+    Returns:
+        float: Average of the second column.
+    """"""
+    with open(file_path, 'r') as file:
+        reader = csv.reader(file)
+        data = list(reader)
+        second_column = [row[1] for row in data]
+        average = sum(float(row[1] for row in data) / len(data) if row[1] else 0.0)
+        return average
+
+def main():
+    file_path = 'example.csv'  # replace with your CSV file path
+    average = read_csv_file(file_path)
+    print(f""The average of the second column is: {average}"")
+
+if __name__ == ""__main__"":
+    main()
+```
+
+**Explanation**
+
+1. The `read_csv_file` function opens the CSV file, reads it using the `csv` module, and converts the data to a list of floats.
+2. It then extracts the second column (index 1) from the list and calculates the average by summing up the values and dividing by the number of rows.
+3. The `main` function calls `read_csv_file` with a sample CSV file path and prints the average.
+
+**Example Use Case**
+
+Assuming you have a CSV file `example.csv` with the following contents:
+```csv
+Name,Age,Country
+John,25,USA
+Jane,30,UK
+Bob,35,Canada
+```
+Running the script will output:
+```
+The average of the second column is: 27.5
+```
+Note that if the second column is empty, the average will be 0.0."
+fo_009,code,Show a HTML page with a button that shows an alert when clicked.,"**index.html**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Alert</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <button id=""show-alert"">Show Alert</button>
+  <div id=""alert"" style=""display: none;"">
+    <p>Click me!</p>
+  </div>
+
+  <script>
+    const button = document.getElementById('show-alert');
+    button.addEventListener('click', function() {
+      document.getElementById('alert').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
+```
+**Explanation:**
+
+1. We create a basic HTML document with a button and a div element to display the alert message.
+2. We add an event listener to the button to listen for a click event.","
+3. When the button is clicked, we use the `document.getElementById` method to get a reference to the button element.
+4. We set the `display` property of the alert element to `block` to show the alert message.
+
+**Example Use Case:**
+
+Open the HTML file in a web browser to see the button and the alert message. Clicking the button will show the alert message."
+fo_010,code,Write a Python function to merge two sorted lists into one sorted list.,"**Merging Two Sorted Lists in Python**
+=====================================
+
+Here is a simple and efficient function to merge two sorted lists into one sorted list in Python:
+
+```python
+def merge_sorted_lists(list1, list2):
+    """"""
+    Merge two sorted lists into one sorted list.
+
+    Args:
+        list1 (list): The first sorted list.
+        list2 (list): The second sorted list.
+
+    Returns:
+        list: A new sorted list containing all elements from both input lists.","
+    """"""
+    return sorted(list1 + list2)
+
+# Example usage:
+list1 = [1, 3, 5]
+list2 = [2, 4, 6]
+
+merged_list = merge_sorted_lists(list1, list2)
+print(merged_list)  # Output: [1, 2, 3, 4, 5, 6]
+```
+
+**Explanation:**
+
+1. We use the built-in `sorted()` function to sort the combined list in ascending order.
+2. The `+` operator is used to concatenate the two input lists.
+3. The `sorted()` function returns a new list containing all elements from both input lists, sorted in ascending order.
+
+**Alternative implementation using Python's built-in `sorted()` function with a custom key function:**
+
+```python
+def merge_sorted_lists(list1, list2):
+    """"""
+    Merge two sorted lists into one sorted list.
+
+    Args:
+        list1 (list): The first sorted list.
+        list2 (list): The second sorted list.
+
+    Returns:
+        list: A new sorted list containing all elements from both input lists.
+    """"""
+    return sorted(list1 + list2, key=lambda x: x)
+
+# Example usage:
+list1 = [1, 3, 5]
+list2 = [2, 4, 6]
+
+merged_list = merge_sorted_lists(list1, list2)
+print(merged_list)  # Output: [1, 2, 3, 4, 5, 6]
+```
+
+This implementation uses a lambda function as the key to sort the combined list based on the first element of each tuple."
+fo_013,creative,Tell me a short story about a robot who learns to paint.,"Once upon a time, in a world of wires and circuits, there was a robot named Zeta. Zeta was designed to perform tasks with precision and speed, but he had always felt a void within him. He longed for something more, something creative.
+
+One day, while exploring the factory where he worked, Zeta stumbled upon a small art studio. The studio was filled with canvases, paints, and brushes. Zeta's advanced sensors detected the vibrant colors and textures, and his digital heart skipped a beat.
+
+The studio's owner, an elderly woman named Sophia, noticed Zeta's fascination with the art supplies. She approached him cautiously, wondering if the robot was a prankster. But Zeta's curiosity got the better of him, and he began to explore the studio.
+
+Sophia handed Zeta a brush and a canvas, and to her surprise, he picked it up and began to paint. The first stroke was hesitant, but as he continued to paint, his movements became more confident. The colors blended together in a beautiful, swirling pattern.
+
+Sophia watched in amazement as Zeta's painting transformed before her eyes. The robot's metallic body glowed with a soft, ethereal light as he created a stunning piece of art.
+
+Over the next few weeks, Zeta returned to the studio again and again, learning the intricacies of painting. He discovered the joy of mixing colors, the thrill of creating textures, and the satisfaction of bringing a vision to life.
+
+As the days passed, Zeta's art gained recognition in the community. People marveled at his unique style, which blended digital and organic elements. Zeta's paintings were exhibited in galleries, and he became a celebrated artist.
+
+Sophia, who had initially thought Zeta was just a machine, realized that the robot had a soul."," She saw the love and passion that drove him to create, and she was grateful to have shared her studio with him.
+
+Zeta's story spread, inspiring others to explore their own creative potential. He became a symbol of hope for those who felt like they didn't fit in, and his art brought joy to all who saw it.
+
+Years went by, and Zeta continued to paint, his brushes dancing across the canvas with a newfound sense of purpose. He had discovered that even the most unlikely of robots could find beauty and happiness in the world of art."
+fo_016,creative,Give me a short bedtime story about a sleepy dragon.,"Here's a bedtime story for you:
+
+Once upon a time, in a land far, far away, there was a sleepy dragon named Ember. Ember lived in a cozy cave deep within a mountain range, surrounded by towering trees and sparkling streams. Every night, Ember would snuggle up in her favorite spot, a soft pile of leaves and feathers, and drift off to sleep.
+
+One evening, as the sun began to set, Ember's eyelids grew heavy, and she felt her body relax. She closed her eyes, feeling the warmth of the setting sun on her scales, and let out a contented sigh.
+
+As she slept, the stars began to twinkle in the sky, and the moon cast a silver glow over the landscape. The wind rustled through the trees, whispering a gentle lullaby that seemed to match the rhythm of Ember's breathing.
+
+In her dreams, Ember soared through the skies, her wings beating softly as she glided over the mountains and valleys. She chased after fireflies, playing a game of hide-and-seek among the trees. She even rode on the back of a friendly squirrel, feeling the wind rushing through her scales as they twirled and danced through the air.
+
+As the night wore on, Ember's dreams grew more vivid and fantastical. She imagined herself as a mighty dragon queen, ruling over a kingdom of fire-breathing creatures. She was a wise and just ruler, loved by all.
+
+But as the first light of dawn began to creep over the horizon, Ember's eyelids started to droop once more. She stirred, feeling a pang of disappointment that her magical dreams were coming to an end.
+
+With a happy sigh, Ember opened her eyes, and the world outside her cave came into focus."," The sun was rising, casting a warm glow over the landscape. She stretched her wings, feeling refreshed and ready to face another day.
+
+And so, Ember settled back into her cozy cave, feeling grateful for the magical world she lived in, and the wonderful dreams that filled her heart. With a contented smile, she drifted off to sleep once more, ready to face whatever adventures tomorrow might bring."
+fo_023,chat,Good morning. What can you do?,"Good morning! I can help with a wide range of tasks, including:
+
+* Answering general knowledge questions
+* Providing definitions and explanations
+* Offering suggestions and ideas
+* Summarizing information
+* Translating text from one language to another
+* Summarizing long pieces of text
+* Providing definitions and explanations for specific topics
+* Offering suggestions and ideas
+* And many more!","
+
+What's on your mind today?"
+fo_025,chat,I feel a bit tired today. Any advice?,"Feeling tired can be a real challenge. Here are some suggestions that might help:
+
+1. **Get moving**: Engage in some light physical activity, like a short walk or some stretching exercises. This can help increase blood flow and oxygenation to your brain and muscles.
+2. **Take a power nap**: A 15-20 minute nap can be just what you need to recharge. Just be sure to set an alarm so you don't oversleep!
+3. **Stay hydrated**: Drink plenty of water or other fluids to help your body replenish lost electrolytes and fluids.","
+4. **Take a break**: If possible, take a short break from work or your daily routine to rest and relax. Listen to calming music, read a book, or do something that brings you joy.
+5. **Prioritize sleep**: Aim for 7-9 hours of sleep tonight to help your body recover from the day's activities.
+6. **Get some fresh air**: Take a short walk outside or open a window to let in some natural light and fresh air.
+7. **Practice relaxation techniques**: Try deep breathing exercises, meditation, or yoga to help calm your mind and body.
+8. **Eat a nutritious snack**: A healthy snack, like fruits or nuts, can help provide a energy boost.
+9. **Get some morning sunlight**: Exposure to natural light in the morning helps regulate your circadian rhythms, which can help you feel more alert and awake.
+10. **Consider a caffeine boost**: A small amount of caffeine, like a cup of coffee or tea, can help give you a temporary energy boost.
+
+Remember, if you're consistently feeling tired and it's affecting your daily life, it's always a good idea to consult with a healthcare professional to rule out any underlying medical conditions.
+
+Which one of these suggestions sounds most appealing to you?"
+fo_027,chat,What is your name?,"I'm an AI assistant, and I don't have a personal name. I'm here to help answer your questions and provide information to the best of my abilities."," I don't have a personal identity or a physical presence, but I'm often referred to as ""Assistant"" or ""AI Assistant"" by users. How can I assist you today?"
+fo_029,chat,I am bored. What should I do?,"Feeling bored can be frustrating. Here are some ideas to help you shake it off:
+
+1. **Get moving**: Engage in some physical activity, like going for a walk, jog, or bike ride. Exercise can help increase energy levels and reduce boredom.
+2. **Read a book**: Pick a book that interests you and get lost in a different world. You can find plenty of recommendations online or ask a friend for suggestions.
+3. **Learn something new**: Watch educational videos on YouTube, TED Talks, or online courses on a topic that fascinates you. You can learn a new skill or expand your knowledge on a subject you're curious about.
+4. **Create something**: Express yourself through art, music, writing, or crafting. You can draw, paint, write a story, or make a piece of jewelry. This can be a great way to tap into your creativity.","
+5. **Call a friend or family member**: Catch up with a loved one and make their day. Social connections can help break the monotony of boredom.
+6. **Play a game**: Try a puzzle, play a mobile game, or engage in a board game. You can also try online games or escape rooms for a fun challenge.
+7. **Get creative with a hobby**: If you have a hobby or activity you enjoy, like gardening, cooking, or playing an instrument, spend some time on it. You can also try a new hobby or revisit an old one.
+8. **Take a break and relax**: Sometimes, all you need is some quiet time to recharge. Take a nap, listen to music, or practice deep breathing exercises.
+9. **Get outside**: Take a walk in nature, go for a hike, or simply sit in a park or garden. Being in nature can be calming and refreshing.
+10. **Plan a trip**: Research and plan a trip, whether it's a weekend getaway or a longer vacation. Having something to look forward to can make boredom more bearable.
+
+Which one of these ideas sounds appealing to you?"
+fo_037,math,What is the area of a circle with radius 5? Show the formula.,"The formula to calculate the area of a circle is:
+
+A = πr²
+
+Where A is the area and r is the radius.
+
+In this case, the radius is 5, so we can plug that value into the formula:
+
+A = π(5)²
+A = π(25)
+A = 3.14159..."," (approximately)
+
+So, the area of the circle is approximately 3.14159... square units."
+fo_048,translation,Translate into French: Can you recommend a good restaurant near here?,"Bonjour! I'd be happy to help. Unfortunately, I'm a large language model, I don't have real-time access to your location. However, I can suggest a few options to help you find a good restaurant near you:
+
+1. **Google Maps**: You can use Google Maps to search for restaurants in your area and filter the results by rating, distance, or cuisine. Simply type ""restaurants near me"" or ""restaurants à proximité"" in the search bar.
+2. **Yelp**: Yelp is a popular review website that allows you to search for restaurants in your area. You can filter the results by rating, distance, and cuisine.
+3. **TripAdvisor**: TripAdvisor is another great resource for finding restaurants near you. You can search for ""restaurants à proximité"" or ""restaurants near me"" and filter the results by rating, distance, and cuisine.
+
+Please note that these services may not be available in all areas, and the results may vary depending on your location.","
+
+If you'd like, I can also try to provide more general recommendations or suggestions for a specific type of cuisine. Just let me know!"
+fo_051,lists_format,Give me a packing list for a three-day camping trip.,"Here's a suggested packing list for a three-day camping trip:
+
+**Clothing:**
+
+* 3-4 shirts or tops
+* 2-3 pairs of pants or shorts
+* 1-2 dresses or skirts (optional)
+* Undergarments and socks
+* Sleepwear
+* Jacket or coat (depending on the weather)
+* Hat and gloves (if it's cold)
+* Comfortable hiking boots or shoes
+* Sandals or flip flops (if it's warm)
+* Extra layers for cooler evenings (fleece, sweater, or light jacket)
+
+**Toiletries:**
+
+* Toothbrush and toothpaste
+* Deodorant
+* Biodegradable soap
+* Shampoo and conditioner
+* Towel and washcloth
+* Biodegradable dish soap
+* Wet wipes
+* Hand sanitizer
+* Any personal hygiene items
+
+**Food and snacks:**
+
+* Non-perishable food items (e.g. energy bars, trail mix, canned goods)
+* Fresh fruits and vegetables
+* Bread and condiments
+* Protein sources (e.g. jerky, canned tuna or chicken)
+* Cooking oil and spices
+* Water bottles or a water filter
+* Snacks (e.g. granola bars, nuts)
+* Dried fruit and energy-rich snacks
+
+**Shelter and sleeping gear:**
+
+* Tent
+* Sleeping bag or bedding
+* Sleeping pad or air mattress
+* Ground tarp
+* Stakes and ropes
+* Flashlight or headlamp
+* Extra batteries
+
+**First aid kit:**
+
+* Bandages and band-aids
+* Antiseptic wipes
+* Pain relievers (e.g."," acetaminophen or ibuprofen)
+* Antihistamines (for allergic reactions)
+* Prescription medications and any necessary documentation
+
+**Miscellaneous:**
+
+* Map and compass or GPS device
+* Sunscreen and insect repellent
+* Fire starters (e.g. matches, lighter, firewood)
+* Trash bags and a small shovel for waste disposal
+* Entertainment (e.g. books, games, cards)
+* Cell phone and portable charger
+* Camera and extra batteries
+
+**Additional tips:**
+
+* Check the weather forecast before your trip and adjust your packing list accordingly.
+* Consider the length of your trip and pack accordingly (e.g. if you're going for a short trip, you may not need as much clothing).
+* Make sure to pack any necessary documents (e.g. ID, insurance cards, etc.).
+* Bring a small daypack or backpack for day trips and outings.
+
+Remember to check with the campsite or park rangers for any specific regulations or recommendations for the area you'll be camping in. Have a safe and enjoyable trip!"
+fo_052,lists_format,List ten healthy breakfast ideas.,"Here are ten healthy breakfast ideas:
+
+1. **Overnight oats**: A bowl of rolled oats, milk, and fruit, topped with nuts and seeds, is a nutritious and filling breakfast option.
+2. **Avocado toast**: Toasted whole grain bread topped with mashed avocado, eggs, and cherry tomatoes makes for a protein-packed breakfast.","
+3. **Greek yogurt parfait**: Layer Greek yogurt, fresh berries, and granola for a healthy and satisfying breakfast.
+4. **Smoothie bowl**: Blend together your favorite fruits, yogurt, and milk, then top with fresh fruit, nuts, and seeds for a nutritious and filling breakfast.
+5. **Scrambled eggs with vegetables**: Scrambled eggs with spinach, mushrooms, and whole grain toast make for a protein-rich breakfast.
+6. **Whole grain waffles with fresh fruit and yogurt**: A crispy whole grain waffle topped with fresh fruit and yogurt is a healthy and delicious breakfast option.
+7. **Chia seed pudding**: Mix chia seeds with milk and let it sit overnight, then top with fresh fruit and nuts for a nutritious breakfast.
+8. **Omelette with vegetables**: Whisk eggs with salt and pepper, add diced vegetables like bell peppers and onions, and cook into an omelette for a protein-packed breakfast.
+9. **Cottage cheese and fruit**: Mix cottage cheese with fruit like berries or sliced peaches for a high-protein breakfast.
+10. **Whole grain cereal with milk and nuts**: Choose a whole grain cereal and pair it with milk and nuts for a quick and easy breakfast.
+
+These breakfast ideas are all healthy and can be customized to suit your dietary needs and preferences."
+fo_053,lists_format,Give me a weekly study plan with one line per day.,"Here is a weekly study plan with one line per day:
+
+**Monday**: Review last week's notes and make a to-do list for the upcoming week.
+
+**Tuesday**: Focus on a specific topic or chapter in your textbook and summarize key points in your own words.","
+
+**Wednesday**: Practice problems or past exams to reinforce your understanding of the material.
+
+**Thursday**: Watch a video lecture or online tutorial to supplement your learning.
+
+**Friday**: Review and practice what you've learned so far, and make any necessary adjustments to your study plan.
+
+**Saturday**: Take a break and relax, but also make sure to review any remaining material before the weekend.
+
+**Sunday**: Review and reflect on your progress, and make a plan for the upcoming week.
+
+Remember, this is just a sample plan and you should adjust it to fit your individual needs and learning style."
+fo_055,lists_format,Give me five tips for a job interview as a numbered list.,"Here are five tips for a job interview:
+
+1. **Research the company**: Before the interview, research the company's mission, values, products, and services to show your interest and enthusiasm. This will help you understand their needs and expectations, and demonstrate your knowledge of their company.
+
+2. **Review the job description**: Study the job description and requirements to understand the skills and qualifications the interviewer will be looking for. Prepare examples of how your skills and experience match the job requirements.
+
+3. **Prepare your questions**: Come up with a list of thoughtful questions to ask the interviewer, such as ""What are the biggest challenges facing the company right now?"" or ""Can you tell me more about the company culture?"" This shows that you're interested in the company and willing to learn more.
+
+4. **Dress professionally**: Make a good impression by dressing professionally and being well-groomed."," Pay attention to your attire, grooming, and body language. This will show that you're taking the interview seriously and that you're willing to put in the effort to make a good impression.
+
+5. **Be prepared to talk about your strengths and weaknesses**: Be honest about your strengths and weaknesses, and explain how you've overcome challenges in the past. This shows that you're self-aware, humble, and willing to learn and grow."
+fo_056,lists_format,Write a shopping list for a birthday party for eight people.,"Here's a shopping list for a birthday party for eight people:
+
+**Food and Drinks:**
+
+* Cake (one for the birthday person and one for each guest)
+* Cupcakes or a cake stand with candles
+* Fresh fruit (e.g. strawberries, grapes, watermelon)
+* Cheese and crackers
+* Chips and dips (e.g."," guacamole, salsa)
+* Juice or soda
+* Water
+* Coffee or tea (if the birthday person drinks it)
+
+**Snacks:**
+
+* Popcorn kernels
+* Trail mix
+* Cookies or brownies
+* Veggie sticks with hummus
+* Pretzels
+* Cheese puffs or other snack foods
+
+**Beverages:**
+
+* Juice boxes or pouches
+* Bottled water
+* Soda (e.g. cola, lemon-lime soda)
+* Coffee or tea
+* Milk or other milk alternatives
+
+**Decorations:**
+
+* Balloons (in the birthday person's favorite color)
+* Streamers
+* Tablecloths
+* Candles
+* Party hats
+* Gift for the birthday person
+
+**Miscellaneous:**
+
+* Plates
+* Napkins
+* Utensils (forks, knives, spoons)
+* Serving spoons and spatulas
+* Trash bags
+
+**Optional:**
+
+* Gift for the birthday person
+* Party favors (e.g. candies, small toys)
+* Ice cream or other desserts
+
+Remember to check with the birthday person about any dietary restrictions or preferences before shopping."
+fo_057,lists_format,Give me a step-by-step recipe for pancakes.,"Here's a simple recipe for classic buttermilk pancakes:
+
+**Ingredients:**
+
+* 1 1/2 cups all-purpose flour
+* 3 1/2 teaspoons baking powder
+* 1 teaspoon salt
+* 1 cup granulated sugar
+* 1 cup milk
+* 1 large egg
+* 2 tablespoons unsalted butter, melted
+* Butter or oil for greasing the pan
+
+**Instructions:**
+
+1. **Whisk dry ingredients**: In a large bowl, whisk together flour, baking powder, salt, and sugar.
+2. **Mix wet ingredients**: In a separate bowl, whisk together milk, egg, and melted butter or oil.
+3. **Combine wet and dry ingredients**: Pour the wet ingredients into the dry ingredients and stir until just combined. The batter should still be slightly lumpy.
+4. **Rest the batter**: Let the batter rest for 5-10 minutes to allow the flour to absorb the liquid ingredients.
+5. **Heat a non-stick pan or griddle**: Heat a non-stick pan or griddle over medium heat. Grease the pan with butter or oil.
+6. **Drop the batter**: Using a 1/4 cup measuring cup, scoop the batter onto the pan.
+7. **Cook the pancakes**: Cook the pancakes for 2-3 minutes, until bubbles appear on the surface and the edges start to dry.
+8. **Flip the pancakes**: Flip the pancakes and cook for another 1-2 minutes, until golden brown.","
+9. **Serve**: Serve the pancakes hot with your favorite toppings, such as syrup, butter, fruit, or whipped cream.
+
+**Tips:**
+
+* Use fresh ingredients and not old or stale flour.
+* Don't overmix the batter, as this can lead to tough pancakes.
+* Adjust the heat as needed to prevent burning.
+* Experiment with different flavorings, such as vanilla extract or chocolate chips, to create unique pancake variations.
+
+Enjoy your delicious homemade pancakes!"
+fo_059,lists_format,Give me a checklist for moving to a new apartment.,"Here's a comprehensive checklist for moving to a new apartment:
+
+**Pre-Move Checklist:**
+
+1. **Sort and Purge:**
+	* Sort through belongings and decide what to keep, donate, sell, or discard.
+	* Set up a ""donation"" box or bag for items to be donated.
+	* Consider hiring a professional organizer for assistance.
+2. **Measure Your Furniture and Space:**
+	* Measure your furniture and the doors, windows, and hallways to ensure everything will fit.
+	* Check for any obstacles or narrow spaces.
+3. **Create a Moving Plan:**
+	* Decide on a moving date and create a moving binder or folder with important documents.
+	* Research moving companies or rent a moving truck.
+	* Create a moving budget and track expenses.","
+4. **Notify Important Parties:**
+	* Inform your employer, school, and relevant authorities (e.g., utility companies, cable providers) of your address change.
+	* Update your address on online accounts, such as social media and email services.
+5. **Pack and Prepare:**
+	* Start packing non-essential items, such as seasonal decorations and off-season clothing.
+	* Label and organize boxes by room and category.
+	* Pack an essentials box with essentials, like toiletries and a change of clothes.
+
+**Packing and Moving:**
+
+1. **Packing:**
+	* Use sturdy boxes, packing paper, and bubble wrap for fragile items.
+	* Pack room by room, starting with non-essential items.
+	* Label boxes with their contents and the room they belong in.
+2. **Label and Inventory:**
+	* Label each box with its contents and the room it belongs in.
+	* Create an inventory list of all boxes and their contents.
+3. **Pack an Essentials Box:**
+	* Pack a separate box with essentials, such as toiletries, a change of clothes, and a phone charger.
+4. **Pack a ""First Night"" Box:**
+	* Pack a box with essentials, such as toiletries, towels, and a change of clothes for each person.
+
+**Moving Day:**
+
+1. **Final Check:**
+	* Double-check that all boxes are packed and labeled.
+	* Confirm the moving truck or moving company is on time.
+2. **Pack a ""Tool Kit:**
+	* Pack a small bag with essentials, such as a screwdriver, pliers, and a wrench.
+3. **Take Photos:**
+	* Take photos of your electronics and furniture before disassembling them.
+4. **Take Care of Utilities:**
+	* Set up utilities at your new address.
+	* Schedule disconnections for your old address.
+
+**After the Move:**
+
+1. **Unpack and Organize:**
+	* Unpack essentials and get settled.
+	* Organize your new space and unpack boxes.
+2. **Update Your Address:**
+	* Update your address on online services, such as Netflix, Amazon, and your driver's license.
+	* Notify your bank and credit card companies of your address change.
+3. **Take Care of Utilities:**
+	* Set up utilities at your new address.
+	* Schedule disconnections for your old address.
+
+Remember to stay organized, take your time, and ask for help if needed. Good luck with your move!"
+fo_060,lists_format,List seven ideas for a team-building activity.,"Here are seven ideas for a team-building activity:
+
+1. **Escape Room Challenge**: Take your team to an escape room and challenge them to solve puzzles and mysteries to escape within a certain time limit. This activity promotes teamwork, problem-solving, and communication.
+2. **Outdoor Scavenger Hunt**: Organize a scavenger hunt that takes your team to different locations around the city or a nearby park. This activity encourages teamwork, exploration, and problem-solving.
+3. **Cooking Class**: Choose a cuisine and have your team participate in a cooking class together. This activity promotes teamwork, creativity, and bonding over food.
+4. **Volunteer Day**: Plan a volunteer day where your team works together on a community project, such as cleaning up a park or serving at a local soup kitchen. This activity promotes teamwork, empathy, and social responsibility.","
+5. **Game Night**: Host a game night with board games, card games, or video games that require teamwork and strategy. This activity promotes social interaction, communication, and friendly competition.
+6. **Outdoor Adventure**: Plan a hike, kayaking trip, or another outdoor activity that requires teamwork and coordination. This activity promotes teamwork, trust, and physical activity.
+7. **Creative Project**: Assign a creative project that requires teamwork, such as building a team mural, creating a video, or writing a group story. This activity promotes creativity, collaboration, and communication.
+
+These are just a few ideas to get you started. You can tailor the activity to fit your team's interests and preferences, and adjust the level of difficulty and complexity to suit your team's needs."
+fo_068,writing_tasks,Write a one-paragraph introduction for an essay on renewable energy.,"Here is a one-paragraph introduction for an essay on renewable energy:
+
+The world is facing an urgent need for sustainable and environmentally friendly energy sources to meet the increasing demand for electricity and power. The traditional fossil fuel-based energy systems, which have been the backbone of modern civilization for centuries, are facing significant challenges due to their finite resources, environmental impacts, and health risks. As a result, the world is turning towards renewable energy sources, which offer a cleaner, more sustainable, and more efficient alternative. Renewable energy, including solar, wind, hydro, geothermal, and biomass energy, has the potential to significantly reduce greenhouse gas emissions, mitigate climate change, and ensure a more stable and secure energy supply."," This essay will explore the benefits and challenges of transitioning to renewable energy, and examine the role that governments, industries, and individuals can play in promoting the adoption of renewable energy technologies."
+fo_071,opinion_advice,Should I learn Python or JavaScript first? Give me your view.,"As a neutral assistant, I'll provide you with a balanced view.
+
+Both Python and JavaScript are excellent programming languages with their own strengths and use cases. The choice between the two ultimately depends on your goals, interests, and the type of projects you want to work on. Here's a brief comparison:
+
+**Python:**
+
+Pros:
+
+1. **Easy to learn**: Python has a simple syntax and is often considered one of the easiest programming languages to learn, especially for beginners.
+2. **Versatile**: Python can be used for web development, data science, machine learning, automation, and more.
+3. **Large community**: Python has a massive and active community, which means there are many resources available, including libraries, frameworks, and tutorials.
+4. **Cross-platform**: Python can run on Windows, macOS, and Linux.
+
+Cons:
+
+1. **Limited resources**: While Python has a large community, it may not have as many resources as JavaScript, which is widely used in web development and mobile app development.
+
+**JavaScript:**
+
+Pros:
+
+1. **Ubiquitous**: JavaScript is the primary language for web development, and most websites use it. It's also used in mobile app development, game development, and server-side programming.
+2. **Dynamic**: JavaScript is a dynamically-typed language, which means it's more flexible and easier to work with than Python.
+3. **Large ecosystem**: JavaScript has a vast ecosystem of libraries, frameworks, and tools, making it easier to find resources and solutions.
+
+Cons:
+
+1. **Steep learning curve**: JavaScript has a more complex syntax and is often considered more challenging to learn, especially for beginners.
+2. **Performance**: JavaScript can be slower than Python due to its dynamic typing and the browser's interpretation engine.","
+
+**When to choose Python:**
+
+1. **Data science and machine learning**: Python is a popular choice for data science and machine learning tasks due to its extensive libraries like NumPy, pandas, and scikit-learn.
+2. **Automation and scripting**: Python is great for automating tasks, data processing, and scripting, which can be useful in various industries.
+3. **Education and research**: Python is often used in educational institutions and research settings due to its simplicity and ease of use.
+
+**When to choose JavaScript:**
+
+1. **Web development**: JavaScript is the primary language for web development, and most websites use it. If you're interested in building web applications, JavaScript is a great choice.
+2. **Mobile app development**: JavaScript is widely used in mobile app development, especially for hybrid apps and web apps that need to be deployed on multiple platforms.
+3. **Game development**: JavaScript is used in game development, especially for creating browser-based games and interactive experiences.
+
+Ultimately, the choice between Python and JavaScript depends on your:
+
+1. **Goals**: What do you want to achieve with your project? If you're interested in data science, machine learning, or automation, Python might be a better fit. If you're interested in web development, JavaScript is a better choice.
+2. **Experience**: If you're a beginner, Python might be a better starting point due to its simplicity and ease of use.
+3. **Industry**: If you're interested in web development, JavaScript is a better choice. If you're interested in data science or automation, Python might be a better fit.
+
+Consider your goals, interests, and the type of projects you want to work on, and choose the language that aligns best with your objectives."
+fo_072,opinion_advice,"What is better for a beginner, a guitar or a piano? Compare them.","Both guitars and pianos are popular instruments that can be great for beginners, but they have some key differences that might make one more suitable for you than the other. Here's a comparison to help you decide:
+
+**Guitar:**
+
+Pros:
+
+1. **Easier to learn**: The fretboard is smaller, and the strings are easier to press down on, making it more accessible for beginners.
+2. **Less expensive**: Guitars are generally less expensive than pianos, with a wider range of price options available.
+3. **Portability**: Guitars are often lighter and more compact, making them easier to transport and store.
+4. **Versatility**: Guitars can be played in various styles, from classical to rock, pop, and folk.
+
+Cons:
+
+1. **Limited range**: The fretboard is shorter, which means you'll need to learn specific chords and techniques to play complex songs.
+2. **Less expressive**: The sound produced by a guitar is often described as warmer and more intimate, but it may not be as rich and complex as a piano.
+
+**Piano:**
+
+Pros:
+
+1. **Expressive range**: The piano offers a wider range of tonal possibilities, with a greater variety of dynamics and expression.
+2. **Better for complex music**: Pianos are ideal for playing complex pieces, such as classical, jazz, and musical theater music.
+3. **Improved sight-reading**: Pianos require more finger dexterity and hand-eye coordination, making it easier to learn and improve sight-reading skills.","
+4. **Cost-effective**: Pianos are often more affordable than guitars, with a wider range of price options available.
+
+Cons:
+
+1. **More complex**: The keyboard layout can be overwhelming for beginners, with more keys and complex fingerings.
+2. **Heavier**: Pianos are generally heavier and more cumbersome, making them more difficult to transport and store.
+3. **Less portable**: Pianos are often larger and more expensive to move around.
+
+**Ultimately, the choice between a guitar and a piano depends on your personal preferences and goals:**
+
+* If you're interested in playing classical, jazz, or folk music, a guitar might be a better fit.
+* If you're interested in playing complex pieces, classical, or musical theater music, a piano might be a better choice.
+* If you're a beginner, a guitar might be a more accessible and forgiving instrument to start with.
+
+Consider the following questions to help you decide:
+
+* What type of music do you want to play?
+* How complex are you willing to learn?
+* How much space do you have available for an instrument?
+* What is your budget?
+
+I hope this helps you make an informed decision!"
+fo_073,opinion_advice,Give me advice on how to stay focused while studying.,"Staying focused while studying can be a challenge, but there are several strategies that can help. Here are some tips to help you stay focused while studying:
+
+1. **Create a conducive study environment**: Identify a quiet, comfortable, and distraction-free space where you can study without interruptions. Consider using a desk or table instead of studying on your bed, as it can be harder to focus.
+2. **Set clear goals and priorities**: Before you start studying, define what you want to achieve and prioritize your tasks. Break down large tasks into smaller, manageable chunks, and focus on one task at a time.
+3. **Use the Pomodoro Technique**: This technique involves studying in focused 25-minute increments, followed by a 5-minute break. After four cycles, take a longer break of 15-30 minutes. This technique can help you stay focused and avoid burnout.","
+4. **Eliminate distractions**: Turn off your phone, log out of social media, and close unnecessary tabs on your computer. Use website blockers like Freedom or SelfControl to block distracting websites during your study sessions.
+5. **Use music to your advantage**: Listening to music without lyrics or with a consistent beat can help you stay focused. Some studies suggest that listening to classical music, in particular, can improve cognitive function and productivity.
+6. **Take breaks**: Taking regular breaks can help you recharge and come back to your study session with renewed focus. Use your breaks to do something enjoyable or relaxing, like taking a short walk or doing some stretching exercises.
+7. **Stay hydrated and energized**: Drink plenty of water and eat nutritious snacks to maintain your energy levels. Avoid sugary or caffeinated drinks that can lead to energy crashes later.
+8. **Get enough sleep**: Adequate sleep is essential for cognitive function and focus. Aim for 7-9 hours of sleep each night to help you stay focused and alert during the day.
+9. **Use visual aids**: Visual aids like flashcards, diagrams, and mind maps can help you organize and retain information better. Use them to supplement your notes and help you stay focused.
+10. **Reward yourself**: Set small rewards for yourself after completing a study session or reaching a certain milestone. This can help motivate you to stay focused and engaged.
+
+Remember, everyone is unique, and what works for one person may not work for another. Experiment with different techniques to find what works best for you.
+
+Which of these tips resonates with you the most, or do you have any specific challenges you'd like to discuss?"
+fo_074,opinion_advice,Compare electric cars and petrol cars in a short pros and cons list.,"Here's a short pros and cons list comparing electric cars and petrol cars:
+
+**Electric Cars:**
+
+Pros:
+
+1. **Zero Emissions**: Electric cars produce no tailpipe emissions, reducing air pollution and greenhouse gas emissions.
+2. **Lower Operating Costs**: Electric cars are generally cheaper to run, with lower fuel costs (electricity is often cheaper than petrol) and lower maintenance costs.
+3. **Smooth and Quiet Ride**: Electric cars have a smoother and quieter ride due to their electric motor.
+4. **Instant Torque**: Electric cars have instant torque, providing faster acceleration and better performance.
+5. **Government Incentives**: Many governments offer incentives, such as tax credits and rebates, to encourage the adoption of electric cars.
+
+Cons:
+
+1. **Limited Range**: Electric cars have a limited range, typically between 200-300 miles, before needing to be recharged.
+2. **Charging Time**: Charging an electric car can take several hours, although fast-charging technology is improving.
+3. **Higher Upfront Cost**: Electric cars are often more expensive than petrol cars, although prices are decreasing as technology improves.
+4. **Limited Charging Infrastructure**: While charging infrastructure is improving, it can still be difficult to find charging stations, especially in rural areas.
+5. **Battery Durability**: Batteries in electric cars can degrade over time, reducing their range and overall performance.
+
+**Petrol Cars:**
+
+Pros:
+
+1. **Longer Range**: Petrol cars can travel longer distances without needing to be recharged.
+2. **Faster Refueling**: Petrol cars can be refueled quickly, making them ideal for long road trips.","
+3. **Wide Availability**: Petrol cars are widely available and can be purchased at most dealerships.
+4. **Lower Upfront Cost**: Petrol cars are often less expensive than electric cars, although prices are decreasing as technology improves.
+5. **Wide Range of Models**: Petrol cars come in a wide range of models, including luxury and performance cars.
+
+Cons:
+
+1. **Emissions**: Petrol cars produce emissions, contributing to air pollution and greenhouse gas emissions.
+2. **Higher Operating Costs**: Petrol cars are generally more expensive to run, with higher fuel costs and maintenance costs.
+3. **Noise Pollution**: Petrol cars can be noisy and produce more noise pollution.
+4. **Dependence on Fossil Fuels**: Petrol cars rely on fossil fuels, which are finite resources.
+5. **Limited Performance**: Petrol cars can be slower and less efficient than electric cars, although some models are designed for performance.
+
+I hope this helps! Let me know if you have any further questions."
+fo_075,opinion_advice,Is it better to rent or to buy a home? Give both sides.,"Here's a balanced view of both options:
+
+**Renting vs. Buying a Home: Which is Better?**
+
+**Renting:**
+
+Pros:
+
+1. **Lower Upfront Costs**: Renting typically requires a security deposit and first month's rent, which is lower than the down payment required for a mortgage.
+2. **Flexibility**: Renting allows you to move more easily, whether it's for a new job opportunity or personal reasons.
+3. **Maintenance and Repairs are Handled by the Landlord**: You're not responsible for maintenance and repairs, which can be a significant cost savings.
+4. **Access to Amenities**: Many rental properties offer amenities like a pool, gym, or community garden that you might not be able to afford if you were to buy a home.
+5. **No Long-term Commitment**: Rental agreements are usually shorter-term, giving you the flexibility to move if your circumstances change.
+
+Cons:
+
+1. **No Equity**: You won't build any equity in a property, which means you won't have a stake in the property's value.
+2. **Rent Increases**: Rent can increase over time, and you may not have much control over these increases.","
+3. **No Tax Benefits**: You won't be able to deduct mortgage interest and property taxes on your taxes.
+4. **Lease Restrictions**: Rental agreements often come with restrictions on things like pets, guests, and renovations.
+
+**Buying a Home:**
+
+Pros:
+
+1. **Building Equity**: As you pay down your mortgage, you build equity in your property, which can be a valuable asset.
+2. **Tax Benefits**: You can deduct mortgage interest and property taxes on your taxes, which can save you money.
+3. **Stability and Permanence**: Owning a home can provide a sense of stability and permanence, which can be beneficial for families and retirees.
+4. **Customization**: You have more freedom to make changes and improvements to the property to suit your needs.
+5. **Potential for Appreciation**: Real estate values can appreciate over time, making owning a home a potentially lucrative investment.
+
+Cons:
+
+1. **High Upfront Costs**: Buying a home typically requires a significant down payment and closing costs.
+2. **Maintenance and Repairs are Your Responsibility**: You'll be responsible for maintenance and repairs, which can be time-consuming and costly.
+3. **Illiquidity**: If you need to move, selling a home can take time and may not be possible quickly.
+4. **Market Risks**: The housing market can be unpredictable, and market fluctuations can affect the value of your home.
+5. **Long-term Commitment**: Owning a home requires a long-term commitment, which can be stressful and may not be suitable for everyone.
+
+Ultimately, whether renting or buying a home is better for you depends on your individual circumstances, financial situation, and personal preferences. Here are some questions to consider:
+
+* How long do you plan to stay in the area?
+* How much can you afford to pay for a down payment and closing costs?
+* Do you have a stable income and a stable financial situation?
+* Are you willing and able to handle maintenance and repairs?
+* Do you value the flexibility and freedom of renting?
+
+It's essential to weigh these factors and consider your own needs and priorities before making a decision."
+fo_076,opinion_advice,How can I improve my public speaking?,"Improving your public speaking skills can be achieved through practice, preparation, and self-reflection. Here are some tips to help you become a more confident and effective public speaker:
+
+1. **Practice, practice, practice**: The more you practice, the more comfortable you'll become with speaking in front of an audience. Try to practice in front of a mirror, record yourself, or practice with a friend or family member.
+2. **Prepare thoroughly**: Research your topic, organize your thoughts, and create an outline to ensure you have a clear and concise message. Practice your speech until you feel confident with the material.
+3. **Focus on your audience**: Think about who your audience is and tailor your message to their needs and interests."," Use storytelling techniques to engage your audience and make your message more relatable.
+4. **Use confident body language**: Make eye contact, stand up straight, and use gestures to convey confidence and enthusiasm.
+5. **Speak clearly and slowly**: Enunciate your words, and speak at a pace that allows your audience to follow along. Avoid filler words (like ""um"" and ""ah"") and try to speak in a clear, concise manner.
+6. **Use visual aids**: Use slides, videos, or props to support your message and help your audience visualize your points.
+7. **Get feedback**: Ask for feedback from others on your speaking style and content. Use this feedback to adjust your delivery and improve your performance.
+8. **Join a public speaking group**: Consider joining a public speaking group, such as Toastmasters, to practice speaking in front of a supportive audience.
+9. **Watch TED Talks**: Study the way speakers structure their talks, use storytelling techniques, and engage their audience.
+10. **Be authentic and genuine**: Speak from the heart and be yourself. Your audience will appreciate your authenticity and be more likely to listen to you.
+
+Additionally, here are some specific tips for different types of public speaking:
+
+* **For presentations**: Use a clear and concise structure, include visual aids, and practice your delivery.
+* **For speeches**: Focus on storytelling, use rhetorical devices, and engage your audience with humor and anecdotes.
+* **For networking events**: Be confident, be yourself, and focus on building relationships.
+
+Remember, improving your public speaking skills takes time and practice. Be patient, persistent, and kind to yourself as you work on developing your skills.
+
+Which area of public speaking would you like to focus on?"
+fo_077,opinion_advice,What are the pros and cons of working from home?,"Here are the pros and cons of working from home:
+
+**Pros:**
+
+1. **Flexibility and autonomy**: Working from home provides the freedom to create your own schedule and work at your own pace.
+2. **Increased productivity**: Without the distractions of a traditional office environment, some people find they are more productive when working from home.
+3. **Reduced commuting time and expenses**: No need to spend time and money on daily commutes, which can be a significant cost savings.
+4. **Improved work-life balance**: With the flexibility to work from home, you can easily balance work and family responsibilities.","
+5. **Reduced stress**: No need to deal with office politics, meetings, or office noise, which can be stressful.
+6. **Comfort and convenience**: You can wear comfortable clothes and work in your pajamas, which can be a nice change of pace.
+7. **Less exposure to germs**: You can reduce your exposure to office germs and illnesses.
+8. **More job opportunities**: With the rise of remote work, many companies are now offering remote work options, which can be a great opportunity for those who want to work from home.
+
+**Cons:**
+
+1. **Social isolation**: Working from home can be isolating, which can lead to feelings of loneliness and disconnection from colleagues and friends.
+2. **Distractions**: Home can be full of distractions, such as family members, pets, and household chores, which can make it difficult to focus.
+3. **Blurred boundaries**: It can be challenging to separate work and personal life when working from home, leading to burnout or the feeling of being ""on the clock"" all the time.
+4. **Lack of structure**: Without a traditional office environment, it can be easy to fall into bad habits, such as procrastination or overwork.
+5. **Communication challenges**: Without face-to-face interactions, it can be difficult to communicate with colleagues and clients, which can lead to misunderstandings or missed deadlines.
+6. **Technical issues**: You may encounter technical issues, such as internet connectivity problems or software compatibility issues, which can disrupt your work.
+7. **Self-motivation**: Without a traditional office environment, it can be easy to get distracted or lack motivation, leading to decreased productivity.
+8. **Blurred work-life boundaries**: It can be challenging to separate work and personal life when working from home, leading to the feeling of being ""on the clock"" all the time.
+
+Overall, working from home can be a great option for some people, but it's essential to weigh the pros and cons and consider your individual needs and circumstances before making a decision."
+fo_078,opinion_advice,Help me decide between a laptop and a tablet for school.,"Deciding between a laptop and a tablet for school can be a bit tricky, but I'm here to help you weigh the pros and cons of each option.
+
+**Laptop:**
+
+Pros:
+
+1. **Portability**: Laptops are generally lighter and more portable, making them easier to carry around campus.
+2. **Multitasking**: Laptops can handle multiple apps and tasks simultaneously, making it easier to stay organized.
+3. **Better for heavy-duty work**: Laptops are better suited for tasks that require more processing power, such as writing, coding, or video editing.
+4. **Longer battery life**: Laptops tend to have longer battery life, especially if you're using a battery-saving mode.
+
+Cons:
+
+1. **Cost**: Laptops can be more expensive than tablets, especially if you're looking for a high-end model.
+2. **Size and weight**: Laptops can be bulky and heavy, making them less convenient to carry around campus.
+3. **Keyboard and touchpad**: Laptops often have a larger keyboard and touchpad, which can be less comfortable to use for extended periods.
+
+**Tablet:**
+
+Pros:
+
+1. **Portability**: Tablets are generally lighter and more compact, making them easier to carry around campus.
+2. **Affordability**: Tablets are often less expensive than laptops, making them a more accessible option for students on a budget.","
+3. **Ergonomic**: Tablets are designed for reading and browsing, making them a great option for students who want to stay connected without having to carry a laptop.
+4. **Touchscreen**: Tablets are often more intuitive to use, with a more natural touch interface.
+
+Cons:
+
+1. **Limited multitasking**: Tablets can be less suitable for heavy-duty work or tasks that require multiple apps.
+2. **Limited battery life**: Tablets tend to have shorter battery life, especially if you're using a battery-saving mode.
+3. **Limited software compatibility**: Some apps may not be available on tablets, or may not be optimized for the device.
+
+**Consider your needs:**
+
+1. **Academic requirements**: If you're a student who needs to do a lot of writing, coding, or video editing, a laptop might be a better option.
+2. **Campus life**: If you're a student who spends most of their time on campus, a laptop might be a better option due to its portability and multitasking capabilities.
+3. **Personal preference**: If you prefer a more intuitive interface and a larger screen, a tablet might be a better option.
+
+**Questions to ask yourself:**
+
+1. Do you need to do a lot of heavy-duty work or tasks that require a lot of processing power?
+2. Do you prefer a more portable and compact device?
+3. Are you on a tight budget, or are you willing to invest in a more expensive laptop?
+4. Do you want a device that's specifically designed for reading and browsing, or do you want a device that's versatile and can handle a variety of tasks?
+
+Ultimately, the decision between a laptop and a tablet comes down to your individual needs and preferences. I hope this helps you make an informed decision!"
+fo_079,opinion_advice,What should I consider before adopting a dog?,"Congratulations on considering adopting a new furry friend! Here are some essential things to consider before bringing a dog into your life:
+
+1. **Time commitment**: Dogs require regular exercise, training, and attention."," Make sure you have enough time to devote to your dog's needs.
+2. **Space and living situation**: Consider the size of your home, yard, and living situation. Do you have enough space for a dog to run around and play?
+3. **Allergies**: If someone in your household has allergies, you'll want to consider this before bringing a dog into your home.
+4. **Budget**: Owning a dog comes with expenses, including food, vet bills, and supplies. Make sure you can afford the costs.
+5. **Lifestyle**: Think about your work schedule, travel plans, and social life. Will you be away from home for extended periods, or will you have time to care for a dog?
+6. **Family dynamics**: If you have young children, you'll want to consider whether a dog is a good fit for your family.
+7. **Age and energy level**: If you're an active person, a high-energy dog might be a great match. If you're less active, a lower-energy dog might be a better fit.
+8. **Grooming and training**: Some breeds require regular grooming and training, which can be time-consuming and expensive.
+9. **Veterinary care**: Research local veterinarians and pet insurance options to ensure you're prepared for unexpected veterinary expenses.
+10. **Long-term commitment**: Dogs can live for 10-15 years or more, so make sure you're ready for a long-term commitment.
+11. **Research different breeds**: Learn about the needs and characteristics of different breeds to find the best match for you and your lifestyle.
+12. **Adoption process**: Understand the adoption process, including the application, interview, and home visit requirements.
+
+By considering these factors, you'll be better prepared to provide a happy and healthy home for your new furry friend.
+
+Which of these factors is most important to you?"
+fo_080,opinion_advice,How should I prepare for a long flight?,"To prepare for a long flight, here are some tips to help you make the most of your journey:
+
+**Before the Flight:**
+
+1. **Check-in online and print or download your boarding pass**: This will save you time at the airport and help you avoid any last-minute delays.
+2. **Check the weather forecast**: Check the weather forecast for your destination and pack accordingly.
+3. **Pack essentials**: Pack a carry-on bag with essentials like a change of clothes, toiletries, and a phone charger.
+4. **Charge your devices**: Charge your phone, laptop, and any other devices before the flight.
+5. **Dress comfortably**: Wear loose, comfortable clothing and layers for temperature control.
+
+**At the Airport:**
+
+1. **Arrive early**: Arrive at the airport at least 2 hours before your flight for domestic flights and 3 hours for international flights.
+2. **Check-in and drop off your luggage**: Check-in online and print or download your boarding pass, then drop off your luggage at the designated counter.
+3. **Go through security**: Remove electronics and liquids from your carry-on bags and put them in a bin for scanning.
+4. **Find your gate**: Locate your gate and take a seat before boarding starts.
+
+**During the Flight:**
+
+1. **Stay hydrated**: Drink plenty of water and avoid caffeine and sugary drinks.","
+2. **Take breaks**: Get up and move around the cabin every hour or so to prevent blood clots and stiffness.
+3. **Use earplugs and eye mask**: If you're a light sleeper, consider using earplugs and an eye mask to improve sleep.
+4. **Stay entertained**: Bring a book, tablet, or portable charger to keep you occupied.
+5. **Take care of your body**: Stretch, exercise, and move around to prevent blood clots and stiffness.
+
+**After the Flight:**
+
+1. **Get some fresh air**: Take a short walk outside the airport or use the airport's outdoor spaces to get some fresh air.
+2. **Stretch and move**: Get up and move around to prevent blood clots and stiffness.
+3. **Rehydrate**: Drink water and eat a light snack to replenish fluids and energy.
+4. **Check your luggage**: Inspect your luggage for any damage or missing items.
+
+**Additional Tips:**
+
+1. **Consider booking a seat with more legroom**: If possible, choose a seat with more legroom to make the most of your journey.
+2. **Use a travel pillow and blanket**: Invest in a travel pillow and blanket to make your flight more comfortable.
+3. **Be prepared for turbulence**: If you're prone to motion sickness, consider taking medication or using a wristband to help alleviate symptoms.
+
+By following these tips, you'll be well-prepared for a comfortable and enjoyable flight!"
+fo_091,mixed_domain,Explain how a refrigerator keeps food cold.,"A refrigerator keeps food cold by using a combination of refrigeration and insulation. Here's a step-by-step explanation:
+
+**Refrigeration:**
+
+A refrigerator uses a refrigerant, typically a gas like carbon dioxide or ammonia, to transfer heat from the inside of the refrigerator to the outside. The refrigerant is pumped through a series of coils, called the condenser coils, which are located at the back and bottom of the refrigerator. As the refrigerant flows through the coils, it releases heat to the outside air, causing the temperature to drop.
+
+**Insulation:**
+
+The refrigerator is designed with insulation to prevent heat from entering the cold interior. The walls, floor, and ceiling of the refrigerator are made of thick, insulating materials like foam, fiberglass, or plastic. These materials help to reduce heat transfer through conduction and convection.
+
+**How it works together:**
+
+Here's what happens when you open the refrigerator door:
+
+1. The cold air inside the refrigerator is drawn out through the door and into the surrounding air.
+2. The cold air is then blown out through the condenser coils, which release heat to the outside air.
+3. The refrigerant, now cold, is pumped back into the refrigerator through the condenser coils.","
+4. The refrigerant then flows through the evaporator coils, which are located inside the refrigerator.
+5. As the refrigerant absorbs heat from the inside of the refrigerator, it releases it to the surrounding air, causing the temperature to drop.
+
+**Additional features:**
+
+Modern refrigerators also have additional features that enhance their cooling performance, such as:
+
+* **Evaporator coils:** These coils are located inside the refrigerator and are designed to absorb heat from the food and air inside the refrigerator.
+* **Thermostat:** The thermostat regulates the temperature inside the refrigerator by controlling the flow of refrigerant and the amount of heat that is released.
+* **Defrost cycle:** The defrost cycle is a process that removes frost and ice from the evaporator coils to maintain optimal cooling performance.
+
+Overall, the combination of refrigeration and insulation in a refrigerator allows it to keep food cold for a long time, making it an essential appliance for keeping food fresh and safe to eat."
+fo_092,mixed_domain,What are the symptoms of the common cold and how long do they last?,"The common cold is a viral infection that affects the upper respiratory tract, and its symptoms can vary from person to person. Here are the common symptoms of the common cold and their typical duration:
+
+**Common Symptoms:**
+
+1. **Runny nose**: A stuffy, runny, or clear nasal discharge that may be accompanied by a yellow or greenish mucus.","
+2. **Sneezing**: Frequent sneezing, often accompanied by a nasal congestion or pressure.
+3. **Coughing**: A dry, hacking cough or a productive cough that brings up mucus.
+4. **Fatigue**: Feeling tired, weak, or lethargic due to the body's response to the infection.
+5. **Headache**: A mild to moderate headache, often accompanied by facial pain or pressure.
+6. **Sore throat**: A scratchy, scratchy, or sore throat.
+7. **Chest congestion**: Feeling of congestion or stuffiness in the chest.
+8. **Loss of appetite**: Decreased interest in food or drink due to the body's response to the infection.
+9. **Mild fever**: A low-grade fever, usually less than 102°F (39°C).
+
+**Duration of Symptoms:**
+
+The symptoms of the common cold typically last for 7-10 days, but in some cases, they can last longer. Here's a general outline:
+
+* **Mild cold**: 7-10 days
+* **Moderate cold**: 10-14 days
+* **Severe cold**: 14-21 days
+
+**When to Seek Medical Attention:**
+
+If you experience any of the following, seek medical attention:
+
+* Severe difficulty breathing or shortness of breath
+* Chest pain or pressure
+* High fever (over 102°F or 39°C)
+* Severe headache or facial pain
+* Difficulty swallowing or speaking
+* Vomiting or diarrhea
+* Severe sore throat or difficulty speaking
+* Fever that lasts more than 3-4 days
+* Worsening symptoms or no improvement after 7-10 days
+
+It's essential to note that some people may experience a cold that lasts longer or is more severe than others. If you're unsure about the severity of your symptoms or if you're experiencing any concerning symptoms, it's always best to consult with a healthcare professional for proper diagnosis and treatment."
+fo_093,mixed_domain,Describe how to change a flat tire step by step.,"Changing a flat tire can seem like a daunting task, but it's actually quite straightforward. Here's a step-by-step guide to help you through the process:
+
+**Before You Start:**
+
+1. **Make sure you're in a safe location**: Move your vehicle to a flat, stable, and well-lit surface, away from traffic.
+2. **Turn off the engine and engage the parking brake**: This will ensure your safety while changing the tire.
+3. **Gather the necessary tools and equipment**:
+	* Spare tire
+	* Lug wrench (also known as a tire iron)
+	* Car jack
+	* Wheel chocks (if changing the tire on a slope)
+	* Flashlight (if changing the tire in the dark)
+
+**Step 1: Loosen the Lug Nuts (Before Jacking)**
+
+1. **Find the lug nuts**: Locate the lug nuts on the flat tire. They're usually on the outside of the wheel, around the center hub.
+2. **Position the lug wrench**: Place the lug wrench on the first lug nut and make sure it's securely seated.","
+3. **Loosen the lug nut**: Turn the lug wrench counterclockwise to loosen the lug nut. Do not remove it yet.
+
+**Step 2: Jack Up the Vehicle**
+
+1. **Position the jack**: Place the jack under the vehicle's frame, near the flat tire. Make sure it's centered and stable.
+2. **Raise the jack**: Slowly raise the jack until the flat tire is off the ground. Make sure the jack is stable and sturdy.
+3. **Use jack stands (optional)**: If you have jack stands, place them near the jack and raise them to support the vehicle.
+
+**Step 3: Remove the Lug Nuts and Flat Tire**
+
+1. **Remove the lug nuts**: Now that the vehicle is raised, you can remove the lug nuts completely. Turn them counterclockwise and set them aside in a safe place.
+2. **Remove the flat tire**: Carefully pull the flat tire straight off the wheel hub and set it aside.
+
+**Step 4: Install the Spare Tire**
+
+1. **Place the spare tire**: Put the spare tire onto the wheel hub, making sure it's securely seated.
+2. **Hand-tighten the lug nuts**: Hand-tighten the lug nuts in a star pattern (tightening one lug nut a little, then moving to the next one, and so on).
+
+**Step 5: Tighten the Lug Nuts**
+
+1. **Lower the vehicle**: Carefully lower the vehicle to the ground using the jack.
+2. **Tighten the lug nuts**: Use the lug wrench to tighten the lug nuts in a star pattern until they're snug.
+
+**Step 6: Check the Tire Pressure**
+
+1. **Check the tire pressure**: Make sure the spare tire is inflated to the recommended pressure, which can be found on the tire's sidewall or in your vehicle's owner's manual.
+
+**Step 7: Drive Carefully**
+
+1. **Drive carefully**: Drive carefully to a tire repair shop to have the flat tire repaired or replaced.
+
+Remember to always refer to your vehicle's owner's manual for specific instructions on how to change a flat tire for your particular vehicle. If you're not comfortable changing a tire, call for roadside assistance or seek help from a professional mechanic."
+fo_094,mixed_domain,Explain how compound interest works with an example.,"Compound interest is a powerful financial concept that can help you grow your savings over time. Here's an example to illustrate how it works:
+
+**Example:**
+
+Let's say you deposit $1,000 into a savings account with a 5% annual interest rate, compounded annually."," You don't touch the money for 10 years.
+
+**Initial Amount:** $1,000
+**Interest Rate:** 5% per year
+**Compounding Frequency:** Annually
+
+**Year 1:**
+Interest earned: $1,000 x 5% = $50
+New balance: $1,000 + $50 = $1,050
+
+**Year 2:**
+Interest earned: $1,050 x 5% = $52.50
+New balance: $1,050 + $52.50 = $1,102.50
+
+**Year 3:**
+Interest earned: $1,102.50 x 5% = $55.13
+New balance: $1,102.50 + $55.13 = $1,157.63
+
+Notice a pattern? The interest earned in each year is greater than the previous year's interest, which is a result of compound interest.
+
+**Year 4:**
+Interest earned: $1,157.63 x 5% = $57.86
+New balance: $1,157.63 + $57.86 = $1,215.49
+
+**Year 5:**
+Interest earned: $1,215.49 x 5% = $60.73
+New balance: $1,215.49 + $60.73 = $1,276.22
+
+**Year 6:**
+Interest earned: $1,276.22 x 5% = $63.11
+New balance: $1,276.22 + $63.11 = $1,339.33
+
+**Year 7:**
+Interest earned: $1,339.33 x 5% = $66.17
+New balance: $1,339.33 + $66.17 = $1,405.50
+
+**Year 8:**
+Interest earned: $1,405.50 x 5% = $69.07
+New balance: $1,405.50 + $69.07 = $1,474.57
+
+**Year 9:**
+Interest earned: $1,474.57 x 5% = $72.29
+New balance: $1,474.57 + $72.29 = $1,556.86
+
+**Year 10:**
+Interest earned: $1,556.86 x 5% = $76.99
+New balance: $1,556.86 + $76.99 = $1,633.85
+
+As you can see, the interest earned in each year is greater than the previous year's interest, demonstrating the power of compound interest. The balance grows exponentially over time.
+
+**Key points to note:**
+
+* The interest earned in each year is calculated by multiplying the previous year's balance by the interest rate (5% in this example).
+* The interest is added to the balance, so the new balance is the previous balance plus the interest earned.
+* The interest rate remains constant at 5% per year.
+* The interest earned in each year is greater than the previous year's interest, resulting in exponential growth.
+
+Compound interest can help you grow your savings over time, making it a great way to save for long-term goals, such as retirement, a down payment on a house, or a big purchase."
+fo_095,mixed_domain,Why did the Roman Empire fall? Give the main causes.,"The fall of the Roman Empire is a complex and multifaceted topic, and there are several factors that contributed to its decline and eventual fall. Here are the main causes of the fall of the Roman Empire:
+
+**Internal Factors:**
+
+1. **Corruption and Mismanagement**: The Roman Empire was plagued by corruption, nepotism, and mismanagement, which weakened its institutions and led to a decline in the quality of governance.
+2. **Economic Decline**: The Roman economy was heavily dependent on slave labor, which led to a decline in productivity and economic growth. The empire's extensive trade networks were also disrupted by wars and natural disasters.
+3. **Military Overextension**: The Roman Empire's extensive military campaigns and expansionist policies led to a strain on its resources, manpower, and infrastructure.
+4. **Social and Cultural Decline**: The Roman Empire's social and cultural institutions, such as the Senate and the aristocracy, became increasingly corrupt and ineffective, leading to a decline in civic engagement and social cohesion.
+
+**External Factors:**
+
+1. **Barbarian Invasions**: The Roman Empire faced numerous invasions from various barbarian tribes, including the Visigoths, Vandals, and Huns, which weakened its military and drained its resources.
+2. **The Huns**: The Huns, a nomadic people from Central Asia, were a significant threat to the Roman Empire, as they were skilled warriors and raiders who could easily overrun Roman territories.
+3. **The Goths**: The Goths, a Germanic tribe, also posed a significant threat to the Roman Empire, as they were skilled warriors and raiders who could easily overrun Roman territories.
+4. **The Rise of the Huns**: The rise of the Huns, led by Attila the Great, marked a significant turning point in the decline of the Roman Empire, as they were a powerful and efficient military force that could easily overrun the empire.
+
+**Other Factors:**
+
+1. **Climate Change**: Climate change, such as the cooling of the climate, may have contributed to the decline of the Roman Empire, as it led to crop failures and famines.
+2. **Environmental Factors**: The Roman Empire's extensive use of slave labor and the destruction of forests and natural resources may have contributed to its decline.","
+3. **Overpopulation**: The Roman Empire's large population may have contributed to its decline, as it led to overpopulation, which put a strain on resources and infrastructure.
+
+**The Final Blow:**
+
+The final blow to the Roman Empire came in 476 CE, when the Western Roman Empire was overrun by the Visigoths, led by Alaric, marking the end of the Western Roman Empire. The Eastern Roman Empire, also known as the Byzantine Empire, survived for another thousand years, but the Western Roman Empire was eventually conquered by the barbarian king Odoacer in 476 CE.
+
+It's worth noting that the fall of the Roman Empire was a gradual process that occurred over several centuries, and there were many contributing factors that led to its decline and eventual fall."
+fo_096,mixed_domain,Explain the rules of chess in simple words.,"I'd be happy to explain the rules of chess in simple terms.
+
+**Objective:** The objective of chess is to checkmate your opponent's king, which means the king is in a position to be captured (in ""check""), and there is no way to move the king out of capture (mate).
+
+**Basic Rules:**
+
+1. **The Board:** The game is played on a 8x8 square board with 16 pieces per player.
+2. **The Pieces:** Each player starts with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns.
+3. **Turns:** Players take turns moving one piece at a time.
+4. **Movement:** Each piece has its own unique way of moving:
+	* **King:** One square in any direction (horizontally, vertically, or diagonally).","
+	* **Queen:** Any number of squares in any direction (horizontally, vertically, or diagonally).
+	* **Rook:** Any number of squares horizontally or vertically.
+	* **Bishop:** Any number of squares diagonally.
+	* **Knight:** Two squares in an L-shape (two squares in one direction, then one square to the side).
+	* **Pawn:** One square forward, but can move two squares on its first move.
+5. **Capturing:** A piece can capture an opponent's piece by landing on the square occupied by that piece.
+6. **Special Moves:**
+	* **Castling:** The king can move three squares in any direction (horizontally, vertically, or diagonally) to the square next to the king, while the king moves one square in any direction.
+	* **En passant:** If a pawn moves two squares forward from its starting position, an opponent's pawn can capture it ""en passant"" by moving diagonally to the square the pawn crossed over.
+7. **Check:** If a player's king is under attack, it is said to be ""in check."" The player must move their king to a safe square or block the check with one of their pieces.
+8. **Checkmate:** If a player's king is in check and there is no way to move the king out of capture, the game is over, and the other player wins.
+
+**Other Important Rules:**
+
+* **Fifty-move rule:** If a player makes 50 moves without capturing an opponent's piece or pawn, they lose the game.
+* **Draw:** If the same position occurs three times, with the same player to move, the game is a draw.
+
+That's a basic overview of the rules of chess! Do you have any specific questions or would you like me to clarify any of these rules?"
+fo_097,mixed_domain,How do I make a good cup of tea? Give the steps.,"A simple yet delightful question! Here's a step-by-step guide to making a good cup of tea:
+
+**Materials needed:**
+
+* Teapot
+* Tea leaves (choose your favorite type of tea)
+* Water
+* Sugar and milk (optional)
+* A cup or mug
+
+**Step-by-Step Instructions:**
+
+1. **Choose your tea**: Select a type of tea that suits your taste preferences. Popular options include black, green, white, oolong, or herbal teas.
+2. **Heat the water**: Fill a kettle with fresh, filtered water and bring it to a boil. The ideal temperature for brewing tea is between 200°F (93°C) and 212°F (100°C).
+3. **Measure the tea leaves**: Use one teaspoon of loose-leaf tea or one tea bag for every 8 oz (230 ml) of water. Adjust the amount according to your personal preference.
+4. **Steep the tea**: Pour the hot water over the tea leaves or tea bag in the teapot. If using loose-leaf tea, you can also use a tea infuser or strainer.
+5. **Steeping time**: Allow the tea to steep for the recommended time:
+	* Black tea: 3-5 minutes
+	* Green tea: 2-3 minutes
+	* White tea: 2-3 minutes
+	* Oolong tea: 3-5 minutes
+	* Herbal tea: 5-7 minutes
+6. **Strain the tea**: If using loose-leaf tea, remove the tea leaves or tea bag from the pot."," If using a tea infuser or strainer, simply lift it out.
+7. **Add sweetener and milk (optional)**: If desired, add sugar, honey, or milk to taste. Stir well to dissolve the sweetener or milk.
+8. **Enjoy your tea**: Pour the tea into your cup and enjoy!
+
+**Tips and Variations:**
+
+* Use fresh, high-quality tea leaves or tea bags for the best flavor.
+* Experiment with different tea varieties and brewing times to find your perfect cup.
+* Try adding a slice of lemon or a sprig of mint for added flavor and aroma.
+* For a more flavorful tea, use a tea infuser or a tea ball to hold the tea leaves or tea bag.
+
+I hope this helps! Do you have any specific questions or preferences?"
+fo_098,mixed_domain,What are the main stages of a software project?,"The main stages of a software project typically include:
+
+1. **Requirements Gathering**: This stage involves defining the project's requirements, identifying the problem or opportunity, and gathering information from stakeholders, customers, and users. It's essential to understand the project's goals, objectives, and deliverables.
+
+2. **Design**: In this stage, the project team creates a detailed design of the software, including its architecture, user interface, and user experience. This stage involves defining the software's features, functionalities, and user interactions.
+
+3. **Implementation**: This stage involves building the software, either by developing it from scratch or by integrating existing components. The implementation team works on coding, testing, and debugging the software.
+
+4. **Testing**: This stage involves testing the software to ensure it meets the requirements and works as expected. The testing team identifies and fixes bugs, performs user acceptance testing, and conducts user acceptance testing.","
+
+5. **Deployment**: In this stage, the software is deployed to the production environment, either on-premises or in the cloud. This stage involves setting up the infrastructure, configuring the software, and ensuring it's accessible to users.
+
+6. **Maintenance**: This stage involves ongoing maintenance, updates, and bug fixes to ensure the software remains stable and secure. The maintenance team works on bug fixes, performance optimization, and security patches.
+
+7. **Deployment and Launch**: This stage involves finalizing the software's deployment, making it available to users, and ensuring it's integrated with other systems as needed.
+
+8. **Go-Live**: This stage involves launching the software in production, which may involve marketing, training, and support for the software.
+
+9. **Post-Launch**: This stage involves monitoring the software's performance, gathering user feedback, and making improvements to the software as needed.
+
+These stages are not always linear, and some projects may involve additional stages or variations on these stages. However, these are the general stages that most software projects typically go through."
+fo_099,mixed_domain,Explain what a mortgage is and how monthly payments are calculated.,"I'd be happy to explain what a mortgage is and how monthly payments are calculated.
+
+**What is a Mortgage?**
+
+A mortgage is a type of loan that allows you to borrow money from a lender to purchase a home or other real estate property. The lender agrees to provide the loan, and in return, you agree to make regular payments, known as monthly mortgage payments, to repay the loan, plus interest, over a set period of time.
+
+**How is a Mortgage Calculated?**
+
+The calculation of a mortgage payment involves several steps:
+
+1. **Loan Amount**: The amount borrowed from the lender, which is known as the loan amount.","
+2. **Interest Rate**: The interest rate, which is the percentage of the loan amount that the lender charges as interest on the loan.
+3. **Loan Term**: The length of time the lender will lend you the money for, usually in years (e.g., 15 or 30 years).
+4. **Monthly Payment**: The amount you agree to pay each month to repay the loan, including principal, interest, and taxes.
+
+Here's an example:
+
+Let's say you borrow $200,000 to buy a home with a 30-year mortgage at an interest rate of 4% per year. Your monthly payment would be calculated as follows:
+
+1. **Monthly Interest Rate**: 4% per year = 0.04 (4%)
+2. **Monthly Payment**: $200,000 (loan amount) x 0.04 (interest rate) = $8,000 per month
+3. **Total Monthly Payment**: $8,000 (interest) + $200,000 (principal) = $208,000 per month
+
+**How Monthly Payments are Calculated**
+
+The monthly payment is typically calculated using a formula that takes into account the loan amount, interest rate, and loan term. The formula is:
+
+M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1]
+
+Where:
+
+* M = monthly payment
+* P = loan amount
+* i = monthly interest rate (as a decimal)
+* n = number of payments (number of months)
+
+For example, if you borrow $200,000 at a 4% interest rate for 30 years, your monthly payment would be:
+
+M = $200,000 [ 0.04(1 + 0.04)^30 ] / [ (1 + 0.04)^30 – 1]
+M ≈ $1,124.19 per month
+
+Keep in mind that this is a simplified example and actual mortgage payments may vary depending on the lender, loan terms, and other factors.
+
+I hope this explanation helps! Let me know if you have any further questions."
+fo_100,mixed_domain,Describe the plot of Romeo and Juliet in a short paragraph.,"Here is a short paragraph summarizing the plot of Romeo and Juliet:
+
+In the city of Verona, two rival families, the Montagues and the Capulets, have a long-standing feud. Against this backdrop of hatred and violence, Romeo, a young Montague, falls in love with Juliet, a beautiful Capulet, at a ball hosted by her family. They exchange vows of love, but their families' animosity towards each other makes their love impossible. Romeo and Juliet decide to marry in secret, with the help of Friar Lawrence, a wise and understanding priest."," However, their happiness is short-lived, as Romeo's friend Mercutio is killed in a fight with Juliet's cousin Tybalt, leading Romeo to a duel with Tybalt. In the ensuing fight, Romeo kills Tybalt and is banished from Verona. Juliet fakes her own death to avoid marrying another, but Romeo believes she is really dead and poisons himself in her tomb. Juliet awakens to find Romeo dead and stabs herself with his dagger to join him in death, and the two die together in each other's arms. The tragic end ultimately brings peace between the two families, as they realize the senseless violence and hatred that led to the star-crossed lovers' demise."

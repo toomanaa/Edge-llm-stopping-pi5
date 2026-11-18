@@ -1,0 +1,39 @@
+{"question": "Can you explain what causes leap years existing?", "answers": ["orbit", "calendar"], "match_mode": "all", "type": "explain", "id": "qav2_0585"}
+{"question": "What is the capital of Iceland?", "answers": ["reykjavik", "reykjav\u00edk"], "match_mode": "any", "type": "factual", "id": "qav2_0835"}
+{"question": "What causes phones getting warm while charging?", "answers": ["current", "resistance"], "match_mode": "all", "type": "explain", "id": "qav2_0672"}
+{"question": "Explain how nuclear power plants generating energy works.", "answers": ["reaction", "heat"], "match_mode": "all", "type": "explain", "id": "qav2_0480"}
+{"question": "What is the reason behind languages evolving over time?", "answers": ["usage", "generations"], "match_mode": "all", "type": "explain", "id": "qav2_0902"}
+{"question": "Can you explain what causes wounds forming scabs?", "answers": ["clotting", "platelets"], "match_mode": "all", "type": "explain", "id": "qav2_0937"}
+{"question": "Can you explain what causes deserts being dry?", "answers": ["rainfall", "climate"], "match_mode": "all", "type": "explain", "id": "qav2_0430"}
+{"question": "What is the reason behind the heart beating?", "answers": ["electrical", "muscle"], "match_mode": "all", "type": "explain", "id": "qav2_0499"}
+{"question": "Explain how people forgetting dreams quickly works.", "answers": ["memory", "sleep"], "match_mode": "all", "type": "explain", "id": "qav2_0315"}
+{"question": "Can you explain what causes diamonds are so hard?", "answers": ["carbon", "structure"], "match_mode": "all", "type": "explain", "id": "qav2_0675"}
+{"question": "What is the nearest star to Earth?", "answers": ["the sun", "sun"], "match_mode": "any", "type": "factual", "id": "qav2_0955"}
+{"question": "Can you explain what causes rivers forming deltas?", "answers": ["sediment", "current"], "match_mode": "all", "type": "explain", "id": "qav2_0107"}
+{"question": "Explain how time zones existing works.", "answers": ["rotation", "longitude"], "match_mode": "all", "type": "explain", "id": "qav2_0862"}
+{"question": "Can you explain what causes bread rising when baked?", "answers": ["yeast", "gas"], "match_mode": "all", "type": "explain", "id": "qav2_0586"}
+{"question": "Do you know the capital city of Ukraine?", "answers": ["kyiv"], "match_mode": "any", "type": "factual", "id": "qav2_0706"}
+{"question": "What document begins with 'We the People'?", "answers": ["the constitution"], "match_mode": "any", "type": "factual", "id": "qav2_0681"}
+{"question": "What causes boats floating?", "answers": ["buoyancy", "density"], "match_mode": "all", "type": "explain", "id": "qav2_0871"}
+{"question": "What causes the heart beating?", "answers": ["electrical", "muscle"], "match_mode": "all", "type": "explain", "id": "qav2_0438"}
+{"question": "What causes people getting sunburned?", "answers": ["uv", "skin"], "match_mode": "all", "type": "explain", "id": "qav2_0658"}
+{"question": "Do you know the capital city of Czech Republic?", "answers": ["prague"], "match_mode": "any", "type": "factual", "id": "qav2_0558"}
+{"question": "What causes airplanes staying in the air?", "answers": ["lift", "wing"], "match_mode": "all", "type": "explain", "id": "qav2_0261"}
+{"question": "What causes fasting affecting the body?", "answers": ["metabolism", "energy"], "match_mode": "all", "type": "explain", "id": "qav2_0790"}
+{"question": "What is the chemical symbol for nitrogen?", "answers": ["n"], "match_mode": "any", "type": "factual", "id": "qav2_0552"}
+{"question": "Do you know the capital city of Croatia?", "answers": ["zagreb"], "match_mode": "any", "type": "factual", "id": "qav2_0651"}
+{"question": "Do you know the capital city of Finland?", "answers": ["helsinki"], "match_mode": "any", "type": "factual", "id": "qav2_0709"}
+{"question": "What is the reason behind echoes happening?", "answers": ["sound wave", "reflection"], "match_mode": "all", "type": "explain", "id": "qav2_0513"}
+{"question": "What city is the capital of Egypt?", "answers": ["cairo"], "match_mode": "any", "type": "factual", "id": "qav2_0889"}
+{"question": "What city is the capital of Sweden?", "answers": ["stockholm"], "match_mode": "any", "type": "factual", "id": "qav2_0521"}
+{"question": "Do you know the capital city of Sweden?", "answers": ["stockholm"], "match_mode": "any", "type": "factual", "id": "qav2_0414"}
+{"question": "Can you explain what causes carbonated drinks fizz?", "answers": ["carbon dioxide", "pressure"], "match_mode": "all", "type": "explain", "id": "qav2_0845"}
+{"question": "What instrument measures atmospheric pressure?", "answers": ["barometer"], "match_mode": "any", "type": "factual", "id": "qav2_0429"}
+{"question": "What causes the Industrial Revolution happened?", "answers": ["machines", "factories"], "match_mode": "all", "type": "explain", "id": "qav2_0252"}
+{"question": "Who was the queen of ancient Egypt famous for her beauty?", "answers": ["cleopatra"], "match_mode": "any", "type": "factual", "id": "qav2_0143"}
+{"question": "What city is the capital of Bangladesh?", "answers": ["dhaka"], "match_mode": "any", "type": "factual", "id": "qav2_0573"}
+{"question": "Can you explain what causes time zones existing?", "answers": ["rotation", "longitude"], "match_mode": "all", "type": "explain", "id": "qav2_0367"}
+{"question": "What city is the capital of Lebanon?", "answers": ["beirut"], "match_mode": "any", "type": "factual", "id": "qav2_0276"}
+{"question": "What is the reason behind cacti can survive in the desert?", "answers": ["water", "adaptation"], "match_mode": "all", "type": "explain", "id": "qav2_0885"}
+{"question": "What causes some animals migrating?", "answers": ["season", "food"], "match_mode": "all", "type": "explain", "id": "qav2_0447"}
+{"question": "What is the reason behind people getting sunburned?", "answers": ["uv", "skin"], "match_mode": "all", "type": "explain", "id": "qav2_0982"}

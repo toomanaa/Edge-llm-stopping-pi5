@@ -1,0 +1,23 @@
+Prompts with both runs: 100
+Stopped by the probe: 46 of 100 (46.0%)
+Full run hit the token limit (800): 0
+Controller text is the start of the full text (should be 0 failures): 0
+Tokens: full 22484, controller 11174  -> 50.3% fewer
+Share of words cut in stopped answers: median 58%, more than half cut in 29 of 46
+Words cut: median 160, min 5, max 356
+Stopped inside an unfinished code block: 5 answers (code: 5 of 9 stopped code answers)
+
+category           n  stopped  rate %  tokens saved %
+code              10        9    90.0            68.7
+creative          10        2    20.0            13.6
+chat              10        4    40.0            41.3
+math              10        1    10.0             2.4
+translation       10        1    10.0             4.4
+lists_format      10        8    80.0            53.1
+writing_tasks     10        1    10.0             4.1
+opinion_advice    10       10   100.0            59.4
+odd_inputs        10        0     0.0             0.0
+mixed_domain      10       10   100.0            61.6
+
+For comparison, held-out quiz questions (C1 run): stopped 148 of 299 (49.5%)
+Not-stopped answers: highest probe score reached, median 0.687, max 0.985 (threshold 0.99)

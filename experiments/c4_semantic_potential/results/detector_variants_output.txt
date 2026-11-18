@@ -1,0 +1,56 @@
+probe: seed 1, validation AP 0.973; validation answers 57
+remaining-length head: held-out correlation (log) 0.87, median abs error 47 tokens (median true 227)
+calibration (validation rows): raw p>=0.99 has safe rate 96.6% ; held-out 65.3%
+
+boundary-level held-out AP (correct-at-full-length answers):
+   current probe (64)                 0.945
+   bigger probe (256,64)              0.948
+   probe + length features            0.945
+   logistic on states                 0.939
+   boosted trees (PCA64 + length)     0.946
+
+HELD-OUT: accuracy / tokens, and accuracy gap to the cap curve at the same tokens (+ = better than caps)
+-- current probe (64)
+     thr 0.9    acc  67.8  tokens  40.0   vs caps  +0.7 pp
+     thr 0.95   acc  68.9  tokens  42.5   vs caps  +1.0 pp
+     thr 0.99   acc  71.0  tokens  50.9   vs caps  +0.9 pp
+     thr 0.995  acc  71.3  tokens  53.5   vs caps  +0.2 pp
+     thr 0.999  acc  72.5  tokens  61.5   vs caps  -0.1 pp
+-- bigger probe (256,64)
+     thr 0.9    acc  67.8  tokens  37.9   vs caps  +1.4 pp
+     thr 0.95   acc  68.9  tokens  41.6   vs caps  +1.3 pp
+     thr 0.99   acc  71.6  tokens  47.7   vs caps  +2.7 pp
+     thr 0.995  acc  71.9  tokens  49.6   vs caps  +2.3 pp
+     thr 0.999  acc  73.7  tokens  56.5   vs caps  +1.9 pp
+-- probe + length features
+     thr 0.9    acc  67.8  tokens  39.0   vs caps  +1.0 pp
+     thr 0.95   acc  69.2  tokens  42.1   vs caps  +1.4 pp
+     thr 0.99   acc  71.0  tokens  49.1   vs caps  +1.5 pp
+     thr 0.995  acc  72.8  tokens  53.3   vs caps  +1.7 pp
+     thr 0.999  acc  73.4  tokens  61.1   vs caps  +0.8 pp
+-- logistic on states
+     thr 0.9    acc  70.1  tokens  44.2   vs caps  +1.8 pp
+     thr 0.95   acc  71.6  tokens  49.3   vs caps  +2.1 pp
+     thr 0.99   acc  72.5  tokens  61.1   vs caps  -0.0 pp
+     thr 0.995  acc  73.1  tokens  66.5   vs caps  -0.6 pp
+     thr 0.999  acc  74.9  tokens  76.8   vs caps  +0.0 pp
+-- boosted trees (PCA64 + length)
+     thr 0.9    acc  70.4  tokens  47.7   vs caps  +1.5 pp
+     thr 0.95   acc  71.3  tokens  54.5   vs caps  -0.0 pp
+     thr 0.99   acc  75.4  tokens  72.0   vs caps  +1.1 pp
+     thr 0.995  acc  75.4  tokens  78.1   vs caps  +0.5 pp
+     thr 0.999  acc  75.4  tokens  90.3   vs caps  -0.5 pp
+-- reference: caps
+     cap 75   acc  58.6  tokens  22.0
+     cap 100  acc  62.1  tokens  27.2
+     cap 125  acc  64.2  tokens  32.3
+     cap 150  acc  66.3  tokens  37.5
+     cap 175  acc  68.0  tokens  42.9
+     cap 200  acc  68.9  tokens  47.8
+     cap 225  acc  71.0  tokens  53.2
+     cap 250  acc  72.2  tokens  58.2
+     cap 275  acc  72.8  tokens  63.2
+     cap 300  acc  74.0  tokens  67.6
+     cap 350  acc  74.9  tokens  77.0
+     cap 400  acc  75.4  tokens  84.3
+     cap 500  acc  76.3  tokens  94.3
